@@ -1,0 +1,1001 @@
+ID,Age of customer,Sex,Ctry,Town,Swimming Hours per Week,Biking Hours per Week,Running Hours per Week,Total Training Hours per Week,VO2 Max,10k Running Time Prediction,Calories Burned per Week,Support Cases of Customer,Customer Years,Most current software update,Goal of Training,Preferred Training Daytime,Subscription Type,Color of Watch,Synchronisation,User of latest model
+C0001,61.0,Other,UK,Birmingham,2.52,0.1,1.78,4.4,23.08,60.72,2329.95,2.0,1.0,2024-07-22,Fitness,Evening,Free,White,Yes,1.0
+C0003,57.0,Other,Australia,Sydney,1.55,10.01,4.57,16.13,39.04,54.37,7904.93,2.0,1.0,2024-05-11,Fitness,Evening,Premium,Black,Yes,0.0
+C0004,30.0,Other,India,Bangalore,1.19,12.04,8.64,21.87,71.59,33.92,10839.81,2.0,0.0,2024-08-16,Competition,Afternoon,Free,White,Yes,1.0
+C0005,21.0,Male,Germany,Munich,2.25,4.67,0.92,7.84,49.09,44.97,,3.0,0.0,2024-08-11,Recreation,Evening,Premium,Black,No,1.0
+C0006,63.0,Male,India,Mumbai,0.8,5.88,0.67,7.35,13.91,62.46,3575.96,3.0,3.0,2024-11-18,Recreation,Morning,Basic,Black,Yes,0.0
+C0007,31.0,Other,India,Mumbai,1.01,6.74,0.56,8.3,62.33,40.67,4127.6,2.0,7.0,2024-08-22,Recreation,Morning,Basic,Black,Yes,0.0
+C0008,30.0,Female,UK,,0.84,4.06,4.23,9.12,247.2578,36.56,4835.71,4.0,3.0,2024-02-03,Recreation,Afternoon,Free,Black,Yes,0.0
+C0009,44.0,Other,India,Bangalore,1.95,6.39,2.19,10.54,47.74,45.32,5156.95,3.0,2.0,2024-11-11,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0010,23.0,Other,USA,New York,0.0,3.04,3.89,6.93,59.19,38.4,3705.74,2.0,1.0,2024-07-04,Recreation,Evening,Free,Black,Yes,0.0
+C0011,34.0,Other,UK,Birmingham,0.93,6.71,2.07,9.71,59.88,43.36,4692.4,0.0,3.0,2024-04-22,Recreation,Afternoon,Free,White,Yes,0.0
+C0012,53.0,Other,USA,Chicago,1.91,5.79,1.25,8.94,42.86,55.5,4286.93,4.0,4.0,2024-05-28,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0013,57.0,Male,Germayn,Hamburg,4.25,4.37,4.66,13.28,33.43,51.46,6652.83,1.0,0.0,2024-05-24,Competition,Morning,Free,Black,No,0.0
+C0014,52.0,Other,UK,London,1.5,5.47,3.07,10.04,44.83,49.33,5121.63,2.0,0.0,2024-03-11,Recreation,Afternoon,Basic,White,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0015,34.0,Female,Germayn,Hamburg,2.09,9.33,7.69,19.12,69.61,35.07,9285.67,2.0,2.0,2024-12-24,Competition,Afternoon,Premium,Black,No,1.0
+C0016,58.0,Male,UK,Manchester,4.62,2.62,2.81,10.05,30.05,58.49,4858.71,4.0,5.0,2024-08-07,Fitness,Morning,Premium,Black,Yes,0.0
+C0017,19.0,Female,Australia,Sydney,1.2,3.74,2.4,7.34,53.95,45.92,3644.36,3.0,1.0,2024-05-17,Recreation,Morning,Free,Black,Yes,0.0
+C0018,30.0,Female,India,Mumbai,2.88,3.64,2.28,8.8,57.04,38.31,4296.88,3.0,1.0,2024-03-15,Fitness,Evening,Basic,Black,Yes,1.0
+C0019,19.0,Female,Australia,Sydney,3.79,2.16,1.39,7.35,60.0,42.57,3802.44,3.0,1.0,2024-07-28,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0020,45.0,Female,Germany,Berlin,2.76,7.08,2.43,12.28,53.24,46.14,6144.64,1.0,6.0,2024-08-23,Fitness,Morning,Premium,Black,Yes,0.0
+C0021,60.0,Male,India,,1.48,10.88,0.42,12.78,25.66,61.16,6184.35,4.0,0.0,2023-11-10,Competition,Evening,Premium,Black,Yes,0.0
+C0022,43.0,Male,UK,Birmingham,1.06,8.36,2.93,12.35,53.17,40.78,6411.07,4.0,6.0,2024-08-18,Fitness,Evening,Basic,White,Yes,1.0
+C0023,39.0,Female,India,Bangalore,2.34,7.11,0.0,9.45,57.4,44.74,4600.48,3.0,3.0,2024-10-23,Fitness,Afternoon,Free,Black,Yes,0.0
+C0024,64.0,Female,USA,New York,0.8,3.56,1.56,5.92,17.31,67.06,3098.77,3.0,2.0,2023-11-30,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0025,60.0,Male,India,Bangalore,1.72,3.61,3.23,8.57,21.01,56.37,4450.53,0.0,5.0,2024-11-04,Recreation,Evening,Free,Black,Yes,0.0
+C0026,20.0,Male,USA,New York,1.85,6.76,0.6,9.21,62.88,46.79,4881.08,0.0,1.0,2024-01-25,Recreation,Morning,Free,Black,Yes,1.0
+C0027,52.0,Male,India,Bangalore,1.63,8.7,3.33,13.66,46.27,45.94,6828.6,2.0,7.0,2024-08-26,Competition,Evening,Premium,Black,No,0.0
+C0028,29.0,Other,USA,Chicago,5.78,3.98,4.71,14.46,65.33,39.11,7301.55,2.0,3.0,2024-01-27,Competition,Afternoon,Free,White,Yes,1.0
+C0029,41.0,Other,Germany,Hamburg,1.71,5.54,2.45,9.69,55.26,43.73,4746.31,4.0,5.0,2024-02-23,Recreation,Morning,Free,Black,Yes,0.0
+C0030,22.0,Other,Australia,Brisbane,3.41,11.39,5.02,19.82,65.31,36.18,10017.66,4.0,1.0,2024-09-13,Competition,,Basic,Black,Yes,1.0
+C0031,37.0,Female,UK,Manchester,2.26,6.21,1.15,9.61,57.68,44.24,4782.92,1.0,8.0,2023-11-21,Recreation,Evening,Free,Black,Yes,0.0
+C0032,56.0,Other,India,Mumbai,1.46,11.48,6.34,19.28,45.95,50.02,9604.77,1.0,3.0,2023-12-30,,Afternoon,Basic,Black,Yes,0.0
+C0033,56.0,Female,Australia,Melbourne,1.82,4.52,7.25,13.6,37.94,51.15,7012.18,0.0,5.0,2024-02-10,Fitness,Evening,Premium,Black,No,0.0
+C0034,30.0,Female,UK,Birmingham,0.95,13.83,7.87,22.65,72.54,31.81,11056.99,2.0,7.0,2024-01-07,Competition,Evening,Premium,Black,Yes,0.0
+C0035,58.0,Other,UK,Manchester,1.67,5.85,1.97,9.5,29.33,57.92,4979.85,0.0,8.0,2024-07-19,Recreation,Evening,Basic,White,Yes,0.0
+C0036,62.0,Female,USA,New York,2.2,0.1,2.65,4.94,19.41,62.45,2683.43,0.0,3.0,2023-11-18,Recreation,Morning,Premium,Black,Yes,0.0
+C0037,29.0,Other,Germany,Berlin,1.75,9.75,5.07,16.56,62.18,36.79,8286.01,2.0,10.0,2023-12-30,Competition,Morning,Free,Black,Yes,1.0
+C0038,30.0,Other,Germayn,Hamburg,0.15,4.56,1.89,6.6,62.32,44.13,3294.5,1.0,5.0,2023-10-12,Recreation,Afternoon,Free,Black,Yes,0.0
+C0039,27.0,Male,Australia,Melbourne,3.83,3.38,4.33,11.54,58.06,35.56,5688.65,2.0,6.0,2024-05-07,Fitness,Afternoon,Free,Black,Yes,0.0
+C0040,50.0,Other,Germany,Munich,3.1,9.43,3.37,15.89,48.68,45.15,8242.82,3.0,0.0,2024-05-28,Competition,Evening,Premium,Black,Yes,1.0
+C0041,57.0,Male,India,Delhi,0.0,1.59,5.68,7.27,30.16,52.68,3400.1,3.0,7.0,2024-09-27,Competition,Evening,Free,White,Yes,0.0
+C0042,33.0,Other,Germany,Berlin,0.15,4.85,3.86,8.87,57.85,37.61,4488.7,3.0,8.0,2024-08-10,Recreation,Evening,Premium,Black,Yes,0.0
+C0043,62.0,Other,Australia,Sydney,1.63,9.36,5.41,16.4,29.84,59.23,8311.4,4.0,1.0,2024-06-07,Competition,Afternoon,Free,Black,Yes,0.0
+C0044,52.0,Male,Germany,Munich,0.0,0.96,4.46,5.42,37.85,50.02,2972.94,1.0,1.0,2024-03-08,Recreation,Morning,Basic,Black,No,0.0
+C0045,20.0,Male,India,Mumbai,1.22,1.94,2.88,6.04,58.86,42.78,3187.68,1.0,2.0,2023-10-27,,Morning,Premium,Black,Yes,0.0
+C0046,22.0,Other,USA,New York,1.15,0.59,0.02,1.77,48.84,47.79,969.23,4.0,0.0,2024-02-06,Recreation,Evening,Premium,Black,Yes,1.0
+C0047,43.0,Female,Australia,Melbourne,1.91,2.48,4.12,8.5,53.59,42.27,4018.76,0.0,6.0,2024-03-06,Recreation,Evening,Free,Black,Yes,0.0
+C0048,28.0,Male,USA,New York,1.54,5.3,0.96,7.8,55.68,42.91,3823.61,3.0,2.0,2024-10-06,Recreation,Evening,Premium,Black,Yes,1.0
+C0049,24.0,Female,USA,Los Angeles,3.1,7.69,3.8,14.59,63.96,36.02,7080.23,3.0,1.0,2024-03-03,Competition,Evening,Premium,,Yes,1.0
+C0050,27.0,Female,USA,Los Angeles,4.7,9.54,6.43,20.67,67.84,33.81,10563.49,0.0,6.0,2024-10-04,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0051,59.0,Female,UK,Birmingham,0.73,6.24,4.62,11.6,29.81,52.71,5948.93,2.0,0.0,2024-12-24,Fitness,Morning,Basic,Black,No,0.0
+C0052,51.0,Male,UK,Manchester,0.72,5.71,3.27,9.71,48.19,49.75,5008.88,2.0,5.0,2024-05-30,Competition,Evening,Free,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0053,20.0,Female,USA,New York,1.66,14.64,2.98,19.28,61.08,40.04,9731.78,1.0,0.0,2023-11-16,Competition,Afternoon,,Black,Yes,1.0
+C0054,25.0,Male,Australia,Brisbane,3.85,8.97,0.0,12.82,63.66,41.74,6413.29,4.0,2.0,2024-09-26,Fitness,Evening,Free,Black,Yes,0.0
+C0055,48.0,Female,India,Delhi,1.07,5.63,3.09,9.8,45.34,46.24,4688.94,1.0,5.0,2024-02-07,Fitness,Evening,Free,Black,Yes,0.0
+C0056,28.0,Other,India,Bangalore,1.87,6.76,3.17,11.8,61.93,37.81,5797.38,2.0,7.0,2024-02-23,Fitness,Morning,Free,Black,Yes,0.0
+C0057,62.0,Other,Germany,Berlin,4.37,10.9,4.99,20.27,25.6,58.98,9917.26,0.0,2.0,2024-11-17,Fitness,Evening,Premium,Black,Yes,1.0
+C0058,24.0,Male,Australia,Melbourne,1.84,5.99,2.1,9.94,56.5,38.95,5103.33,1.0,0.0,2024-11-19,Fitness,Morning,Basic,Black,Yes,1.0
+C0059,63.0,Other,UK,London,0.0,5.0,2.8,7.8,20.49,63.31,3694.24,3.0,1.0,2024-08-26,Recreation,Morning,Free,Black,No,0.0
+C0059,62.0,Other,UK,London,0.0,5.0,2.8,7.8,20.49,63.31,3694.24,3.0,1.0,2024-08-26,Recreation,Morning,Free,Black,No,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0060,19.0,Other,USA,Chicago,1.66,10.28,5.02,16.96,67.72,39.07,8601.38,3.0,0.0,2024-08-07,Competition,Morning,Basic,Black,Yes,1.0
+C0061,23.0,Female,Germany,Munich,2.77,0.45,2.83,6.05,55.96,42.66,3138.22,0.0,3.0,2024-09-13,Recreation,Afternoon,Free,White,Yes,0.0
+C0062,58.0,Male,India,Bangalore,1.02,4.64,2.6,8.25,36.14,55.25,4099.91,2.0,9.0,2024-11-25,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0063,49.0,Female,UK,Birmingham,3.01,3.0,1.02,7.03,45.58,52.6,3294.34,3.0,0.0,2024-01-20,Fitness,Morning,Basic,Black,No,0.0
+C0064,37.0,Female,UK,Manchester,1.58,3.25,0.64,5.46,53.73,42.94,,3.0,6.0,2024-05-15,Fitness,Evening,Free,Black,Yes,0.0
+C0065,51.0,Female,USA,Chicago,0.72,0.0,1.85,2.57,44.2,51.99,1176.7,4.0,0.0,2023-12-08,Recreation,Morning,Premium,Black,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0066,33.0,Female,India,Mumbai,1.41,0.6,1.21,3.22,,46.28,1732.54,1.0,8.0,2024-07-15,Recreation,Evening,Basic,Black,Yes,0.0
+C0067,42.0,Female,Australia,Brisbane,1.79,9.03,2.8,13.62,55.3,44.64,6578.46,2.0,0.0,2024-02-03,Fitness,Morning,Premium,Black,Yes,1.0
+C0068,29.0,Female,UK,London,0.0,5.51,3.98,9.49,61.66,39.37,4941.68,1.0,7.0,2024-09-06,Recreation,Evening,Premium,White,Yes,0.0
+C0069,24.0,Female,USA,New York,4.53,6.25,2.38,13.16,60.26,43.65,6736.87,2.0,0.0,2023-12-26,Recreation,Afternoon,Free,Black,Yes,0.0
+C0070,56.0,Male,Australia,Brisbane,0.84,2.31,0.92,4.07,23.55,57.99,1847.74,3.0,2.0,2024-02-24,Fitness,Evening,Free,Black,Yes,0.0
+C0071,34.0,Other,India,Mumbai,2.75,6.61,1.57,100.0,63.9,39.81,100.0,4.0,8.0,2024-12-07,Recreation,Morning,Free,Black,Yes,1.0
+C0072,62.0,Female,UK,Manchester,2.62,16.11,7.63,26.36,38.59,52.02,13280.06,1.0,5.0,2023-12-22,Competition,Afternoon,Basic,Black,Yes,0.0
+C0073,28.0,Female,Australia,Sydney,6.42,2.93,7.45,16.8,72.03,33.27,8551.0,3.0,8.0,2023-11-16,Competition,Evening,Free,Black,Yes,1.0
+C0074,23.0,Female,Australia,Sydney,1.85,8.31,3.01,13.16,62.42,39.4,6393.45,2.0,1.0,2023-11-10,Competition,Evening,Free,White,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0075,40.0,Female,Australia,Sydney,0.33,11.26,2.01,13.6,58.38,43.83,6595.15,1.0,6.0,2024-01-03,Competition,Evening,Basic,Black,Yes,0.0
+C0076,44.0,Female,UK,Manchester,3.82,3.61,1.41,8.84,55.31,46.25,4263.07,1.0,3.0,2024-11-19,Fitness,Evening,Basic,White,No,0.0
+C0077,63.0,Female,UK,Manchester,2.38,11.72,1.96,16.06,27.65,58.84,7950.86,3.0,5.0,2024-03-16,Fitness,Evening,Free,White,Yes,0.0
+C0078,23.0,Other,Germany,Munich,1.07,8.76,1.9,11.73,65.87,44.0,6043.42,1.0,3.0,2024-08-10,Fitness,Afternoon,Free,Black,No,1.0
+C0079,55.0,Other,India,Bangalore,5.59,0.51,3.36,9.46,36.63,51.02,4874.93,4.0,8.0,2024-10-28,Competition,Afternoon,Free,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0081,39.0,Other,Australia,Sydney,2.18,0.0,0.8,2.98,49.49,47.95,1225.02,3.0,8.0,2024-07-28,Recreation,Afternoon,Premium,Black,No,0.0
+C0082,37.0,Male,Germany,Munich,2.91,2.95,1.8,7.67,58.78,45.29,3539.66,2.0,6.0,2024-03-06,Recreation,Morning,Premium,Black,Yes,0.0
+C0083,42.0,Female,USA,Los Angeles,0.44,5.53,6.42,12.39,51.04,40.84,6316.73,3.0,9.0,2024-05-22,Competition,Afternoon,Free,Black,Yes,1.0
+C0084,32.0,Male,Germany,Berlin,3.55,7.69,5.59,16.83,68.12,34.44,8285.03,4.0,1.0,2023-12-13,Competition,Evening,Premium,White,Yes,1.0
+C0085,46.0,Male,UK,Birmingham,5.78,4.75,5.16,15.69,57.24,42.02,7744.77,0.0,6.0,2024-06-06,Competition,Evening,Basic,Black,Yes,0.0
+C0086,25.0,Female,Australia,Melbourne,0.0,12.04,1.81,13.85,64.42,39.26,,0.0,1.0,2024-09-27,Competition,Afternoon,Premium,Black,Yes,1.0
+C0087,54.0,Other,USA,Chicago,0.86,1.88,3.42,6.16,36.68,50.42,2843.4,1.0,4.0,2024-03-14,Recreation,Evening,Premium,Black,Yes,0.0
+C0088,50.0,Male,USA,Chicago,4.33,0.53,6.01,10.87,51.84,45.48,5520.73,1.0,8.0,2024-10-03,Competition,Afternoon,Free,Black,Yes,0.0
+C0089,39.0,Female,USA,Chicago,0.73,3.65,3.0,7.38,58.62,39.39,3584.13,0.0,2.0,2024-05-04,,Evening,Premium,Black,Yes,1.0
+C0090,64.0,Male,USA,New York,4.73,6.39,2.53,13.65,17.99,65.67,6905.58,4.0,4.0,2024-02-27,Competition,Morning,Premium,Black,Yes,0.0
+C0091,22.0,Male,USA,Chicago,0.0,4.98,5.07,10.05,55.82,41.72,5225.23,1.0,4.0,2024-06-23,Competition,Morning,Premium,Black,Yes,1.0
+C0092,56.0,Male,Germany,Hamburg,0.64,5.72,3.52,9.88,31.96,52.31,4742.43,3.0,5.0,2024-07-13,Competition,Afternoon,Premium,White,Yes,0.0
+C0093,35.0,Male,Australia,Sydney,1.36,0.11,1.38,2.85,56.15,43.64,1683.23,3.0,3.0,2024-06-19,Recreation,Afternoon,Basic,White,Yes,0.0
+C0094,55.0,Other,UK,Birmingham,1.7,5.55,5.29,12.55,35.38,49.49,6293.11,4.0,0.0,2024-05-22,Recreation,Afternoon,Free,White,Yes,0.0
+C0095,54.0,Male,UK,Birmingham,1.22,8.71,0.17,10.11,43.1,56.62,5306.42,1.0,1.0,2023-11-21,Fitness,Evening,Free,Black,Yes,1.0
+C0096,47.0,Male,UK,London,1.92,3.62,1.68,7.21,52.47,48.79,3431.06,3.0,2.0,2024-08-12,Competition,Afternoon,Basic,White,No,0.0
+C0098,27.0,Other,Germany,Munich,4.05,6.74,4.89,15.68,63.52,36.84,7781.29,1.0,2.0,2024-05-19,Fitness,Evening,Basic,Black,Yes,1.0
+C0099,32.0,Male,India,Delhi,3.23,5.25,2.26,10.74,60.79,40.25,5533.36,3.0,6.0,2024-10-21,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0100,59.0,Male,Australia,Melbourne,0.79,2.66,4.22,7.68,30.75,58.82,3902.3,0.0,3.0,2024-03-24,Recreation,,Basic,Black,Yes,0.0
+C0101,61.0,Other,USA,Chicago,3.17,12.32,3.25,18.74,37.18,55.28,9365.21,3.0,1.0,2024-08-15,,Evening,Free,Black,Yes,1.0
+C0102,35.0,Other,India,Bangalore,5.31,7.69,2.3,15.3,57.09,37.68,7897.13,4.0,7.0,2024-02-16,Competition,Afternoon,Free,Black,,1.0
+C0103,40.0,Other,UK,Birmingham,1.13,3.03,1.63,5.8,52.34,46.49,2827.69,2.0,3.0,2023-10-24,Recreation,Evening,Free,Black,Yes,0.0
+C0104,50.0,Male,India,Mumbai,0.24,4.87,1.55,6.66,42.06,52.5,3160.53,3.0,2.0,2023-11-26,Competition,Morning,Premium,White,No,0.0
+C0105,33.0,Other,Australia,Brisbane,0.69,10.63,11.87,23.19,64.58,30.9,11660.98,1.0,8.0,2024-02-05,Competition,Morning,Premium,Black,Yes,1.0
+C0106,55.0,Other,USA,Los Angeles,1.73,7.86,0.74,10.32,35.64,54.76,5236.82,1.0,9.0,2024-09-20,Fitness,Evening,Basic,Black,Yes,1.0
+C0107,52.0,Male,USA,New York,4.26,1.15,2.0,7.41,42.08,52.15,3670.26,3.0,3.0,2024-12-12,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0108,51.0,Other,Australia,Sydney,2.28,4.14,4.22,10.63,43.44,47.86,5305.78,2.0,3.0,2024-12-24,Fitness,Evening,Free,Black,Yes,0.0
+C0109,45.0,Male,Australia,Sydney,3.67,5.21,2.63,11.51,47.4,41.98,6029.8,3.0,8.0,2024-07-31,Fitness,Morning,Premium,White,Yes,1.0
+C0110,19.0,Female,UK,Manchester,1.23,3.51,2.26,7.0,64.27,44.34,3637.22,2.0,1.0,2024-08-06,Recreation,Evening,Basic,Black,Yes,1.0
+C0111,47.0,Other,USA,Los Angeles,1.55,4.51,2.11,8.17,49.27,44.12,3853.34,2.0,1.0,2023-10-21,Recreation,Evening,Premium,Black,No,0.0
+C0112,30.0,Female,India,Delhi,1.15,,1.72,11.6,61.93,39.91,5629.11,4.0,4.0,2024-11-05,Fitness,Morning,Premium,Black,Yes,0.0
+C0113,58.0,Male,Germany,Berlin,1.55,6.42,1.99,9.97,27.22,59.29,5269.46,1.0,3.0,2024-09-19,Recreation,Evening,Free,White,Yes,0.0
+C0114,33.0,Other,Germayn,Berlin,2.63,,4.78,18.87,67.53,35.45,9570.89,1.0,8.0,2024-12-04,Fitness,Evening,Free,Black,Yes,1.0
+C0116,45.0,Female,UK,Birmingham,9.97,10.8,2.45,23.22,54.8,40.91,11494.4,1.0,4.0,2024-08-01,Competition,Afternoon,Premium,Black,Yes,1.0
+C0117,56.0,Male,Germany,Munich,1.42,9.17,5.35,15.93,35.74,48.87,8110.58,0.0,8.0,2023-10-31,Competition,Morning,Premium,Black,Yes,1.0
+C0118,62.0,Other,USA,New York,1.29,6.8,4.62,12.72,27.38,59.08,6487.36,2.0,3.0,2024-11-04,Fitness,Morning,Premium,Black,Yes,1.0
+C0119,37.0,Other,Australia,Brisbane,4.16,8.58,3.13,15.87,70.06,41.25,7811.18,1.0,8.0,2024-11-01,Competition,Morning,Free,White,Yes,1.0
+C0121,44.0,Male,Australia,Melbourne,3.44,7.95,2.16,13.55,59.79,46.35,6849.88,4.0,8.0,2024-06-07,Competition,Morning,Free,Black,Yes,0.0
+C0122,47.0,Other,India,Bangalore,3.05,6.43,9.45,18.93,55.67,34.78,9454.54,1.0,2.0,2024-07-02,Competition,Morning,Basic,Black,Yes,0.0
+C0123,62.0,Female,Australia,Melbourne,2.4,6.53,7.67,16.59,26.98,57.03,8491.92,0.0,4.0,2024-09-08,Competition,Morning,Premium,Black,Yes,0.0
+C0124,44.0,Other,Australia,Sydney,0.06,4.83,1.66,6.55,54.56,44.13,3476.52,3.0,0.0,2024-05-24,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0125,43.0,Other,Australia,,0.34,7.23,0.72,8.29,58.96,48.3,4354.16,3.0,0.0,2024-03-01,Fitness,Evening,Free,White,No,0.0
+C0126,24.0,Male,India,Mumbai,0.96,1.59,2.16,4.71,59.9,42.02,2535.85,0.0,6.0,2024-01-11,Recreation,Morning,Free,Black,Yes,0.0
+C0128,64.0,Male,Australia,Brisbane,4.59,1.83,1.96,8.37,16.08,65.52,4113.99,2.0,3.0,2024-05-21,Fitness,Morning,Free,White,Yes,0.0
+C0129,55.0,Other,Germany,Hamburg,2.15,7.11,1.13,10.39,38.51,52.35,5391.91,1.0,7.0,2024-08-31,Competition,Evening,Premium,Black,Yes,0.0
+C0130,22.0,Female,UK,Birmingham,0.26,7.25,3.43,10.93,57.69,43.17,5459.82,3.0,0.0,2024-11-30,Fitness,Afternoon,Free,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0131,40.0,Other,UK,Manchester,2.12,5.04,0.85,8.01,56.59,43.02,3853.1,2.0,4.0,2024-06-18,Recreation,Afternoon,Free,Black,Yes,0.0
+C0132,45.0,Male,UK,Birmingham,0.44,5.82,4.91,11.17,55.91,40.82,5591.81,2.0,8.0,2023-11-26,Recreation,Morning,Premium,Black,Yes,0.0
+C0133,51.0,Male,India,Bangalore,2.84,5.64,4.98,13.45,50.28,48.03,6511.49,3.0,2.0,2024-06-07,Fitness,,Basic,Black,No,0.0
+C0134,32.0,Female,India,Delhi,0.45,5.68,7.17,13.31,68.87,32.89,6767.5,4.0,2.0,2024-04-06,Competition,Afternoon,Free,Black,No,0.0
+C0135,49.0,Other,Germany,Hamburg,2.36,13.61,5.73,21.71,54.42,40.48,10754.95,2.0,6.0,2024-05-07,Competition,Morning,Basic,Black,Yes,0.0
+C0136,43.0,Other,UK,,2.99,0.63,2.27,5.89,45.98,44.95,2800.69,0.0,8.0,2024-03-29,Recreation,Morning,Free,Black,Yes,1.0
+C0137,48.0,Female,UK,Manchester,0.71,3.02,0.0,3.74,45.03,52.72,2141.69,1.0,5.0,2024-03-23,Competition,Afternoon,Free,White,Yes,0.0
+C0138,36.0,Other,Australia,Sydney,3.2,6.6,1.84,11.64,67.19,39.44,5984.78,2.0,1.0,2024-09-18,Fitness,Afternoon,Free,White,Yes,1.0
+C0139,26.0,Other,India,Mumbai,1.17,2.18,4.26,7.61,56.21,39.83,3977.84,2.0,8.0,2023-12-03,Fitness,Morning,Free,White,Yes,0.0
+C0140,46.0,Male,UK,Birmingham,2.94,4.27,2.08,9.28,52.87,47.45,4716.53,4.0,1.0,2024-12-23,Recreation,Evening,Basic,White,Yes,0.0
+C0141,56.0,Other,Germany,Munich,5.5,8.37,4.18,18.05,43.85,52.89,9230.29,0.0,0.0,2024-01-01,Fitness,Evening,Basic,,Yes,0.0
+C0142,21.0,Other,Germany,Berlin,0.5,3.64,2.66,6.8,55.68,45.21,3556.94,1.0,2.0,2024-03-27,Recreation,Evening,Free,White,Yes,0.0
+C0143,20.0,Female,UK,London,2.29,1.97,3.26,7.53,54.82,43.94,3822.63,2.0,1.0,2024-05-08,Fitness,Morning,Free,Black,No,1.0
+C0144,46.0,Female,India,Mumbai,0.0,6.07,4.12,10.19,47.58,44.88,5372.04,1.0,8.0,2024-09-30,Recreation,Afternoon,Basic,Black,Yes,1.0
+C0145,28.0,Male,UnknownLand,Berlin,4.49,12.67,2.16,19.32,58.64,38.66,9473.5,3.0,1.0,2024-06-20,Competition,Morning,Premium,Black,Yes,1.0
+C0146,50.0,Other,Australia,Brisbane,1.59,3.06,1.59,6.24,38.63,47.83,3387.84,2.0,7.0,2024-03-06,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0148,28.0,Other,USA,Chicago,2.0,6.12,1.6,9.72,64.04,44.49,4879.07,3.0,8.0,2024-05-03,Recreation,Evening,Free,White,Yes,0.0
+C0150,50.0,Male,India,Bangalore,0.0,1.68,0.56,2.24,37.86,49.09,1145.36,2.0,1.0,2024-11-03,Fitness,Afternoon,Premium,White,No,0.0
+C0151,38.0,Female,UK,London,0.49,1.77,2.47,4.74,50.77,42.84,2435.29,1.0,1.0,2024-07-18,Recreation,Morning,Premium,Black,No,0.0
+C0152,56.0,Male,India,Delhi,0.79,10.52,0.88,12.19,39.36,55.89,6394.38,0.0,9.0,2023-10-29,Fitness,Evening,Basic,Black,Yes,0.0
+C0153,48.0,Other,India,Delhi,4.04,9.7,6.23,19.98,247.2578,42.39,10273.42,1.0,2.0,2024-05-30,Competition,Morning,Premium,Black,Yes,1.0
+C0154,55.0,Other,India,Bangalore,2.66,6.9,1.65,11.22,42.04,54.92,5891.59,4.0,6.0,2023-11-25,Recreation,Morning,Basic,Black,Yes,0.0
+C0155,63.0,Male,India,Delhi,1.03,4.52,1.15,6.7,19.82,64.64,3259.9,0.0,1.0,2024-03-20,Fitness,Morning,Premium,White,Yes,0.0
+C0156,19.0,Other,Australia,Brisbane,4.71,16.11,2.32,23.15,60.12,38.81,11867.92,1.0,0.0,2024-02-17,Competition,Evening,Premium,White,No,1.0
+C0157,44.0,Other,Australia,Melbourne,5.03,,0.0,7.83,50.17,50.01,3887.28,1.0,6.0,2024-03-24,Competition,Morning,Premium,White,Yes,0.0
+C0158,53.0,Male,Germany,Hamburg,3.71,8.68,6.11,18.51,54.26,46.95,9464.88,3.0,3.0,2023-12-09,Fitness,Morning,Free,Black,Yes,0.0
+C0159,28.0,Male,USA,New York,0.25,1.04,1.06,2.34,58.67,41.97,1001.89,4.0,6.0,2024-11-09,,Morning,Free,White,Yes,0.0
+C0160,64.0,Other,India,Bangalore,3.21,11.03,0.0,14.24,14.99,64.21,7125.14,3.0,2.0,2024-05-04,Fitness,Morning,Free,Black,Yes,0.0
+C0161,35.0,Other,Germany,Hamburg,2.36,2.46,3.23,8.05,57.76,43.19,4305.51,0.0,0.0,2024-12-26,Competition,Morning,Premium,White,Yes,0.0
+C0162,18.0,Other,USA,New York,1.14,3.44,1.81,6.39,53.68,47.11,3465.58,3.0,0.0,2024-06-30,Fitness,Morning,Basic,Black,Yes,0.0
+C0163,52.0,Female,UK,Birmingham,1.67,4.35,0.67,6.69,37.14,52.1,3454.28,4.0,3.0,2024-12-06,Recreation,Evening,Basic,Black,Yes,0.0
+C0164,52.0,Female,Australia,Brisbane,2.24,11.35,0.0,13.59,36.53,49.19,6975.39,2.0,0.0,2023-10-11,Competition,Morning,Basic,Black,Yes,0.0
+C0165,48.0,Female,USA,Los Angeles,4.7,1.22,5.17,11.08,49.51,41.39,5348.34,2.0,0.0,2024-09-11,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0166,45.0,Male,UK,Birmingham,0.12,4.71,2.98,7.81,47.47,43.66,4039.04,0.0,9.0,2024-12-29,Recreation,Morning,Free,Black,Yes,0.0
+C0167,56.0,Female,USA,Los Angeles,3.92,5.35,4.36,13.63,35.09,52.21,6886.59,2.0,0.0,2024-07-14,Competition,Morning,Free,Black,Yes,0.0
+C0168,18.0,Male,Australia,Sydney,0.07,2.64,2.4,5.12,50.07,44.96,2313.2,3.0,0.0,2024-06-03,Recreation,Evening,Premium,Black,Yes,1.0
+C0169,42.0,Male,Australia,Melbourne,5.59,11.44,1.45,18.48,60.79,43.53,9009.53,0.0,6.0,2024-05-09,Competition,Evening,Premium,Black,Yes,1.0
+C0170,60.0,Female,Germany,Munich,0.86,4.62,1.31,6.79,24.61,61.64,3161.74,4.0,6.0,2023-11-07,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0171,55.0,Female,India,Mumbai,0.57,8.92,3.09,12.58,35.83,49.01,6425.93,0.0,3.0,2024-01-15,Recreation,Afternoon,Free,Black,Yes,0.0
+C0172,37.0,Female,USA,Los Angeles,1.65,1.15,6.65,9.44,57.29,35.07,4507.42,0.0,1.0,2024-07-02,Competition,Evening,Basic,Black,Yes,1.0
+C0173,20.0,Other,USA,New York,1.56,5.91,0.7,8.18,48.77,43.82,4068.24,1.0,0.0,2024-04-13,Recreation,Evening,Premium,Black,No,1.0
+C0174,19.0,Female,UK,Birmingham,0.2,4.15,5.19,9.53,56.66,38.26,4680.18,1.0,0.0,2024-08-24,Recreation,Morning,Premium,Black,No,1.0
+C0175,35.0,Other,Australia,Brisbane,2.81,2.83,0.32,5.95,45.84,41.44,3007.23,0.0,7.0,2024-11-01,Fitness,Evening,Basic,White,Yes,1.0
+C0176,61.0,Male,USA,Los Angeles,1.29,1.87,2.81,5.96,20.7,61.07,3105.78,2.0,3.0,2024-06-22,Recreation,Afternoon,Premium,White,No,1.0
+C0177,27.0,Other,Australia,Brisbane,2.97,12.19,0.15,15.31,67.33,43.86,7763.94,1.0,4.0,2024-08-26,Competition,Morning,Basic,Black,Yes,1.0
+C0178,22.0,Female,USA,New York,3.99,12.41,0.0,16.4,58.78,44.51,8211.76,4.0,3.0,2024-05-24,Competition,Afternoon,Free,White,Yes,1.0
+C0179,26.0,Male,Germany,Hamburg,2.54,2.6,7.49,12.63,64.34,37.21,6292.41,3.0,0.0,2024-11-03,Competition,Morning,Basic,White,Yes,1.0
+C0180,19.0,Male,India,Mumbai,4.57,7.87,5.21,17.66,65.8,39.67,8766.4,1.0,1.0,2023-11-06,Competition,Evening,Free,White,Yes,1.0
+C0181,51.0,Male,USA,Chicago,1.8,1.25,0.68,3.73,27.12,53.81,2080.46,0.0,8.0,2024-01-23,Fitness,,Free,Black,Yes,1.0
+C0182,55.0,Other,Australia,Melbourne,1.4,3.53,3.1,8.03,35.18,51.43,3914.94,2.0,3.0,2024-02-24,Recreation,Morning,Premium,,Yes,0.0
+C0183,48.0,Female,Germany,Hamburg,3.04,3.84,4.23,11.1,38.51,47.99,5406.47,3.0,0.0,2024-07-18,Fitness,Morning,Premium,Black,Yes,0.0
+C0184,27.0,Male,USA,Chicago,0.34,2.13,2.58,5.05,55.9,39.69,2672.04,1.0,9.0,2023-12-17,Recreation,Evening,Premium,Black,Yes,0.0
+C0185,29.0,Male,UK,Birmingham,0.89,6.43,3.28,100.0,60.71,37.91,100.0,2.0,0.0,2024-03-06,Recreation,Evening,Basic,Black,Yes,0.0
+C0186,53.0,Male,India,Mumbai,2.91,6.52,2.25,11.68,32.8,49.73,6048.32,2.0,9.0,2024-05-22,Recreation,Evening,Basic,Black,No,0.0
+C0187,38.0,Other,USA,New York,3.47,8.61,5.15,17.23,70.44,40.54,8513.63,2.0,4.0,2024-10-02,Fitness,Afternoon,Premium,White,Yes,1.0
+C0188,64.0,Other,Germany,Munich,0.71,5.33,2.98,9.02,17.87,66.26,4629.9,0.0,5.0,2024-06-15,Recreation,Morning,Basic,White,Yes,0.0
+C0189,23.0,Female,UK,London,0.0,8.79,4.55,13.34,57.85,40.53,6395.58,4.0,4.0,2023-12-12,Fitness,Evening,Premium,Black,,1.0
+C0190,20.0,Other,Germayn,Hamburg,0.64,6.84,7.14,14.62,65.48,37.72,7241.21,2.0,0.0,2023-10-25,Competition,Afternoon,Basic,Black,Yes,1.0
+C0191,27.0,Male,Germayn,Hamburg,0.0,9.7,1.9,11.6,54.54,41.08,5706.68,3.0,4.0,2024-08-28,Competition,Afternoon,Free,Black,Yes,0.0
+C0192,22.0,Female,UK,London,2.61,7.87,3.32,13.8,56.22,43.03,7088.86,1.0,4.0,2024-08-17,Recreation,Afternoon,Free,White,Yes,0.0
+C0193,63.0,Male,Germany,Hamburg,3.0,5.71,0.0,8.72,10.55,66.21,4638.18,3.0,4.0,2024-11-23,Fitness,Evening,Premium,Black,Yes,0.0
+C0194,43.0,Male,UK,Manchester,6.45,1.29,2.59,10.33,60.99,46.39,5139.78,0.0,4.0,2024-02-10,Competition,Evening,Basic,Black,Yes,0.0
+C0195,38.0,Other,USA,Los Angeles,0.28,6.77,1.2,8.25,57.9,42.33,4319.15,0.0,6.0,2024-10-08,Fitness,Morning,Basic,Black,Yes,0.0
+C0196,62.0,Female,UK,,2.08,9.78,4.85,16.71,29.83,56.29,8475.56,3.0,2.0,2023-12-31,Fitness,Morning,Free,Black,Yes,0.0
+C0197,43.0,Other,UK,London,1.91,5.73,1.15,8.8,54.3,47.6,4678.9,4.0,5.0,2024-03-18,Recreation,Evening,Free,Black,Yes,0.0
+C0198,55.0,Other,India,Delhi,3.22,,4.54,14.77,42.85,47.91,7570.96,0.0,3.0,2024-07-19,Competition,Afternoon,Premium,Black,Yes,0.0
+C0199,61.0,Female,UK,Manchester,2.09,4.19,0.0,6.28,22.29,65.64,2885.81,0.0,2.0,2023-10-18,Recreation,Afternoon,Free,White,Yes,0.0
+C0200,43.0,Male,UK,London,3.53,8.69,5.29,17.52,60.64,39.63,8885.65,3.0,8.0,2024-07-19,Recreation,Afternoon,Premium,White,Yes,1.0
+C0201,25.0,Male,USA,New York,1.46,1.9,0.16,3.52,55.01,47.19,1782.67,0.0,6.0,2024-05-06,Competition,Morning,Free,White,Yes,1.0
+C0202,22.0,Female,India,Mumbai,4.26,10.73,5.22,20.22,63.28,36.03,9819.31,4.0,3.0,2023-11-27,Competition,Afternoon,Free,White,No,1.0
+C0203,32.0,Male,Australia,Brisbane,3.53,3.41,4.95,11.88,61.4,39.05,5791.51,4.0,6.0,2024-02-03,Fitness,Morning,Basic,Black,No,1.0
+C0204,33.0,Female,USA,New York,7.58,10.46,5.26,23.3,70.86,35.16,11905.24,4.0,4.0,2024-12-14,Competition,Morning,Free,Black,Yes,1.0
+C0205,18.0,Female,USA,New York,7.61,8.03,3.8,19.43,62.39,40.96,,1.0,0.0,2023-12-08,Fitness,Afternoon,Free,Black,Yes,1.0
+C0206,33.0,Other,Australia,Brisbane,2.37,3.16,3.77,9.31,54.02,39.57,4834.23,4.0,6.0,2024-06-03,Fitness,Afternoon,Premium,White,Yes,0.0
+C0207,54.0,Female,UK,Manchester,5.8,2.82,5.44,14.06,37.04,51.07,7321.2,4.0,2.0,2023-12-10,Fitness,Evening,Free,Black,Yes,0.0
+C0208,20.0,Other,Germany,Berlin,0.51,11.81,3.68,16.0,65.08,41.27,8182.03,1.0,1.0,2024-09-06,Competition,Evening,Premium,Black,Yes,1.0
+C0209,64.0,Male,India,Bangalore,0.0,1.11,0.55,1.66,10.22,65.75,534.26,2.0,3.0,2024-12-10,Recreation,Afternoon,Free,Black,Yes,0.0
+C0210,48.0,Male,Germany,Berlin,2.64,4.29,4.73,11.66,51.73,46.87,5704.14,0.0,4.0,2023-12-28,Fitness,Morning,Free,Black,No,0.0
+C0211,30.0,Male,Australia,Sydney,1.46,7.6,0.93,9.99,56.28,40.84,4713.77,4.0,3.0,2024-06-22,Recreation,Morning,Premium,Black,Yes,1.0
+C0212,-1.0,Male,USA,Chicago,2.78,1.16,2.94,6.89,52.24,40.09,3199.91,0.0,4.0,2024-10-11,Recreation,Morning,Basic,Black,No,1.0
+C0213,60.0,Other,USA,Los Angeles,0.18,7.48,5.62,13.28,26.32,52.34,6469.03,3.0,7.0,2024-03-08,Competition,Morning,Premium,Black,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0214,38.0,Male,India,Bangalore,1.47,6.64,1.44,9.55,247.2578,45.33,4779.57,0.0,3.0,2024-06-27,Recreation,Morning,Premium,Black,Yes,1.0
+C0215,19.0,Female,USA,New York,2.53,1.86,4.5,8.89,52.57,39.86,4653.56,1.0,1.0,2024-10-06,Recreation,Evening,Premium,White,Yes,1.0
+C0216,44.0,Female,USA,Los Angeles,1.12,6.57,2.7,10.4,58.16,42.69,5415.29,0.0,8.0,2024-02-27,Competition,Afternoon,Basic,Black,Yes,1.0
+C0217,-1.0,Female,India,,2.31,,4.43,13.33,40.33,52.93,6736.52,0.0,6.0,2024-05-10,Fitness,Evening,Free,Black,Yes,0.0
+C0218,43.0,Other,India,Bangalore,2.91,5.55,0.07,8.52,59.83,48.44,4518.47,0.0,9.0,2024-12-11,Recreation,Morning,Premium,Black,Yes,0.0
+C0219,55.0,Male,Australia,Melbourne,2.97,,1.97,17.51,44.25,49.88,8753.92,2.0,6.0,2024-06-14,Competition,Morning,Premium,White,Yes,1.0
+C0220,63.0,Male,USA,New York,0.37,9.37,2.48,12.22,12.73,63.47,6342.43,2.0,5.0,2024-06-08,Recreation,Morning,Basic,Black,Yes,1.0
+C0221,42.0,Male,USA,Chicago,2.65,6.06,2.78,11.5,60.02,45.28,5720.52,3.0,7.0,2024-02-12,Recreation,Morning,Premium,White,Yes,1.0
+C0222,28.0,Other,Australia,Brisbane,1.03,3.19,2.6,6.82,52.24,38.58,3278.11,1.0,5.0,2024-05-31,Fitness,Afternoon,Free,Black,Yes,0.0
+C0223,25.0,Female,UK,Birmingham,1.03,0.05,5.24,6.31,57.53,40.95,3406.84,0.0,0.0,2024-07-19,Recreation,Morning,Basic,White,No,0.0
+C0224,25.0,Female,UK,London,6.27,5.04,3.91,15.21,60.4,38.83,7540.16,0.0,5.0,2023-12-24,Competition,Afternoon,Free,White,Yes,1.0
+C0225,50.0,Male,UK,Birmingham,0.69,1.93,4.06,6.68,51.0,48.62,3344.22,0.0,9.0,2024-04-24,Recreation,Morning,Free,Black,Yes,1.0
+C0226,24.0,Female,Australia,Melbourne,0.4,9.74,1.5,11.64,65.54,41.85,5717.18,0.0,5.0,2024-01-16,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0227,55.0,Female,USA,Los Angeles,0.0,6.16,3.57,9.73,34.25,53.17,4961.96,2.0,0.0,2024-08-12,Fitness,Evening,Premium,Black,Yes,0.0
+C0228,38.0,Other,Australia,Brisbane,2.06,0.0,7.03,9.09,56.82,34.64,4841.77,3.0,5.0,2024-06-27,Competition,Morning,Free,Black,Yes,0.0
+C0229,25.0,Other,Australia,Brisbane,4.18,10.26,2.91,17.36,65.76,40.69,8393.08,4.0,7.0,2024-10-27,Fitness,Afternoon,Free,Black,Yes,1.0
+C0230,38.0,Other,UK,,1.84,3.69,1.01,6.53,58.59,41.17,,1.0,8.0,2023-12-19,Recreation,Evening,Free,Black,Yes,0.0
+C0231,37.0,Other,Germany,Munich,0.0,3.4,7.63,11.03,59.39,35.88,5215.82,0.0,1.0,2024-12-26,Fitness,Morning,Free,Black,Yes,0.0
+C0232,25.0,Male,USA,Chicago,3.64,13.6,5.49,22.73,65.04,33.37,11283.88,3.0,5.0,2023-11-15,Competition,Morning,Basic,Black,Yes,1.0
+C0233,63.0,Other,UK,Manchester,0.04,4.82,1.24,6.1,14.47,66.27,2849.14,4.0,2.0,2024-02-29,,Morning,Basic,Black,Yes,0.0
+C0234,48.0,Female,Germany,Berlin,0.34,4.16,3.35,7.85,46.73,45.44,,3.0,6.0,2024-11-09,Fitness,Afternoon,Free,Black,Yes,0.0
+C0235,46.0,Male,Germany,Berlin,2.81,0.69,1.13,4.62,51.44,47.79,2041.74,2.0,1.0,2024-11-18,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0236,26.0,Female,India,Mumbai,0.84,3.74,5.28,9.85,61.22,37.65,4959.39,4.0,1.0,2024-12-21,Competition,Evening,Free,Black,Yes,1.0
+C0237,32.0,Female,USA,New York,4.14,11.37,3.25,18.76,63.81,39.72,9256.64,3.0,5.0,2024-05-10,Fitness,Afternoon,Premium,Black,Yes,1.0
+C0238,47.0,Female,Germany,Munich,3.68,6.99,2.12,12.79,54.1,45.99,6176.08,2.0,6.0,2024-04-02,Fitness,Afternoon,Free,Black,Yes,0.0
+C0239,43.0,Other,UK,,0.95,2.17,1.37,4.49,48.56,47.85,2406.29,3.0,6.0,2024-11-17,Recreation,Morning,Premium,White,Yes,0.0
+C0240,27.0,Other,India,Bangalore,3.13,7.52,0.16,10.81,63.9,40.3,5236.9,3.0,4.0,2024-06-26,Competition,Morning,Free,Black,Yes,0.0
+C0241,46.0,Male,USA,Chicago,3.47,6.54,0.67,10.68,60.71,45.46,5172.71,4.0,9.0,2024-02-24,Fitness,,Premium,Black,Yes,0.0
+C0242,33.0,Male,Australia,Sydney,6.59,10.77,8.14,25.5,70.15,32.25,12616.9,2.0,8.0,2024-12-04,Competition,Morning,Free,Black,Yes,1.0
+C0243,53.0,Other,UK,Birmingham,2.03,3.21,4.75,9.99,43.71,51.51,5049.38,0.0,8.0,2023-10-12,Fitness,Morning,Free,White,Yes,0.0
+C0244,37.0,Female,Germayn,Berlin,2.76,4.77,5.54,13.07,58.03,35.28,6631.26,1.0,6.0,2024-03-03,Fitness,Morning,Premium,White,No,0.0
+C0245,62.0,Male,Germany,Berlin,1.85,7.74,3.24,12.83,24.1,56.94,6123.37,4.0,1.0,2024-10-16,Fitness,Morning,Basic,White,Yes,0.0
+C0246,54.0,Other,UK,London,2.38,3.52,0.0,5.9,36.08,53.28,2793.73,2.0,9.0,2024-03-11,Recreation,Evening,Premium,Black,Yes,0.0
+C0247,39.0,Other,Germany,,0.18,3.96,3.24,7.38,54.68,42.75,3650.92,3.0,2.0,2024-12-12,Recreation,Evening,Basic,Black,Yes,0.0
+C0248,24.0,Other,India,Bangalore,1.17,3.54,0.75,5.46,64.76,43.27,2631.01,2.0,4.0,2024-08-06,Recreation,Evening,Free,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0249,40.0,Female,USA,New York,2.24,3.66,7.24,100.0,57.82,39.08,100.0,1.0,0.0,2024-08-02,Competition,Evening,Premium,Black,Yes,1.0
+C0250,58.0,Other,India,Mumbai,1.51,5.3,7.8,14.61,36.9,47.39,7479.12,1.0,4.0,2024-09-12,Competition,Morning,Premium,White,Yes,0.0
+C0251,57.0,Other,Germany,Berlin,1.81,4.59,2.35,8.74,25.27,53.66,4447.15,0.0,3.0,2024-06-17,Recreation,Evening,Premium,Black,Yes,0.0
+C0252,46.0,Other,Australia,Sydney,5.04,12.45,6.47,23.96,62.79,37.66,11880.99,0.0,1.0,2024-12-27,Competition,Morning,Basic,White,Yes,0.0
+C0253,33.0,Other,USA,Los Angeles,4.24,6.38,0.0,10.62,64.68,43.82,5429.08,1.0,8.0,2023-12-26,Fitness,Evening,Basic,Black,Yes,1.0
+C0254,55.0,Male,USA,New York,3.6,1.04,1.25,5.89,32.2,56.18,3151.7,4.0,2.0,2024-05-26,Fitness,Afternoon,Free,White,Yes,1.0
+C0255,45.0,Male,UK,Birmingham,0.4,,4.57,8.11,41.31,41.05,4113.07,4.0,7.0,2024-07-12,Fitness,Evening,Basic,Black,Yes,0.0
+C0256,55.0,Other,UK,London,2.83,7.75,1.86,12.44,38.86,55.81,6390.8,3.0,5.0,2024-06-14,Recreation,Evening,Basic,,Yes,0.0
+C0257,48.0,Female,Australia,Melbourne,1.42,3.34,1.08,5.84,45.32,48.28,3069.24,0.0,4.0,2024-04-04,Competition,Morning,Free,Black,No,0.0
+C0258,31.0,Male,USA,Chicago,0.93,2.81,1.86,5.59,59.71,43.32,2837.82,3.0,0.0,2024-03-29,Recreation,Evening,Premium,Black,Yes,1.0
+C0259,50.0,Other,Australia,Melbourne,1.77,3.47,6.91,12.15,54.56,43.8,5964.31,0.0,3.0,2024-07-19,Competition,Afternoon,Premium,Black,No,0.0
+C0260,26.0,Male,UK,,2.7,6.14,3.28,12.13,59.91,37.95,6210.96,1.0,6.0,2024-11-04,Fitness,Morning,Free,White,No,0.0
+C0261,44.0,Male,UK,Birmingham,1.69,5.68,4.95,12.32,51.62,43.59,5982.7,4.0,0.0,2024-07-15,Recreation,Morning,Premium,Black,Yes,1.0
+C0262,41.0,Female,USA,New York,1.13,5.66,0.66,7.45,49.64,47.18,3891.39,4.0,4.0,2024-04-21,Competition,Evening,Basic,Black,Yes,1.0
+C0263,30.0,Other,India,Bangalore,3.66,3.05,2.65,9.36,60.6,39.85,4865.18,1.0,5.0,2024-05-31,Competition,Morning,Free,Black,Yes,1.0
+C0264,43.0,Other,Germany,Hamburg,2.78,,3.57,13.91,58.75,42.56,7149.66,3.0,1.0,2024-03-23,Fitness,Morning,Free,Black,Yes,1.0
+C0265,46.0,Female,UK,Birmingham,0.88,3.8,1.57,6.25,46.06,45.84,3110.62,3.0,2.0,2024-12-29,Recreation,Morning,Free,White,Yes,0.0
+C0266,60.0,Female,UK,Manchester,3.53,5.07,2.5,11.1,30.71,59.42,5365.67,2.0,5.0,2024-01-15,Recreation,Morning,Premium,White,Yes,0.0
+C0267,45.0,Other,India,Mumbai,0.56,5.57,1.19,7.32,51.74,45.7,3419.45,0.0,3.0,2024-10-02,Recreation,Morning,Free,White,Yes,0.0
+C0268,45.0,Other,India,Delhi,2.39,8.57,1.83,12.8,54.24,47.17,6547.43,3.0,8.0,2024-02-10,Fitness,Morning,Free,White,Yes,1.0
+C0269,25.0,Female,Australia,Melbourne,0.0,3.66,1.62,5.28,52.57,41.13,,1.0,3.0,2024-07-29,Recreation,Afternoon,Free,White,No,0.0
+C0270,40.0,Male,Australia,Sydney,5.17,11.07,5.96,22.2,63.88,33.69,11191.44,3.0,3.0,2024-04-24,Fitness,Evening,Premium,Black,Yes,0.0
+C0271,46.0,Male,Germany,Berlin,3.29,1.24,6.6,11.13,42.7,39.9,5353.02,4.0,1.0,2024-02-07,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0272,22.0,Female,Germany,Berlin,3.4,2.97,5.64,12.01,60.33,36.38,6268.3,0.0,3.0,2024-12-22,Fitness,Morning,Free,Black,Yes,0.0
+C0273,59.0,Male,USA,Chicago,1.06,15.39,5.18,21.63,37.91,52.36,11110.85,2.0,1.0,2024-11-11,Competition,Morning,Basic,Black,No,1.0
+C0274,24.0,Female,Australia,,1.9,1.93,2.5,6.32,56.97,40.18,3120.32,0.0,3.0,2024-05-08,Recreation,Evening,Premium,Black,Yes,1.0
+C0275,59.0,Male,UK,Manchester,0.83,1.78,2.47,5.08,27.43,59.91,2598.34,4.0,6.0,2023-11-02,Recreation,Afternoon,Premium,White,Yes,0.0
+C0276,53.0,Male,Australia,Melbourne,3.13,3.84,7.25,14.22,45.3,43.93,7277.28,4.0,2.0,2024-03-21,Fitness,Evening,Premium,Black,Yes,0.0
+C0277,58.0,Other,UK,Manchester,3.11,6.99,5.64,15.75,35.15,53.13,8014.55,4.0,8.0,2024-10-26,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0280,19.0,Male,India,Mumbai,3.48,6.87,2.04,12.39,55.46,45.9,6244.21,2.0,0.0,2024-11-29,Recreation,Evening,Premium,Black,Yes,1.0
+C0281,42.0,Other,Germany,Hamburg,3.33,9.92,4.05,17.29,60.59,42.59,8762.65,4.0,9.0,2024-04-23,Competition,Morning,Premium,Black,Yes,1.0
+C0282,26.0,Other,Germany,Hamburg,4.12,0.95,6.59,11.66,58.24,37.96,6064.11,4.0,1.0,2024-04-25,Fitness,Evening,Basic,White,Yes,1.0
+C0283,44.0,Other,USA,Chicago,1.67,6.63,1.14,9.44,55.85,45.21,4946.86,3.0,2.0,2024-09-14,Recreation,Afternoon,Basic,Black,Yes,1.0
+C0284,18.0,Female,Australia,Sydney,3.76,4.21,2.95,10.93,53.25,44.27,5749.93,2.0,0.0,2024-11-19,Fitness,Afternoon,Premium,Black,Yes,1.0
+C0285,40.0,Male,India,Mumbai,0.89,0.48,2.94,4.31,53.22,45.93,2162.54,0.0,2.0,2024-12-04,Recreation,Afternoon,Free,Black,Yes,0.0
+C0286,27.0,Other,UK,Manchester,0.0,1.69,0.9,2.59,54.95,40.9,1495.71,2.0,5.0,2024-09-08,Recreation,Afternoon,Free,Black,Yes,0.0
+C0287,59.0,Male,Germany,Hamburg,2.43,6.41,2.12,10.96,32.67,57.74,5436.65,2.0,9.0,2023-12-27,Fitness,Morning,Premium,White,Yes,0.0
+C0288,42.0,Female,Germany,Munich,5.34,0.13,2.8,8.27,57.06,41.74,4088.82,2.0,2.0,2024-06-20,Competition,Evening,Basic,Black,Yes,0.0
+C0289,20.0,Female,UK,London,0.64,2.27,1.36,4.27,54.96,45.13,1985.9,4.0,1.0,2023-10-29,Recreation,Afternoon,Premium,White,Yes,1.0
+C0290,23.0,Other,India,Mumbai,3.2,2.6,2.59,8.39,49.53,41.51,4386.09,4.0,1.0,2023-12-14,Recreation,Morning,Premium,White,Yes,1.0
+C0291,23.0,Female,India,Mumbai,0.52,2.7,2.66,5.89,59.89,42.6,3234.41,1.0,2.0,2024-06-24,Recreation,Evening,Basic,White,Yes,0.0
+C0292,19.0,Male,Australia,Sydney,3.4,6.8,2.85,13.05,63.77,42.27,6378.9,0.0,0.0,2024-08-08,Competition,Evening,Premium,,Yes,1.0
+C0293,35.0,Other,Australia,Brisbane,0.88,11.17,5.32,17.37,63.08,39.47,8420.5,3.0,7.0,2024-03-28,Competition,Morning,Premium,Black,No,0.0
+C0294,40.0,Male,USA,,4.96,7.97,1.2,14.12,60.56,43.29,7249.23,2.0,1.0,2024-12-29,Fitness,Morning,Premium,Black,Yes,1.0
+C0295,19.0,Male,Germany,Berlin,3.07,3.75,8.52,15.34,56.51,37.91,7741.97,0.0,0.0,2023-12-01,Competition,Afternoon,Basic,Black,Yes,1.0
+C0296,29.0,Female,Australia,Melbourne,3.69,1.85,1.9,7.44,51.18,40.55,3994.41,0.0,8.0,2024-12-31,Fitness,Evening,Free,White,Yes,0.0
+C0297,39.0,Female,India,Mumbai,2.17,9.34,0.83,12.34,56.33,42.95,6020.47,1.0,9.0,2024-12-16,Fitness,Evening,Free,Black,Yes,0.0
+C0298,54.0,Female,UK,Manchester,2.18,1.66,4.6,8.44,,50.05,3961.16,3.0,0.0,2024-05-23,Competition,Morning,Basic,Black,Yes,0.0
+C0299,37.0,Female,India,Delhi,3.57,10.57,2.67,16.81,62.24,38.62,8398.55,2.0,3.0,2023-12-01,Fitness,Evening,Free,Black,Yes,1.0
+C0300,56.0,Female,Germany,Berlin,1.56,4.04,0.07,5.67,28.55,56.59,2587.44,3.0,3.0,2024-07-06,Competition,Afternoon,Premium,,Yes,0.0
+C0301,41.0,Other,India,Mumbai,1.64,10.53,4.32,16.49,57.94,40.39,8103.44,1.0,9.0,2024-05-31,Fitness,Evening,Free,White,No,0.0
+C0302,37.0,Male,USA,Los Angeles,4.1,3.26,7.15,14.51,61.82,36.41,,4.0,8.0,2023-10-18,Competition,Morning,Premium,Black,Yes,1.0
+C0303,18.0,Male,Germany,Hamburg,4.76,6.04,9.07,19.87,59.46,35.66,9769.04,0.0,0.0,2024-10-14,Competition,Morning,Free,White,Yes,1.0
+C0304,18.0,Male,UK,London,2.86,7.55,2.0,12.4,58.79,42.51,5965.8,2.0,0.0,2023-12-23,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0305,34.0,Male,USA,New York,0.82,4.69,2.79,8.3,61.01,39.76,4422.57,4.0,2.0,2024-05-07,Recreation,Afternoon,Free,Black,Yes,1.0
+C0306,18.0,Female,Germany,Hamburg,1.24,4.26,6.15,11.66,65.04,40.07,5695.21,1.0,0.0,2024-12-29,Fitness,Evening,Free,White,Yes,0.0
+C0307,62.0,Male,UK,,1.25,6.77,0.39,8.41,25.42,61.2,4172.28,3.0,2.0,2024-09-10,Competition,Evening,Free,Black,Yes,0.0
+C0308,47.0,Other,USA,New York,0.6,6.12,4.42,11.15,51.39,42.64,5815.78,0.0,8.0,2023-12-29,Recreation,Morning,Basic,White,Yes,1.0
+C0309,58.0,Other,USA,New York,0.47,0.6,1.94,3.01,23.84,55.39,1613.07,2.0,8.0,2023-11-18,Fitness,Afternoon,Free,Black,Yes,1.0
+C0310,64.0,Male,Germany,Berlin,2.04,1.77,6.56,10.37,18.9,56.92,5254.97,4.0,1.0,2024-06-07,,Afternoon,Basic,Black,,0.0
+C0311,20.0,Male,Australia,Sydney,1.08,6.75,4.57,12.4,59.62,38.41,6324.08,4.0,1.0,2024-11-14,Fitness,Afternoon,Premium,White,Yes,1.0
+C0312,63.0,Other,USA,Los Angeles,1.03,1.19,3.23,5.46,14.75,59.57,2925.52,0.0,2.0,2024-02-23,Recreation,,Free,Black,Yes,1.0
+C0313,28.0,Other,USA,,0.0,9.84,5.78,15.62,67.25,34.65,8037.13,3.0,3.0,2024-04-01,,Afternoon,Basic,White,Yes,1.0
+C0314,41.0,Female,UK,Manchester,3.11,2.67,0.0,5.78,47.56,47.19,2977.16,1.0,2.0,2024-08-25,Fitness,Morning,Basic,,Yes,0.0
+C0315,39.0,Other,India,Mumbai,1.23,3.5,3.31,8.04,54.98,39.07,4253.91,3.0,8.0,2024-09-29,Fitness,Morning,Free,Black,Yes,0.0
+C0316,61.0,Female,Germany,Munich,6.67,1.68,3.07,11.43,27.87,58.49,5734.7,3.0,2.0,2024-05-01,Fitness,Evening,Premium,Black,Yes,0.0
+C0317,62.0,Female,Germany,Berlin,2.44,5.4,6.67,14.52,24.7,58.38,7124.44,3.0,1.0,2024-09-07,Fitness,Evening,Basic,Black,Yes,1.0
+C0318,43.0,Female,Australia,Sydney,0.46,2.14,1.38,3.98,48.86,47.95,2219.59,0.0,6.0,2023-11-21,Fitness,Afternoon,Free,Black,No,0.0
+C0319,30.0,Female,Australia,Melbourne,2.63,0.84,6.94,10.41,60.12,34.81,5228.89,0.0,2.0,2024-12-20,Competition,Evening,Premium,Black,Yes,1.0
+C0320,18.0,Female,Germayn,Berlin,1.6,0.89,4.32,6.81,49.54,44.75,3647.11,1.0,0.0,2024-03-27,Competition,Morning,Basic,Black,Yes,1.0
+C0321,41.0,Male,Australia,Melbourne,2.61,10.6,2.35,15.55,64.31,40.94,7501.18,3.0,6.0,2024-12-20,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0322,27.0,Other,UK,Manchester,0.94,1.19,4.05,6.18,53.4,37.33,3026.33,0.0,6.0,2024-09-20,,Morning,Premium,Black,Yes,0.0
+C0323,52.0,Female,Germany,Munich,5.4,10.36,1.87,17.62,49.23,52.25,9078.9,1.0,8.0,2024-12-23,Competition,Afternoon,Premium,White,Yes,0.0
+C0324,41.0,Other,Australia,Melbourne,1.74,0.0,1.1,2.84,52.08,47.97,1270.5,1.0,4.0,2024-07-10,Recreation,Evening,Free,,Yes,0.0
+C0325,45.0,Other,Germany,Munich,5.08,0.0,0.9,5.98,45.51,47.2,3254.85,3.0,2.0,2024-04-22,Competition,Afternoon,Free,White,Yes,0.0
+C0326,53.0,Female,India,Bangalore,3.51,5.8,1.33,10.64,41.5,53.12,5593.94,2.0,7.0,2024-03-21,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0327,33.0,Male,USA,Chicago,0.74,4.09,4.48,9.31,56.12,39.86,4886.2,3.0,5.0,2024-08-26,Competition,Morning,Premium,White,Yes,1.0
+C0328,57.0,Female,Germany,Hamburg,4.5,8.55,2.22,15.27,42.39,52.47,7671.92,2.0,1.0,2024-10-12,Fitness,Morning,Premium,Black,No,0.0
+C0329,33.0,Male,USA,Chicago,3.2,13.67,2.39,19.26,62.64,37.14,9719.51,1.0,2.0,2024-11-02,Competition,Afternoon,Premium,Black,Yes,1.0
+C0330,34.0,Other,Australia,Brisbane,1.52,8.57,4.01,14.11,60.36,38.3,7274.37,0.0,7.0,2024-06-16,,Evening,Basic,White,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0331,32.0,Male,USA,Los Angeles,2.56,6.3,2.41,11.27,56.6,42.88,5802.27,4.0,9.0,2024-12-30,Fitness,Evening,Premium,Black,Yes,0.0
+C0332,33.0,Male,Germany,Berlin,5.1,6.48,3.36,14.94,58.63,35.89,7547.18,1.0,6.0,2024-07-14,Fitness,Morning,Premium,Black,Yes,0.0
+C0333,32.0,Male,India,Mumbai,2.91,4.81,6.7,14.42,69.34,37.2,7497.68,0.0,9.0,2023-10-29,Fitness,Evening,Basic,White,Yes,0.0
+C0334,51.0,Other,Australia,Melbourne,0.9,7.83,4.66,13.39,48.53,43.83,6806.42,1.0,5.0,2024-08-22,Recreation,Morning,Free,White,Yes,0.0
+C0335,28.0,Other,Germany,Berlin,1.49,5.53,2.18,9.19,60.11,40.93,4882.66,3.0,10.0,2023-11-15,,Evening,Free,Black,Yes,0.0
+C0336,18.0,Male,Australia,Sydney,1.72,5.95,0.0,7.67,50.84,47.17,3568.55,2.0,0.0,2024-02-08,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0337,32.0,Male,UK,Birmingham,3.47,0.86,4.45,8.78,62.64,39.99,4173.42,1.0,8.0,2024-08-29,Recreation,Morning,Premium,Black,Yes,0.0
+C0338,43.0,Female,USA,Chicago,2.41,1.34,4.02,7.78,49.38,40.15,3859.56,0.0,2.0,2024-09-25,Fitness,Morning,Basic,Black,Yes,0.0
+C0340,60.0,Female,Germany,Berlin,2.04,4.22,6.0,12.27,25.46,55.05,6302.29,4.0,4.0,2024-02-04,Competition,Morning,Free,Black,Yes,0.0
+C0341,22.0,Male,India,Bangalore,1.84,5.12,1.94,8.9,54.76,39.95,4247.06,3.0,2.0,2024-10-27,Fitness,Evening,Basic,White,Yes,0.0
+C0342,52.0,Female,Australia,Melbourne,2.5,1.78,2.17,6.45,42.59,49.03,3509.44,2.0,3.0,2023-11-26,Recreation,Evening,Basic,Black,Yes,0.0
+C0343,30.0,Other,USA,New York,4.18,7.66,6.04,17.88,69.36,36.37,8827.07,3.0,9.0,2024-05-20,Fitness,Morning,Free,Black,Yes,1.0
+C0344,27.0,Male,Australia,Sydney,2.35,0.0,3.59,5.93,59.2,40.54,2924.63,4.0,3.0,2023-11-30,Fitness,Evening,Basic,Black,Yes,1.0
+C0345,28.0,Male,Germany,Hamburg,2.71,7.78,2.01,12.5,58.15,38.54,6113.27,0.0,3.0,2024-11-03,Fitness,Morning,Free,White,Yes,0.0
+C0346,35.0,Male,Australia,Melbourne,1.34,1.22,0.12,2.68,52.34,45.06,1388.9,1.0,1.0,2024-08-30,Recreation,Afternoon,Basic,Black,Yes,1.0
+C0347,51.0,Male,USA,Chicago,1.16,11.93,2.74,15.83,48.9,50.39,7650.47,2.0,8.0,2024-10-05,Competition,Morning,Basic,Black,,1.0
+C0348,56.0,Female,Germany,Hamburg,4.23,9.94,7.34,21.51,40.69,43.97,10546.4,4.0,6.0,2024-12-30,Competition,Afternoon,Basic,Black,Yes,0.0
+C0349,58.0,Male,Australia,Sydney,1.15,1.5,1.62,4.27,32.14,59.06,2280.01,2.0,7.0,2023-12-01,Recreation,Evening,Free,Black,No,0.0
+C0350,59.0,Other,India,Mumbai,2.77,8.6,1.24,12.61,22.24,55.5,6118.56,3.0,5.0,2024-05-25,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0351,40.0,Other,Germany,Hamburg,4.07,2.59,5.38,12.03,55.25,36.25,5858.39,2.0,5.0,2024-01-04,Recreation,Evening,Free,White,Yes,0.0
+C0352,24.0,Male,Germayn,,1.4,1.65,1.51,4.56,53.08,41.2,2453.7,4.0,6.0,2024-09-30,Recreation,Morning,Free,Black,Yes,1.0
+C0353,56.0,Other,India,Mumbai,0.0,7.11,0.0,7.11,22.64,56.64,3312.0,1.0,3.0,2024-03-12,Recreation,Evening,Basic,Black,No,0.0
+C0354,20.0,Male,UK,London,0.77,3.61,1.0,5.38,48.04,46.74,2650.66,1.0,0.0,2023-10-25,Fitness,Morning,Basic,White,Yes,0.0
+C0355,29.0,Male,USA,Chicago,1.04,4.13,1.29,6.47,59.99,41.12,2946.46,2.0,1.0,2023-11-03,Recreation,Morning,Free,White,Yes,1.0
+C0356,24.0,Other,UK,London,2.09,2.69,1.74,6.51,56.53,43.44,3161.73,0.0,2.0,2024-03-25,Fitness,Afternoon,Free,Black,,0.0
+C0357,43.0,Male,Australia,Brisbane,0.1,6.11,4.23,10.44,60.23,41.53,5341.46,2.0,8.0,2024-11-21,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0359,54.0,Female,UK,Manchester,1.02,4.54,4.74,10.3,40.83,49.81,5381.63,1.0,3.0,2024-03-09,Recreation,Afternoon,Premium,White,Yes,0.0
+C0360,32.0,Male,Germany,Berlin,1.14,6.17,2.21,9.52,60.99,42.75,5007.24,1.0,6.0,2024-04-11,Recreation,Evening,Premium,White,Yes,0.0
+C0361,19.0,Female,Australia,Brisbane,0.0,13.47,4.84,18.3,62.24,40.92,8914.61,1.0,1.0,2024-04-19,Competition,Evening,Premium,Black,Yes,1.0
+C0362,58.0,Other,Australia,Sydney,2.36,2.76,2.9,8.02,20.01,58.26,4303.38,0.0,8.0,2024-05-18,Fitness,Evening,Basic,Black,Yes,0.0
+C0363,24.0,Female,UK,Birmingham,0.15,0.0,0.0,0.15,46.54,44.72,-47.26,0.0,0.0,2023-12-24,Fitness,Morning,Basic,Black,Yes,0.0
+C0364,49.0,Female,UK,Birmingham,2.02,6.77,7.48,16.26,51.98,43.25,7879.97,4.0,9.0,2024-02-13,Recreation,Evening,Free,Black,No,0.0
+C0365,21.0,Other,India,Mumbai,5.56,4.81,1.02,11.39,60.65,41.59,5399.54,2.0,2.0,2024-07-08,Competition,Evening,Premium,Black,Yes,1.0
+C0366,37.0,Female,USA,Chicago,3.84,0.0,1.16,5.0,55.89,45.25,2444.64,2.0,7.0,2024-05-08,Fitness,Evening,Basic,White,Yes,0.0
+C0367,53.0,Female,UK,London,1.38,,0.87,4.92,33.69,56.42,2538.81,3.0,8.0,2024-07-26,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0368,49.0,Other,UK,Manchester,5.5,8.25,6.0,19.74,57.65,39.36,9768.92,1.0,9.0,2024-09-24,Competition,Evening,Basic,Black,Yes,0.0
+C0369,45.0,Female,Germany,Hamburg,0.44,9.78,0.0,10.22,57.65,47.1,5311.6,0.0,3.0,2024-11-19,Fitness,Morning,Basic,Black,Yes,0.0
+C0370,30.0,Other,Australia,Brisbane,1.37,1.81,1.24,4.41,59.67,43.77,2335.31,3.0,0.0,2024-01-11,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0371,18.0,Female,USA,Chicago,4.02,2.63,2.81,9.46,58.26,44.39,4639.38,3.0,0.0,2024-01-06,Competition,Morning,Premium,Black,Yes,1.0
+C0372,52.0,Other,Germany,Hamburg,6.52,10.68,4.27,21.47,48.84,44.17,10876.33,0.0,7.0,2024-01-08,Competition,Evening,Premium,White,,0.0
+C0373,47.0,Other,India,Delhi,3.26,7.09,0.95,11.29,54.58,50.41,5911.58,2.0,1.0,2023-11-20,Competition,Afternoon,Premium,Black,Yes,1.0
+C0374,53.0,Female,India,Delhi,1.29,10.93,3.29,15.5,45.36,49.88,,1.0,0.0,2024-08-18,Competition,Morning,Premium,Black,Yes,0.0
+C0375,42.0,Female,UK,London,0.0,6.8,1.54,8.34,55.67,42.66,4055.95,2.0,6.0,2024-12-29,Recreation,,Free,White,Yes,0.0
+C0376,33.0,Female,UK,Birmingham,3.2,7.01,5.36,15.56,65.47,33.83,7759.83,3.0,9.0,2024-04-23,,Morning,Premium,Black,Yes,1.0
+C0377,36.0,Male,India,Bangalore,2.37,8.16,3.25,13.79,61.36,41.41,6893.32,1.0,8.0,2024-08-23,Fitness,Morning,Basic,Black,Yes,0.0
+C0378,18.0,Male,UK,Manchester,3.28,2.82,3.45,9.55,51.49,39.99,4801.13,4.0,0.0,2024-09-24,Fitness,Morning,Premium,White,No,1.0
+C0379,22.0,Male,USA,,0.68,1.75,2.77,5.19,54.1,40.32,2475.58,3.0,2.0,2024-02-11,Recreation,Evening,Free,White,Yes,0.0
+C0380,39.0,Other,UK,Manchester,0.48,7.19,3.84,11.51,62.1,40.93,5853.0,2.0,8.0,2024-06-21,Fitness,Evening,Basic,Black,Yes,0.0
+C0381,41.0,Female,Australia,Melbourne,0.96,2.68,1.1,4.75,50.33,45.99,2462.88,2.0,2.0,2024-08-04,Fitness,Morning,Premium,White,Yes,0.0
+C0382,60.0,Other,UK,London,4.26,,3.47,21.55,38.87,56.35,10819.25,2.0,5.0,2023-12-23,Competition,Afternoon,Premium,Black,Yes,1.0
+C0383,62.0,Male,Germany,Hamburg,0.0,4.33,0.0,4.33,20.95,63.98,1931.51,0.0,2.0,2024-02-06,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0384,54.0,Female,USA,Chicago,1.07,7.17,1.81,10.05,37.94,54.34,5011.19,3.0,8.0,2024-06-03,Recreation,Evening,Basic,Black,No,1.0
+C0385,53.0,Other,Germany,Munich,2.65,10.84,5.06,18.55,52.22,49.65,9187.4,1.0,1.0,2024-09-01,Competition,Evening,Basic,White,Yes,0.0
+C0386,53.0,Female,Germany,Munich,0.22,3.03,4.38,7.62,37.67,48.31,3806.4,2.0,7.0,2024-02-18,Competition,Evening,Free,Black,Yes,1.0
+C0387,21.0,Other,Australia,Melbourne,1.26,5.67,3.77,10.7,63.44,41.93,5605.18,2.0,2.0,2024-06-02,Recreation,Evening,Basic,Black,Yes,1.0
+C0388,53.0,Female,USA,New York,4.65,5.14,7.13,16.91,47.48,47.64,8445.5,0.0,6.0,2024-02-18,Competition,Evening,Basic,Black,Yes,1.0
+C0389,35.0,Male,USA,New York,3.53,16.11,3.08,22.72,68.76,39.0,11067.51,1.0,3.0,2024-09-16,Competition,Afternoon,Premium,Black,Yes,1.0
+C0390,33.0,Male,USA,Los Angeles,2.99,4.36,1.42,8.77,55.8,43.1,4346.61,3.0,1.0,2023-10-15,Recreation,Evening,Basic,White,,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0391,58.0,Female,USA,Chicago,1.46,11.27,6.76,19.49,38.01,48.36,9936.37,4.0,7.0,2024-11-25,Competition,Morning,Premium,Black,Yes,1.0
+C0392,35.0,Other,USA,Chicago,0.0,4.84,0.0,4.84,54.83,44.74,,0.0,4.0,2024-06-05,Recreation,Morning,Premium,Black,Yes,0.0
+C0393,39.0,Male,Australia,Sydney,2.99,1.04,3.71,7.74,51.0,41.74,3875.89,3.0,5.0,2024-03-06,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0394,19.0,Male,UK,London,2.19,1.37,5.4,8.96,54.28,41.42,4330.44,4.0,0.0,2024-09-21,Fitness,Morning,Free,Black,Yes,1.0
+C0395,38.0,Male,Germany,Hamburg,1.22,3.24,5.31,9.77,,42.0,4864.5,2.0,6.0,2024-07-16,Fitness,Afternoon,Free,White,No,0.0
+C0396,53.0,Female,USA,New York,5.02,10.98,4.9,20.9,50.99,43.7,10486.94,2.0,9.0,2023-12-30,Competition,Afternoon,Basic,White,Yes,0.0
+C0397,61.0,Female,UK,Birmingham,0.74,6.15,4.25,11.14,30.43,55.13,5869.01,1.0,1.0,2023-11-17,Competition,Morning,Free,Black,Yes,0.0
+C0398,56.0,Other,UK,Manchester,2.18,4.16,2.4,8.74,29.83,51.84,4456.07,4.0,7.0,2024-05-24,Recreation,Evening,Premium,White,Yes,0.0
+C0399,64.0,Other,Germayn,Berlin,3.64,3.8,9.12,16.56,28.73,57.14,8396.9,2.0,4.0,2024-04-04,Competition,Morning,Premium,White,No,0.0
+C0400,56.0,Other,Australia,,2.24,4.44,4.88,11.57,35.99,49.14,5779.65,2.0,8.0,2024-08-06,Recreation,Morning,Basic,Black,No,0.0
+C0401,46.0,Female,India,Mumbai,0.48,0.62,3.63,4.73,43.34,46.28,2277.87,1.0,0.0,2024-03-12,Recreation,Afternoon,Free,Black,Yes,0.0
+C0402,43.0,Female,India,Mumbai,3.51,10.5,3.89,17.9,62.73,39.86,9135.8,3.0,1.0,2024-09-02,Competition,Morning,Free,White,Yes,1.0
+C0403,38.0,Other,UK,Manchester,1.98,7.8,3.29,13.07,58.58,40.12,6529.9,2.0,5.0,2024-05-15,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0404,34.0,Other,Germany,Munich,4.45,4.58,3.57,12.6,61.36,37.53,6596.34,0.0,9.0,2024-09-28,Fitness,Evening,Basic,White,Yes,0.0
+C0405,33.0,Female,India,Mumbai,4.23,0.0,4.12,8.35,57.28,41.59,4151.75,0.0,0.0,2024-02-16,Competition,Evening,Free,Black,Yes,0.0
+C0406,48.0,Other,UK,Manchester,0.99,1.66,3.82,6.47,42.7,46.88,2977.54,3.0,3.0,2024-05-31,Fitness,Evening,Basic,Black,Yes,0.0
+C0407,26.0,Male,Australia,Brisbane,0.83,12.31,6.39,19.53,69.48,37.69,9876.89,4.0,1.0,2024-12-16,Competition,Morning,Free,Black,Yes,1.0
+C0408,48.0,Female,India,Bangalore,1.79,5.01,2.78,9.58,46.97,47.23,4519.28,1.0,9.0,2024-03-13,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0409,31.0,Other,UK,Manchester,1.84,,8.03,21.14,63.22,30.51,10418.75,0.0,4.0,2024-01-20,Competition,Evening,Premium,White,Yes,1.0
+C0410,54.0,Female,UK,Birmingham,3.64,3.08,0.42,7.14,38.93,52.7,3482.77,0.0,8.0,2024-04-24,Fitness,Afternoon,Basic,Black,No,0.0
+C0411,19.0,Male,USA,Chicago,2.64,4.56,4.33,11.52,52.51,43.72,5903.49,3.0,1.0,2024-12-20,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0412,63.0,Female,Australia,Brisbane,5.54,9.51,6.11,21.16,24.01,57.8,10577.12,4.0,3.0,2024-06-14,Competition,Evening,Free,White,Yes,0.0
+C0413,31.0,Female,USA,New York,2.81,5.03,5.88,13.72,67.47,33.69,6579.58,4.0,5.0,2023-12-04,,Evening,Premium,Black,Yes,1.0
+C0414,50.0,Female,Germany,Hamburg,6.28,10.19,6.29,22.75,50.54,43.38,11445.31,3.0,0.0,2024-02-09,Competition,Afternoon,Basic,,Yes,1.0
+C0415,52.0,Female,USA,Chicago,2.69,2.45,2.49,7.63,32.09,50.14,3762.68,0.0,5.0,2024-04-23,Fitness,Evening,Basic,White,Yes,0.0
+C0416,56.0,Male,USA,Los Angeles,3.61,4.96,3.14,11.71,38.88,51.88,6108.43,1.0,5.0,2024-07-29,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0417,64.0,Female,India,Bangalore,0.99,10.64,2.29,13.92,19.32,60.97,6961.3,0.0,5.0,2024-04-11,Competition,Afternoon,Free,Black,No,0.0
+C0418,37.0,Female,UK,London,2.56,2.98,2.59,8.13,56.33,43.81,4190.44,4.0,5.0,2024-07-31,,Evening,Free,Black,Yes,0.0
+C0419,19.0,Other,Australia,Sydney,0.0,7.37,2.97,10.34,54.94,39.77,5000.31,0.0,0.0,2024-03-10,Recreation,Morning,Free,Black,Yes,0.0
+C0420,58.0,Female,USA,Los Angeles,3.14,5.93,6.86,15.93,36.55,49.37,8119.48,1.0,5.0,2024-10-03,Fitness,Evening,Free,Black,Yes,0.0
+C0421,36.0,Other,Australia,Sydney,1.54,,0.0,3.56,51.45,43.85,1913.71,2.0,4.0,2024-03-10,Recreation,Morning,Free,Black,Yes,0.0
+C0422,54.0,Male,USA,New York,2.26,6.6,2.37,11.23,45.38,49.87,5857.0,0.0,1.0,2023-10-22,Fitness,Afternoon,Premium,,Yes,1.0
+C0423,35.0,Male,Germany,Hamburg,2.26,8.12,4.67,15.04,57.68,37.87,7242.64,3.0,3.0,2024-12-08,Competition,Afternoon,Free,Black,Yes,1.0
+C0424,33.0,Male,USA,Chicago,4.48,3.65,1.93,10.06,61.69,38.31,4996.98,2.0,9.0,2024-09-12,Fitness,Morning,Free,Black,Yes,1.0
+C0425,21.0,Male,India,Mumbai,1.78,2.49,5.87,10.14,59.82,37.53,5179.46,3.0,3.0,2024-04-30,Fitness,Afternoon,Premium,Black,Yes,1.0
+C0426,29.0,Other,UK,,2.7,5.21,2.13,10.04,57.51,43.48,4775.57,3.0,2.0,2024-02-28,Competition,Morning,Free,,Yes,1.0
+C0427,46.0,Female,Germany,Munich,1.93,0.9,2.15,4.97,43.34,45.84,2432.16,3.0,3.0,2023-10-15,Recreation,Morning,Basic,White,Yes,1.0
+C0428,24.0,Male,USA,Chicago,3.64,2.39,4.11,10.14,62.87,38.74,5335.9,0.0,5.0,2024-07-26,Fitness,Afternoon,Free,White,Yes,1.0
+C0429,31.0,Female,Australia,Sydney,4.66,5.64,5.71,16.0,247.2578,35.95,7960.27,4.0,6.0,2024-12-26,Fitness,Morning,Free,Black,Yes,0.0
+C0431,52.0,Other,Germany,Munich,2.2,10.03,2.37,14.59,49.1,51.25,7030.54,1.0,9.0,2024-11-12,Recreation,Evening,Basic,Black,Yes,0.0
+C0432,22.0,Other,USA,New York,1.91,3.52,1.93,7.37,56.14,41.02,3813.84,4.0,3.0,2024-10-26,Fitness,Afternoon,Basic,Black,No,1.0
+C0433,34.0,Male,Germany,Hamburg,0.0,8.31,8.49,16.79,58.11,35.71,8444.06,0.0,0.0,2023-11-05,Competition,Afternoon,Basic,Black,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0434,59.0,Female,Australia,Brisbane,1.29,6.95,3.68,11.92,37.09,57.3,5962.53,3.0,4.0,2024-08-16,Fitness,Morning,Free,Black,,0.0
+C0435,49.0,Female,Germany,Munich,1.21,10.26,1.04,12.51,46.86,50.01,6536.7,1.0,0.0,2024-10-26,Competition,Morning,Basic,Black,No,0.0
+C0436,27.0,Female,Australia,Brisbane,0.0,1.98,0.0,1.98,52.57,42.31,765.89,2.0,9.0,2024-06-21,Recreation,Morning,Basic,White,Yes,0.0
+C0437,60.0,Other,USA,Los Angeles,1.91,5.27,0.0,7.18,25.87,58.69,3826.35,4.0,0.0,2024-12-10,Recreation,Morning,Premium,Black,Yes,0.0
+C0438,34.0,Male,UK,Manchester,0.0,3.77,1.48,5.25,58.54,43.35,2740.06,4.0,5.0,2024-03-05,Recreation,Evening,Basic,Black,Yes,1.0
+C0439,22.0,Other,Germany,Berlin,2.58,5.83,3.7,12.11,66.78,42.34,5908.59,1.0,4.0,2024-11-11,Recreation,Evening,Basic,White,Yes,1.0
+C0440,62.0,Other,UK,London,2.59,2.65,4.61,9.85,16.17,59.4,5168.41,0.0,2.0,2024-11-23,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0441,59.0,Female,Australia,Brisbane,2.82,1.25,0.1,4.17,27.94,59.17,2044.64,2.0,0.0,2024-02-05,Fitness,Morning,Premium,Black,Yes,1.0
+C0442,26.0,Other,Germany,Munich,2.34,6.18,4.16,12.68,64.48,36.16,6530.39,1.0,4.0,2024-08-16,Recreation,Morning,Free,Black,Yes,1.0
+C0443,50.0,Female,India,Delhi,0.53,0.57,2.19,3.29,40.05,51.35,1578.7,3.0,8.0,2024-11-24,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0444,53.0,Male,UK,London,0.0,3.06,1.25,4.31,39.45,54.8,2365.39,2.0,8.0,2024-04-08,Recreation,Morning,Free,Black,No,0.0
+C0445,53.0,Female,Germany,Berlin,0.42,3.68,5.27,9.37,43.74,46.47,4767.66,4.0,0.0,2024-01-31,Fitness,Morning,Premium,Black,Yes,1.0
+C0447,26.0,Female,Germany,Berlin,0.0,8.2,2.86,11.06,67.0,39.69,5620.03,4.0,8.0,2024-01-16,Recreation,Morning,Free,Black,Yes,1.0
+C0449,31.0,Other,UK,Manchester,0.39,10.38,8.5,19.28,62.96,33.9,9586.21,4.0,0.0,2024-02-16,Competition,Afternoon,Free,White,Yes,1.0
+C0450,42.0,Male,India,,0.7,3.02,0.97,4.7,50.11,47.83,2150.94,0.0,4.0,2024-09-22,Recreation,Morning,Premium,White,Yes,0.0
+C0451,32.0,Male,India,Bangalore,5.16,6.09,5.9,17.15,72.61,36.41,8289.05,4.0,7.0,2024-10-31,Competition,Afternoon,Basic,Black,Yes,1.0
+C0452,23.0,Male,Australia,Melbourne,3.3,12.69,9.44,25.44,68.81,29.12,12544.94,3.0,0.0,2024-10-14,Competition,Morning,Premium,Black,Yes,1.0
+C0453,59.0,Female,Germany,Hamburg,2.27,9.15,2.4,13.82,31.91,57.75,6932.11,3.0,8.0,2024-11-06,Recreation,Evening,Free,Black,Yes,1.0
+C0454,46.0,Female,UK,Birmingham,1.19,10.31,2.66,14.16,59.24,47.53,7068.35,2.0,0.0,2024-09-12,Competition,Evening,Premium,White,Yes,1.0
+C0455,32.0,Male,Australia,Melbourne,2.93,3.29,2.49,8.71,58.12,43.28,4357.37,4.0,8.0,2024-09-23,Recreation,Evening,Free,Black,Yes,1.0
+C0456,46.0,Other,UK,Birmingham,2.51,6.52,1.86,10.89,47.15,48.31,5293.83,4.0,0.0,2024-12-13,Fitness,Evening,Free,Black,Yes,0.0
+C0457,21.0,Female,Germany,Berlin,2.68,,4.79,8.88,54.96,38.87,4549.18,1.0,0.0,2023-12-20,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0458,35.0,Female,India,Mumbai,2.78,4.4,3.03,10.21,64.64,41.93,5228.06,0.0,9.0,2024-08-27,Fitness,Afternoon,Basic,,Yes,0.0
+C0459,61.0,Female,USA,,4.75,6.33,4.43,15.52,29.1,58.79,7673.01,2.0,2.0,2023-11-29,Fitness,Morning,Free,Black,Yes,0.0
+C0460,56.0,Male,India,Bangalore,2.98,9.98,0.48,13.44,45.0,56.42,6946.61,4.0,2.0,2024-08-27,Competition,Evening,Premium,Black,Yes,1.0
+C0461,33.0,Male,Australia,Sydney,1.61,6.62,4.02,12.25,64.4,37.21,6211.21,1.0,0.0,2024-09-05,Recreation,Afternoon,Free,Black,Yes,0.0
+C0462,28.0,Male,USA,Chicago,1.36,4.93,0.78,7.07,55.63,45.61,3662.03,0.0,8.0,2023-10-31,Recreation,Morning,Free,Black,No,1.0
+C0463,31.0,Male,Australia,Sydney,0.76,1.25,0.81,2.82,55.17,43.35,1276.56,2.0,1.0,2024-03-17,Recreation,Morning,Premium,Black,,0.0
+C0464,20.0,Male,Germany,Munich,2.14,9.74,0.0,11.87,54.86,42.4,5636.88,2.0,1.0,2024-11-17,Fitness,Afternoon,Premium,White,Yes,1.0
+C0465,59.0,Other,USA,Chicago,2.44,2.33,7.76,12.53,28.6,49.21,6485.09,4.0,8.0,2024-05-23,Fitness,Evening,Premium,Black,Yes,1.0
+C0466,55.0,Other,Australia,Brisbane,4.44,6.94,2.05,13.42,56.31,53.66,6901.35,2.0,7.0,2023-10-28,Recreation,Morning,Premium,Black,Yes,0.0
+C0467,62.0,Male,Germany,Berlin,0.0,0.0,5.17,5.17,22.62,58.9,2360.93,1.0,1.0,2024-08-02,Fitness,Evening,Free,Black,Yes,0.0
+C0468,59.0,Female,India,Delhi,0.3,4.44,3.09,7.83,30.78,54.73,3840.78,2.0,3.0,2024-04-14,Recreation,Evening,Free,Black,Yes,0.0
+C0469,35.0,Male,Germany,Berlin,0.47,7.04,1.18,8.69,56.13,44.02,4440.5,3.0,0.0,2024-10-19,Recreation,Evening,Basic,Black,Yes,0.0
+C0470,37.0,Other,UK,London,1.3,1.15,2.24,4.69,60.4,44.6,2435.67,1.0,0.0,2023-12-17,Recreation,Morning,Free,White,Yes,0.0
+C0471,42.0,Other,Germany,Munich,0.0,3.89,2.34,6.24,56.28,45.64,3334.11,0.0,3.0,2023-11-26,Recreation,Evening,Premium,Black,Yes,0.0
+C0472,55.0,Female,Germany,Munich,3.1,2.48,2.01,7.6,42.38,52.18,3582.04,0.0,1.0,2024-03-10,Recreation,Morning,Basic,White,No,0.0
+C0473,30.0,Other,UnknownLand,London,0.76,5.22,2.89,8.87,66.28,41.47,4394.51,4.0,2.0,2024-03-26,Recreation,Evening,Premium,,Yes,0.0
+C0474,21.0,Male,Australia,Melbourne,0.0,5.76,3.4,9.16,51.24,38.45,4338.63,4.0,1.0,2024-10-27,Recreation,Morning,Free,,Yes,1.0
+C0475,31.0,Female,Australia,Sydney,0.0,1.24,3.84,5.08,52.54,38.99,2471.81,3.0,8.0,2024-05-10,Fitness,Evening,Basic,Black,Yes,0.0
+C0476,50.0,Male,Germany,Hamburg,0.59,0.84,0.64,2.08,35.94,51.33,747.94,0.0,1.0,2024-01-08,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0477,45.0,Male,UK,London,1.05,2.71,5.51,9.26,47.96,44.15,4871.44,0.0,3.0,2024-01-21,Recreation,Evening,Basic,White,Yes,0.0
+C0478,54.0,Female,UK,Birmingham,3.88,4.64,1.71,10.22,40.37,52.11,5127.13,0.0,0.0,2023-12-17,Fitness,Evening,Basic,White,Yes,0.0
+C0479,25.0,Male,India,Mumbai,3.93,5.85,2.76,12.55,59.2,37.29,6485.07,0.0,6.0,2024-11-16,Fitness,Morning,Free,White,Yes,0.0
+C0480,-1.0,Other,Australia,Melbourne,5.2,0.0,1.63,6.83,30.08,60.34,3151.63,2.0,5.0,2024-07-13,Fitness,Morning,Premium,White,Yes,0.0
+C0481,51.0,Male,USA,Chicago,1.86,0.43,3.34,5.63,47.82,49.35,2650.8,1.0,9.0,2025-01-01,Recreation,Evening,Basic,White,Yes,1.0
+C0482,61.0,Female,Australia,Melbourne,0.62,10.05,4.96,15.62,28.89,58.83,7664.95,1.0,1.0,2024-04-15,Competition,Afternoon,Basic,Black,Yes,1.0
+C0482,62.0,Female,Australia,Melbourne,0.62,10.05,4.96,15.62,28.89,58.83,7664.95,1.0,1.0,2024-04-15,Competition,Afternoon,Basic,Black,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0483,22.0,Female,Australia,Brisbane,5.91,4.65,3.9,14.46,68.5,42.14,7159.85,3.0,2.0,2024-07-08,Competition,Afternoon,Premium,Black,Yes,1.0
+C0484,22.0,Female,India,Bangalore,2.67,9.62,0.05,12.35,65.21,41.84,6356.47,2.0,1.0,2024-06-23,Fitness,Morning,Basic,Black,Yes,1.0
+C0485,48.0,Male,USA,New York,4.73,0.96,3.02,8.72,45.72,44.83,4290.19,0.0,5.0,2024-02-27,Competition,Afternoon,Basic,Black,Yes,1.0
+C0486,62.0,Female,India,,0.0,1.77,7.6,9.36,14.52,53.99,4505.27,0.0,5.0,2024-12-09,Fitness,Evening,Basic,White,Yes,0.0
+C0487,26.0,Female,USA,New York,2.82,8.46,0.88,12.16,60.53,43.74,5817.94,4.0,3.0,2024-01-03,Recreation,Morning,Premium,Black,Yes,1.0
+C0488,59.0,Male,Germany,Berlin,3.66,3.98,0.45,8.09,25.4,56.79,3791.78,4.0,1.0,2024-02-19,Competition,Evening,Premium,Black,No,0.0
+C0489,49.0,Other,USA,Los Angeles,2.74,5.1,4.49,12.34,49.46,43.02,6323.85,3.0,0.0,2024-12-06,Recreation,Morning,Premium,Black,Yes,1.0
+C0490,50.0,Male,India,Mumbai,0.0,2.68,4.26,6.94,43.59,47.58,3434.82,0.0,7.0,2024-06-13,Competition,Morning,Premium,Black,Yes,0.0
+C0491,20.0,Female,Australia,Sydney,2.45,4.73,6.53,13.71,59.61,36.21,,3.0,2.0,2024-11-26,,Morning,Free,Black,Yes,1.0
+C0492,47.0,Female,USA,Chicago,4.0,8.91,5.03,17.93,57.45,39.72,9076.67,2.0,5.0,2024-03-10,Competition,Morning,Basic,Black,Yes,1.0
+C0493,29.0,Male,USA,Los Angeles,2.02,1.44,1.56,5.01,52.11,41.62,2285.75,1.0,0.0,2024-10-27,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0494,46.0,Other,UK,Manchester,1.97,4.56,2.11,8.64,51.37,44.92,4105.27,0.0,0.0,2024-12-29,Recreation,Evening,Basic,Black,No,0.0
+C0495,20.0,Female,Australia,Brisbane,5.78,6.05,2.19,14.02,57.98,42.07,7164.75,2.0,1.0,2024-04-01,Competition,Evening,Basic,Black,,1.0
+C0496,43.0,Female,Germany,Hamburg,1.47,5.28,1.98,8.73,53.88,47.53,4498.87,0.0,8.0,2024-11-25,Recreation,Evening,Free,Black,Yes,0.0
+C0497,47.0,Female,India,Mumbai,0.9,7.32,3.66,11.87,54.56,42.49,5862.07,4.0,2.0,2023-12-08,Recreation,Morning,Premium,Black,Yes,1.0
+C0498,26.0,Male,Germany,Munich,3.66,6.94,5.88,16.48,60.01,35.38,7987.3,3.0,3.0,2024-06-06,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0499,43.0,Female,Australia,Sydney,8.54,3.07,7.63,19.24,59.88,39.5,9327.54,4.0,9.0,2023-11-18,Competition,Evening,Basic,Black,Yes,0.0
+C0500,19.0,Other,USA,Chicago,1.43,2.69,1.65,5.77,52.28,46.88,2758.08,1.0,1.0,2023-12-22,Competition,Afternoon,Premium,Black,No,1.0
+C0501,20.0,Female,USA,,0.65,0.59,3.38,4.62,50.74,42.06,2014.38,4.0,1.0,2024-10-31,Recreation,Morning,Basic,Black,Yes,1.0
+C0502,63.0,Female,Australia,Melbourne,1.75,2.23,3.0,6.99,21.12,63.57,3333.08,0.0,3.0,2024-02-03,Recreation,Evening,Basic,Black,Yes,0.0
+C0503,21.0,Other,USA,New York,2.96,7.88,1.22,12.06,56.19,40.51,5980.06,4.0,0.0,2024-12-24,Competition,Afternoon,Free,Black,Yes,1.0
+C0504,42.0,Female,USA,Los Angeles,4.11,9.27,10.15,23.53,62.97,34.3,11539.75,0.0,8.0,2024-09-21,,Morning,Free,Black,Yes,0.0
+C0505,30.0,Male,USA,New York,2.69,7.07,0.25,10.01,57.71,45.58,4769.8,1.0,2.0,2024-10-15,Recreation,Afternoon,Free,Black,Yes,0.0
+C0506,56.0,Male,India,Mumbai,2.19,2.72,1.18,6.1,36.46,56.34,3285.41,4.0,4.0,2024-09-20,Recreation,Evening,Basic,White,Yes,0.0
+C0507,61.0,Male,India,Delhi,0.0,2.6,2.21,4.81,247.2578,61.04,2456.22,3.0,5.0,2024-05-01,Recreation,Evening,Premium,Black,Yes,0.0
+C0508,52.0,Other,UK,Manchester,2.72,8.75,4.22,15.69,48.33,45.44,8107.15,3.0,4.0,2024-12-17,Fitness,Morning,Free,White,Yes,0.0
+C0509,40.0,Female,Germayn,Munich,2.88,7.84,0.92,11.64,65.16,44.55,5729.91,3.0,9.0,2024-11-25,Competition,Morning,Premium,Black,Yes,1.0
+C0510,26.0,Male,Australia,Sydney,3.62,5.62,2.25,11.48,60.56,41.32,5848.18,4.0,2.0,2024-07-22,Fitness,Morning,Free,Black,Yes,1.0
+C0511,19.0,Other,Australia,Sydney,4.22,2.34,9.05,15.61,64.13,36.15,7629.84,4.0,0.0,2024-04-15,Competition,Afternoon,Free,Black,Yes,1.0
+C0512,58.0,Female,Australia,Sydney,3.34,4.13,5.05,12.52,39.37,50.28,6333.49,4.0,3.0,2023-11-26,Competition,Afternoon,Basic,Black,Yes,0.0
+C0513,61.0,Other,UK,Birmingham,0.0,3.85,6.14,9.99,28.55,56.37,4772.67,0.0,1.0,2024-11-18,Competition,Afternoon,Free,Black,Yes,0.0
+C0514,48.0,Male,India,Mumbai,1.65,14.04,0.0,15.69,52.49,48.91,7546.33,1.0,3.0,2024-04-30,Competition,Morning,Free,Black,Yes,0.0
+C0515,61.0,Male,UK,Manchester,1.75,3.0,1.95,6.7,24.69,59.18,3606.49,3.0,4.0,2023-10-18,Competition,Evening,Basic,Black,Yes,0.0
+C0516,64.0,Male,Australia,Melbourne,3.14,11.94,0.0,15.09,16.54,63.35,7577.8,0.0,1.0,2024-02-23,Competition,,Premium,Black,Yes,0.0
+C0517,19.0,Other,Germany,Munich,2.75,9.86,2.84,15.45,57.0,40.15,7979.65,3.0,1.0,2024-07-11,Competition,Afternoon,Free,Black,Yes,1.0
+C0518,49.0,Other,USA,New York,0.48,4.51,4.45,9.44,44.31,47.16,4619.96,0.0,2.0,2023-12-13,Fitness,,Basic,Black,Yes,1.0
+C0519,35.0,Male,India,Delhi,2.72,5.58,0.32,8.62,66.68,44.09,4208.59,4.0,8.0,2024-05-30,Recreation,Evening,Free,Black,Yes,0.0
+C0520,30.0,Other,India,Delhi,2.95,7.09,2.26,12.3,59.03,42.35,6089.24,3.0,5.0,2024-04-16,Recreation,Evening,Basic,Black,Yes,1.0
+C0521,63.0,Male,UK,Birmingham,2.12,8.17,1.69,11.98,18.42,61.47,6114.45,4.0,5.0,2024-09-19,Fitness,Afternoon,Premium,White,Yes,0.0
+C0522,22.0,Male,India,Bangalore,4.8,1.69,6.35,12.84,56.2,39.83,6460.34,3.0,2.0,2024-10-28,Fitness,Afternoon,Premium,White,Yes,1.0
+C0523,59.0,Female,Australia,Melbourne,2.17,4.74,1.81,8.72,30.33,59.72,4616.64,2.0,2.0,2024-09-19,Fitness,Evening,Basic,White,Yes,0.0
+C0524,61.0,Other,Australia,,2.84,3.46,4.54,10.85,25.91,56.88,5139.53,0.0,3.0,2024-02-22,Fitness,Morning,Basic,Black,Yes,0.0
+C0525,27.0,Male,UK,Birmingham,2.21,0.0,0.8,3.01,58.85,41.35,1630.46,2.0,5.0,2024-08-05,Competition,Afternoon,Basic,Black,Yes,0.0
+C0526,60.0,Male,Australia,Melbourne,0.78,6.2,2.28,9.26,28.95,57.41,4529.74,0.0,0.0,2024-04-23,Recreation,Evening,Premium,White,Yes,0.0
+C0527,42.0,Other,Germany,Berlin,5.91,15.34,1.76,23.01,59.52,44.26,11312.05,1.0,2.0,2024-12-05,Competition,Evening,Free,Black,Yes,1.0
+C0528,51.0,Female,UK,London,2.11,3.46,4.1,9.67,40.77,46.65,4839.31,3.0,3.0,2024-09-01,Recreation,Evening,Premium,Black,Yes,0.0
+C0529,54.0,Female,Germany,Munich,2.67,7.54,1.95,12.16,45.66,51.12,6082.53,1.0,4.0,2024-04-18,Recreation,Evening,Basic,White,Yes,0.0
+C0530,47.0,Male,USA,New York,3.86,5.17,3.74,12.76,50.93,42.63,6162.94,1.0,9.0,2023-12-05,Fitness,Morning,Basic,Black,Yes,0.0
+C0531,24.0,Other,Germayn,Hamburg,4.53,9.39,1.63,15.55,67.5,42.82,7595.76,0.0,6.0,2024-09-20,Competition,Evening,Premium,Black,,1.0
+C0532,23.0,Female,USA,Los Angeles,1.46,1.4,5.19,8.05,56.52,37.84,3970.03,2.0,2.0,2024-02-07,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0533,20.0,Other,USA,New York,0.0,9.75,6.29,16.04,57.52,36.49,7964.82,4.0,0.0,2024-06-08,Competition,Morning,Premium,Black,Yes,1.0
+C0534,30.0,Other,Germany,Berlin,2.65,4.06,0.05,6.76,56.81,43.08,3270.83,0.0,9.0,2023-10-23,Recreation,Evening,Basic,White,Yes,0.0
+C0535,20.0,Male,UK,Birmingham,1.31,6.45,3.48,11.24,53.96,40.88,5407.75,4.0,2.0,2024-08-23,Fitness,Morning,Free,Black,Yes,1.0
+C0536,43.0,Female,Australia,Melbourne,2.18,0.32,4.52,7.02,49.77,41.93,3211.73,1.0,9.0,2024-07-24,Fitness,,Free,Black,Yes,0.0
+C0537,41.0,Male,Australia,Melbourne,1.37,2.06,1.33,4.76,52.72,45.16,2661.36,4.0,5.0,2024-03-26,Recreation,Evening,Basic,,Yes,0.0
+C0538,23.0,Female,USA,Chicago,1.54,0.99,4.63,7.16,58.31,41.8,3848.21,2.0,4.0,2024-08-18,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0539,60.0,Female,USA,Los Angeles,2.15,3.04,4.44,9.63,20.86,58.55,4806.13,0.0,7.0,2024-02-01,Recreation,Evening,Free,Black,,0.0
+C0540,59.0,Female,UK,Manchester,1.83,9.32,7.57,18.71,35.59,52.3,9653.27,2.0,0.0,2024-09-06,Fitness,Evening,Premium,Black,Yes,0.0
+C0541,29.0,Female,India,Bangalore,0.87,1.27,5.56,7.7,56.42,35.52,3955.84,2.0,0.0,2023-11-12,Competition,Evening,Basic,White,Yes,1.0
+C0542,53.0,Female,Germany,Hamburg,2.74,7.56,3.61,13.9,41.23,50.99,6689.35,0.0,3.0,2024-08-31,Fitness,Evening,Premium,Black,Yes,0.0
+C0543,19.0,Other,USA,New York,3.1,7.28,5.48,15.87,60.69,36.49,7703.53,2.0,1.0,2024-12-05,Competition,Evening,Free,Black,,1.0
+C0544,28.0,Male,Australia,Melbourne,2.78,7.5,4.14,14.42,61.42,35.8,,3.0,6.0,2024-06-04,Fitness,Morning,Premium,Black,Yes,1.0
+C0545,56.0,Other,UK,Birmingham,0.27,10.49,6.12,16.88,45.52,51.71,8517.43,3.0,1.0,2024-10-03,Fitness,,Premium,Black,Yes,0.0
+C0546,51.0,Female,Germany,Berlin,1.49,1.84,0.17,3.51,43.6,54.86,1960.47,3.0,0.0,2024-03-13,Recreation,Evening,Basic,White,Yes,0.0
+C0547,43.0,Male,UK,Manchester,0.39,11.48,2.71,14.58,61.84,43.07,7527.15,4.0,7.0,2024-09-07,,Morning,Basic,White,Yes,1.0
+C0548,35.0,Female,Germayn,Berlin,2.04,0.31,1.43,3.78,52.97,45.56,1858.59,2.0,5.0,2024-05-07,Fitness,Morning,Basic,White,Yes,0.0
+C0549,38.0,Male,Germayn,Hamburg,4.72,5.96,0.0,10.68,54.91,47.08,5070.79,0.0,4.0,2023-12-09,Fitness,Morning,Free,Black,Yes,0.0
+C0550,53.0,Other,USA,Los Angeles,0.0,9.11,1.46,10.57,41.47,52.67,5096.47,0.0,8.0,2023-12-21,Recreation,Morning,Free,Black,Yes,1.0
+C0551,57.0,Male,UK,London,0.65,6.1,2.41,9.15,32.16,56.01,4317.17,4.0,1.0,2023-11-03,,Morning,Basic,Black,No,0.0
+C0552,63.0,Male,UK,Birmingham,0.2,6.57,2.05,8.82,16.89,64.49,4222.73,0.0,2.0,2023-10-30,Competition,Morning,Basic,Black,Yes,1.0
+C0553,61.0,Male,Australia,Brisbane,1.13,6.22,3.23,10.58,20.83,57.26,5237.48,3.0,4.0,2024-03-14,Fitness,Evening,Free,White,Yes,0.0
+C0554,39.0,Male,Australia,Brisbane,3.27,10.61,6.96,20.84,65.21,33.5,10191.65,2.0,7.0,2024-06-19,Competition,Evening,Free,White,Yes,1.0
+C0555,47.0,Male,USA,Chicago,2.42,8.6,3.85,14.88,51.75,45.51,7237.65,0.0,9.0,2023-12-09,Fitness,Afternoon,Free,Black,Yes,1.0
+C0556,60.0,Female,USA,Chicago,3.19,1.34,2.75,7.27,27.54,57.87,3603.26,0.0,8.0,2023-11-29,Competition,Evening,Free,White,Yes,1.0
+C0557,47.0,Male,India,Bangalore,2.66,5.28,1.81,9.75,51.91,44.83,4779.4,1.0,0.0,2024-02-08,Recreation,Evening,Basic,White,Yes,0.0
+C0558,25.0,Male,Australia,Brisbane,1.9,3.93,5.16,10.99,64.21,37.03,5475.07,1.0,1.0,2024-07-12,Fitness,Morning,Free,Black,Yes,0.0
+C0559,51.0,Other,Germany,Berlin,3.45,9.24,8.93,21.61,47.94,39.72,10763.7,1.0,7.0,2023-12-19,Competition,Morning,Basic,Black,Yes,1.0
+C0560,64.0,Male,UK,Manchester,1.84,,3.3,7.24,16.98,66.16,3707.69,2.0,3.0,2024-04-26,Recreation,Evening,Premium,Black,Yes,0.0
+C0561,26.0,Other,USA,Los Angeles,0.87,5.06,4.57,10.5,57.42,39.84,5513.12,3.0,5.0,2024-05-30,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0562,37.0,Female,UK,London,3.03,11.63,4.15,18.81,60.52,38.25,9168.91,3.0,2.0,2024-04-17,Competition,Morning,Free,Black,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0563,57.0,Male,UK,Birmingham,1.12,4.92,3.04,9.08,31.08,57.54,4300.65,3.0,6.0,2024-09-18,Fitness,Evening,Premium,Black,Yes,0.0
+C0564,42.0,Other,India,Delhi,0.0,11.17,4.32,15.49,63.02,42.88,7955.31,2.0,8.0,2024-10-25,Fitness,Evening,Premium,White,Yes,0.0
+C0565,36.0,Other,Australia,Brisbane,0.0,2.62,5.76,8.38,56.42,38.36,4192.92,2.0,2.0,2024-10-01,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0566,22.0,Female,USA,Los Angeles,1.03,8.63,0.0,9.66,63.51,46.78,4989.02,1.0,0.0,2024-07-13,Fitness,Afternoon,Free,White,Yes,1.0
+C0567,28.0,Male,UK,Birmingham,3.7,6.36,4.6,14.65,65.66,36.98,7152.76,0.0,5.0,2024-05-12,Fitness,Morning,Free,White,Yes,1.0
+C0568,32.0,Male,USA,New York,3.17,7.17,3.1,13.44,61.28,37.68,6919.41,4.0,7.0,2024-08-06,Fitness,Afternoon,Premium,Black,,1.0
+C0568,33.0,Male,USA,New York,3.17,7.17,3.1,13.44,61.28,37.68,6919.41,4.0,7.0,2024-08-06,Fitness,Afternoon,Premium,Black,,1.0
+C0569,25.0,Other,Germany,Hamburg,2.33,5.53,3.74,11.6,64.89,37.84,6054.99,4.0,2.0,2024-10-25,Recreation,Evening,Basic,Black,Yes,1.0
+C0570,36.0,Male,India,Delhi,1.11,9.76,1.12,11.99,62.12,43.18,6077.35,0.0,1.0,2024-10-17,Competition,Evening,Premium,Black,Yes,1.0
+C0571,40.0,Other,Germany,Hamburg,3.39,8.85,2.85,15.08,56.94,41.14,7302.57,1.0,6.0,2023-12-29,Fitness,Afternoon,Free,Black,Yes,0.0
+C0572,44.0,Male,USA,Los Angeles,0.72,6.84,1.02,8.58,58.91,47.14,4527.67,0.0,1.0,2024-05-10,Recreation,Afternoon,Free,Black,Yes,1.0
+C0573,57.0,Other,USA,Chicago,0.6,,0.39,1.67,28.14,59.98,1012.13,0.0,1.0,2024-09-10,Recreation,Afternoon,Free,White,Yes,1.0
+C0574,49.0,Male,Australia,Melbourne,0.38,11.74,1.15,13.27,49.46,45.54,6786.63,4.0,1.0,,Competition,Afternoon,Premium,Black,Yes,0.0
+C0576,44.0,Male,UK,Manchester,5.74,3.93,1.85,11.52,58.57,44.96,5940.15,2.0,0.0,2024-06-17,Fitness,Afternoon,Free,,Yes,0.0
+C0577,36.0,Male,Germany,Hamburg,3.27,14.69,1.83,19.79,68.16,38.08,9677.5,4.0,6.0,2024-08-21,Competition,Morning,Free,White,Yes,1.0
+C0578,59.0,Female,India,Delhi,0.0,6.76,0.0,6.76,29.13,61.26,3214.67,2.0,4.0,2024-05-06,Competition,Evening,Premium,Black,No,0.0
+C0579,46.0,Male,UK,Birmingham,2.2,7.16,2.52,11.88,50.37,45.53,5987.51,1.0,2.0,2024-03-02,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0580,56.0,Female,Australia,Sydney,1.98,3.86,3.28,9.11,37.74,53.93,4415.52,0.0,0.0,2023-10-27,Recreation,Morning,Premium,,Yes,0.0
+C0581,58.0,Male,Germany,Berlin,6.4,1.2,3.75,11.35,35.68,53.48,5772.51,3.0,9.0,2024-09-28,Competition,Afternoon,Free,Black,Yes,1.0
+C0582,50.0,Other,Germany,Munich,3.82,5.13,3.33,12.27,44.73,48.06,6201.3,3.0,5.0,2024-04-17,Fitness,Evening,Basic,Black,Yes,0.0
+C0583,36.0,Other,Australia,Brisbane,0.77,0.0,3.92,4.69,49.83,42.84,2112.05,1.0,0.0,2024-01-30,Recreation,Evening,Basic,Black,Yes,1.0
+C0584,54.0,Male,India,Delhi,0.08,,1.26,6.63,38.67,56.93,3409.58,3.0,8.0,2024-05-25,Recreation,Evening,Free,Black,Yes,0.0
+C0585,36.0,Male,Australia,Brisbane,0.64,4.56,2.16,7.36,51.22,44.12,3933.63,2.0,1.0,2024-05-25,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0586,50.0,Male,India,Bangalore,1.2,4.55,1.96,7.71,44.39,49.84,3650.51,3.0,0.0,2024-02-08,Recreation,Afternoon,Basic,White,Yes,0.0
+C0587,64.0,Other,Australia,Sydney,1.78,1.44,4.86,8.08,14.46,59.8,4100.31,1.0,4.0,2024-12-21,Fitness,Morning,Premium,White,Yes,0.0
+C0588,33.0,Male,Australia,Brisbane,4.0,2.08,0.74,6.82,62.16,44.16,3317.42,1.0,6.0,2024-04-13,Fitness,Evening,Free,Black,Yes,1.0
+C0589,40.0,Other,USA,Chicago,4.96,6.05,4.72,15.74,,41.75,7845.36,2.0,5.0,2023-11-30,Fitness,Afternoon,Free,White,Yes,0.0
+C0590,24.0,Female,Germany,Munich,5.91,2.23,4.61,12.74,65.13,36.84,6242.44,3.0,1.0,2024-09-26,,Evening,Free,Black,Yes,1.0
+C0591,43.0,Other,Australia,Melbourne,4.29,7.67,2.97,14.94,55.83,40.96,7380.94,3.0,4.0,2024-04-16,Competition,Evening,Free,Black,Yes,1.0
+C0592,49.0,Other,Australia,Brisbane,4.73,11.77,2.89,19.39,57.62,43.35,9412.39,0.0,3.0,2024-07-15,Competition,Morning,Free,White,Yes,0.0
+C0593,29.0,Female,UK,London,2.31,8.58,2.12,13.01,70.15,41.72,6796.01,4.0,1.0,2024-09-05,Fitness,Morning,Basic,White,Yes,1.0
+C0594,25.0,Other,Germany,Munich,3.26,12.79,3.93,19.99,62.85,37.01,10068.27,1.0,4.0,2024-04-11,Fitness,Morning,Premium,White,,1.0
+C0595,22.0,Male,UK,Manchester,2.03,2.92,2.68,7.63,57.29,39.46,3812.99,0.0,2.0,2023-11-11,Competition,Morning,Free,Black,Yes,0.0
+C0596,59.0,Male,Germany,Berlin,1.35,1.52,0.71,3.58,34.62,62.64,1721.02,1.0,9.0,2024-05-01,Recreation,Evening,Premium,Black,Yes,0.0
+C0598,22.0,Male,Australia,Brisbane,1.37,4.34,3.33,9.04,57.48,40.13,4450.19,4.0,4.0,2024-01-16,Recreation,Morning,Basic,Black,Yes,0.0
+C0599,43.0,Other,Australia,Brisbane,2.58,4.13,2.18,8.89,56.17,43.49,4358.78,0.0,0.0,2023-12-12,Recreation,Morning,Free,Black,Yes,0.0
+C0600,22.0,Male,USA,Chicago,0.0,6.95,2.06,9.01,57.38,41.16,4485.15,1.0,3.0,2024-12-18,,Morning,Basic,White,Yes,1.0
+C0601,39.0,Male,UK,Manchester,0.2,5.0,4.53,9.73,50.81,39.88,4730.74,3.0,3.0,2024-12-05,Fitness,Evening,Free,White,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0602,32.0,Other,India,Delhi,2.56,,2.89,6.17,61.54,39.97,2895.12,1.0,6.0,2024-05-30,Recreation,Morning,Basic,White,Yes,1.0
+C0603,30.0,Male,USA,Los Angeles,0.0,5.15,2.17,7.33,50.94,41.65,3698.64,2.0,0.0,2023-11-26,Recreation,Evening,Premium,Black,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0604,45.0,Other,UK,Manchester,4.12,10.07,5.77,19.95,57.83,41.38,10182.08,2.0,4.0,2024-09-14,Competition,Afternoon,Free,White,Yes,0.0
+C0605,50.0,Male,UK,Birmingham,1.15,3.76,4.58,9.5,49.62,47.57,4539.7,2.0,2.0,2024-01-27,Competition,Evening,Premium,Black,No,0.0
+C0606,60.0,Male,USA,New York,1.07,8.6,3.75,13.42,28.23,55.33,6430.13,2.0,4.0,2024-09-03,Fitness,Evening,Premium,Black,Yes,0.0
+C0607,40.0,Female,Australia,Brisbane,1.27,3.99,2.27,7.53,52.24,43.39,3615.0,4.0,3.0,2024-09-02,Competition,Morning,Basic,Black,,0.0
+C0608,50.0,Female,UK,,2.64,2.66,0.49,5.79,45.67,53.39,3185.19,3.0,1.0,2024-08-11,Competition,Afternoon,Free,Black,Yes,0.0
+C0609,60.0,Other,Australia,Brisbane,6.92,10.78,5.15,22.85,33.38,50.69,11622.28,3.0,3.0,2023-10-21,Competition,Afternoon,Premium,Black,No,0.0
+C0610,35.0,Female,USA,New York,1.74,10.82,0.64,13.2,247.2578,39.69,6658.03,1.0,2.0,2023-11-05,Competition,Afternoon,Basic,Black,Yes,1.0
+C0611,47.0,Other,Australia,Brisbane,1.89,4.56,3.74,10.18,50.78,45.34,5348.03,0.0,0.0,2024-11-16,Recreation,Afternoon,Free,Black,Yes,0.0
+C0612,43.0,Female,Germany,Berlin,2.78,0.3,3.49,6.57,50.86,44.41,3254.04,1.0,9.0,2024-03-29,Fitness,Evening,Free,Black,Yes,1.0
+C0613,33.0,Male,India,Delhi,3.7,3.95,5.77,13.42,57.93,34.99,7000.41,1.0,7.0,2024-02-12,Competition,Afternoon,Premium,Black,Yes,1.0
+C0614,30.0,Other,UK,Birmingham,3.1,3.62,0.0,6.72,60.26,45.13,3236.76,1.0,4.0,2023-12-14,Recreation,Evening,Free,,Yes,0.0
+C0615,56.0,Other,India,Bangalore,1.41,3.15,0.0,4.56,33.0,58.49,2124.44,1.0,3.0,2024-11-16,Recreation,Evening,Premium,Black,Yes,0.0
+C0616,50.0,Male,Australia,Brisbane,0.29,7.9,2.38,10.58,44.62,51.04,5371.08,3.0,9.0,2024-07-26,Recreation,Evening,Free,White,Yes,0.0
+C0617,43.0,Other,UK,Birmingham,1.64,16.02,8.55,26.21,65.0,32.6,13033.62,0.0,4.0,2024-01-24,Competition,Afternoon,Basic,White,No,1.0
+C0618,18.0,Other,Australia,Melbourne,4.48,14.06,1.33,19.88,64.06,44.08,10014.32,1.0,0.0,2023-11-15,Competition,Morning,Premium,Black,Yes,1.0
+C0619,55.0,Female,Germany,Berlin,0.74,2.15,2.41,5.29,38.12,51.54,2529.95,3.0,3.0,2024-12-08,Fitness,Morning,Premium,White,Yes,0.0
+C0620,19.0,Other,USA,New York,3.95,10.0,8.84,22.79,64.28,34.41,11466.34,1.0,1.0,2024-11-05,Competition,Afternoon,Free,Black,Yes,1.0
+C0621,23.0,Male,UK,Birmingham,2.32,4.18,0.0,6.51,58.35,44.99,3118.33,2.0,1.0,2024-07-20,Competition,Morning,Free,Black,Yes,1.0
+C0622,63.0,Female,Germany,Munich,0.0,2.47,2.61,5.08,18.47,62.49,2270.99,1.0,4.0,2024-01-25,Recreation,Morning,Premium,White,Yes,0.0
+C0623,55.0,Female,Germayn,Berlin,1.75,1.52,3.36,6.63,37.95,54.88,3560.5,1.0,0.0,2024-08-06,Fitness,Evening,Free,Black,Yes,1.0
+C0624,59.0,Male,UK,London,7.92,5.26,4.9,18.09,35.33,50.33,9272.83,4.0,2.0,2024-01-29,Competition,Evening,Basic,White,Yes,0.0
+C0625,41.0,Male,Australia,Sydney,5.66,10.56,2.93,19.15,59.25,40.78,9857.14,2.0,9.0,2024-11-30,Competition,,Free,Black,Yes,0.0
+C0626,35.0,Female,Germany,Berlin,4.68,1.52,1.9,8.11,56.29,40.28,4183.28,0.0,9.0,2024-12-29,Recreation,Afternoon,Basic,White,Yes,0.0
+C0627,44.0,Other,India,Mumbai,2.32,3.48,2.1,7.9,52.79,46.7,4058.47,1.0,7.0,2024-02-07,Recreation,Morning,Basic,Black,No,0.0
+C0628,58.0,Female,Germany,Berlin,5.33,11.64,6.41,23.38,47.95,46.85,11727.3,0.0,6.0,2024-03-27,Competition,Evening,Basic,Black,Yes,0.0
+C0629,25.0,Male,Australia,Melbourne,4.66,2.34,4.57,11.57,58.78,40.61,5560.44,2.0,6.0,2024-11-10,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0630,45.0,Female,Australia,Brisbane,1.79,8.82,6.4,17.02,60.18,41.72,8321.63,1.0,0.0,2023-12-25,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0631,27.0,Male,India,,1.94,2.53,3.22,7.69,57.08,42.42,3719.39,4.0,7.0,2024-11-17,Recreation,Afternoon,Free,Black,Yes,0.0
+C0632,34.0,Female,Germany,,3.52,0.0,0.48,4.0,55.71,41.95,2234.34,3.0,4.0,2024-08-11,Recreation,Afternoon,Basic,White,Yes,0.0
+C0633,46.0,Other,Australia,Melbourne,3.45,11.34,4.05,18.85,63.01,43.08,9226.31,4.0,9.0,2023-10-12,Competition,Afternoon,Free,Black,Yes,0.0
+C0634,23.0,Female,UK,Birmingham,1.58,0.81,0.66,3.05,56.2,41.8,1778.22,4.0,3.0,2024-02-29,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0635,31.0,Female,USA,Chicago,3.01,11.24,8.3,22.55,64.99,34.3,11288.04,3.0,0.0,2024-12-23,Competition,Morning,Premium,Black,Yes,1.0
+C0636,39.0,Male,USA,New York,2.22,1.73,3.34,7.3,53.21,43.16,3777.0,3.0,2.0,2023-12-24,Fitness,Evening,Basic,Black,Yes,0.0
+C0637,23.0,Male,USA,Chicago,3.7,0.93,4.79,9.41,62.73,39.49,4472.61,3.0,3.0,2023-12-16,Fitness,Evening,Premium,White,Yes,1.0
+C0638,43.0,Male,Germany,Hamburg,4.03,4.16,5.98,14.17,57.69,40.95,6945.0,1.0,4.0,2024-07-13,Competition,Afternoon,Basic,Black,Yes,1.0
+C0639,56.0,Female,India,Delhi,0.0,2.5,2.82,5.32,27.59,52.2,2933.87,0.0,2.0,2024-02-16,Recreation,Evening,Basic,Black,Yes,0.0
+C0640,29.0,Other,Australia,Melbourne,5.06,1.44,0.25,6.75,54.86,43.6,3233.52,0.0,3.0,2024-11-22,Fitness,Evening,Basic,Black,Yes,0.0
+C0640,29.0,Other,Australia,Melbourne,5.06,1.44,0.25,6.75,54.86,43.6,3233.52,0.0,3.0,2024-11-22,Fitness,Evening,Basic,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0641,52.0,Male,UK,Manchester,1.87,5.58,2.37,9.81,44.88,49.1,4785.35,3.0,0.0,2024-01-08,Recreation,Evening,Premium,Black,Yes,0.0
+C0641,53.0,Male,UK,Manchester,1.87,5.58,2.37,9.81,44.88,49.1,4785.35,3.0,0.0,2024-01-08,Recreation,Evening,Premium,Black,Yes,0.0
+C0642,31.0,Male,UK,London,3.05,3.37,0.28,6.7,61.53,46.23,3167.06,4.0,3.0,2023-12-06,,Afternoon,Premium,White,Yes,1.0
+,,,,,,,,,,,,,,,,,,,,
+C0643,39.0,Female,Germany,Berlin,2.46,5.2,4.54,12.2,59.03,41.78,5877.36,2.0,9.0,2024-09-13,Competition,Afternoon,Basic,Black,Yes,0.0
+C0644,40.0,Male,USA,Chicago,6.98,7.09,7.17,100.0,74.12,36.98,100.0,3.0,9.0,2024-12-27,Competition,Evening,Free,Black,Yes,1.0
+C0645,24.0,Other,Germany,Hamburg,1.83,11.88,5.94,19.65,69.19,38.45,9909.91,4.0,3.0,2023-10-24,Competition,Evening,Basic,White,Yes,1.0
+C0646,57.0,Other,India,Mumbai,0.23,7.95,1.62,9.8,32.29,55.08,4871.59,4.0,0.0,2023-12-17,Fitness,Afternoon,Premium,White,Yes,0.0
+C0647,42.0,Male,India,Mumbai,3.22,3.91,3.97,11.1,52.8,44.1,5583.98,1.0,1.0,2023-10-18,,Morning,Basic,Black,Yes,0.0
+C0648,30.0,Male,Australia,Melbourne,1.47,4.98,0.56,7.01,54.51,41.99,3276.58,1.0,0.0,2024-04-11,Recreation,Evening,Premium,Black,Yes,0.0
+C0649,38.0,Female,Australia,Sydney,0.17,2.11,0.95,3.23,54.19,46.08,1796.2,0.0,5.0,2024-11-18,Recreation,Morning,Premium,Black,Yes,0.0
+C0650,58.0,Other,India,Mumbai,3.2,5.8,5.73,14.73,33.0,53.42,7537.6,0.0,2.0,2024-11-17,Fitness,Evening,Premium,Black,Yes,0.0
+C0651,27.0,Other,India,Bangalore,2.09,5.76,4.82,12.67,68.17,34.93,6048.63,2.0,3.0,2024-02-09,Fitness,Morning,Basic,White,Yes,1.0
+C0652,26.0,Male,India,Bangalore,0.55,7.88,1.39,9.82,65.04,41.13,4841.36,2.0,4.0,2024-08-07,Fitness,Morning,Premium,Black,Yes,0.0
+C0653,32.0,Female,Germany,Munich,0.66,4.19,0.98,5.83,59.44,40.05,2657.1,2.0,8.0,2024-03-24,Fitness,Morning,Premium,Black,Yes,0.0
+C0654,19.0,Other,India,Mumbai,0.8,3.3,4.1,8.2,50.15,44.67,4273.78,2.0,1.0,2023-10-19,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0655,42.0,Other,UK,Birmingham,3.6,7.62,3.69,14.91,56.15,38.94,7596.65,4.0,3.0,2024-01-08,Recreation,Morning,Premium,Black,Yes,1.0
+C0656,30.0,Female,USA,New York,5.43,9.18,3.42,18.02,70.92,38.23,9252.53,4.0,4.0,2024-02-23,Fitness,Morning,Basic,Black,No,0.0
+C0657,51.0,Female,India,Mumbai,1.96,2.07,1.44,5.48,38.57,53.03,2580.35,0.0,4.0,2023-11-06,Fitness,Morning,Premium,Black,Yes,0.0
+C0658,51.0,Other,USA,Los Angeles,2.18,5.77,6.7,14.65,51.6,42.4,7298.22,1.0,4.0,2023-12-14,Recreation,Evening,Free,Black,Yes,0.0
+C0659,52.0,Other,Germany,Berlin,1.56,1.84,3.05,6.45,41.54,50.25,3035.57,1.0,9.0,2024-10-24,Fitness,Morning,Free,Black,No,0.0
+C0660,55.0,Female,USA,Los Angeles,1.34,0.81,3.19,5.34,33.94,53.88,2594.07,3.0,8.0,2024-05-13,Recreation,Evening,Premium,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0661,-1.0,Other,Germany,Hamburg,1.66,3.49,2.41,7.57,52.23,41.03,3796.06,4.0,1.0,2024-07-06,Recreation,Morning,Free,Black,Yes,0.0
+C0662,59.0,Male,UK,Birmingham,5.06,5.41,1.47,11.94,30.29,59.63,5703.67,2.0,2.0,2023-12-08,Competition,Morning,Basic,Black,Yes,0.0
+C0663,23.0,Male,Germany,Hamburg,4.54,0.8,7.46,12.8,61.3,34.76,6529.96,2.0,0.0,2024-10-26,Competition,Afternoon,Free,Black,Yes,1.0
+C0664,36.0,Female,Germany,Hamburg,4.51,12.29,1.52,18.32,68.98,38.8,9183.92,3.0,7.0,2023-11-12,Competition,Evening,Premium,Black,Yes,1.0
+C0665,20.0,Female,Australia,Melbourne,3.22,4.3,0.0,7.52,51.52,45.84,3959.53,1.0,0.0,2024-06-10,Competition,Morning,Premium,,Yes,1.0
+C0666,35.0,Female,India,Delhi,1.82,6.87,6.21,14.9,62.06,35.78,7313.09,2.0,8.0,2024-05-27,Fitness,Evening,Basic,Black,Yes,1.0
+C0667,56.0,Male,India,Bangalore,2.36,0.64,6.32,9.33,34.98,52.85,4906.13,1.0,6.0,2024-11-12,Competition,Evening,Premium,,Yes,0.0
+C0668,26.0,Other,UK,Birmingham,3.05,2.26,2.93,8.24,60.89,43.02,4418.52,3.0,6.0,2024-04-13,Recreation,Afternoon,Basic,White,No,1.0
+C0669,29.0,Male,UK,Birmingham,0.0,9.49,0.94,10.43,57.25,41.89,5467.98,1.0,11.0,2024-06-29,Fitness,Afternoon,Free,White,Yes,0.0
+C0670,22.0,Other,India,Delhi,0.0,7.33,1.85,9.18,52.48,41.74,4758.67,1.0,1.0,2024-08-09,Competition,Afternoon,Free,White,Yes,0.0
+C0671,20.0,Male,Australia,Brisbane,2.1,8.52,4.19,14.8,62.68,38.81,7588.54,1.0,2.0,2023-12-05,Recreation,Afternoon,Basic,Black,Yes,1.0
+C0672,28.0,Other,India,Delhi,1.42,11.22,3.15,15.79,58.85,37.38,7938.05,2.0,5.0,2024-05-29,Fitness,,Basic,White,Yes,1.0
+C0673,47.0,Male,Australia,Sydney,3.57,4.05,6.96,14.59,57.79,41.17,7109.12,0.0,2.0,2024-06-24,Fitness,Afternoon,Premium,Black,Yes,1.0
+C0674,21.0,Female,UK,Birmingham,2.11,2.38,0.0,4.49,52.68,47.55,2352.58,4.0,2.0,2024-02-01,Competition,Afternoon,Free,Black,No,0.0
+C0675,22.0,Male,USA,Los Angeles,4.07,11.16,4.51,19.74,59.44,36.69,9996.06,1.0,4.0,2024-08-20,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0676,18.0,Other,UK,Manchester,0.0,7.11,0.78,7.89,51.66,43.66,4236.67,1.0,0.0,2023-11-02,Recreation,Morning,Free,White,Yes,0.0
+C0677,44.0,Male,UK,Manchester,0.44,8.39,4.69,13.52,57.09,41.38,6786.96,1.0,5.0,2024-10-17,Fitness,Evening,Basic,Black,Yes,0.0
+C0678,45.0,Male,Germany,Berlin,1.85,5.85,3.24,10.94,50.73,41.48,5332.52,0.0,0.0,2024-11-15,Recreation,Afternoon,Free,,Yes,1.0
+C0679,46.0,Male,Germany,Hamburg,1.58,,2.62,10.71,51.45,46.56,5462.7,3.0,8.0,2024-12-27,Fitness,Afternoon,Premium,White,No,0.0
+C0680,35.0,Female,Germany,Munich,5.26,5.83,4.42,15.51,66.23,38.09,8043.7,2.0,0.0,2024-09-12,Competition,Evening,Free,White,Yes,0.0
+C0681,29.0,Male,Germany,Hamburg,3.24,4.56,3.35,11.15,60.4,39.41,5382.83,0.0,6.0,2024-07-03,Recreation,Morning,Free,Black,Yes,0.0
+C0682,30.0,Female,Australia,Melbourne,3.15,5.94,4.92,14.0,59.83,36.08,6898.03,1.0,0.0,2024-03-13,Fitness,Evening,Free,Black,Yes,1.0
+C0683,58.0,Female,India,Bangalore,0.53,6.39,7.2,14.12,33.26,53.08,7087.01,0.0,6.0,2024-06-01,Fitness,Evening,Free,Black,No,0.0
+C0684,19.0,Male,USA,New York,1.35,,4.04,5.39,57.68,39.85,2496.84,0.0,1.0,2024-09-04,Fitness,Afternoon,Free,Black,Yes,1.0
+C0685,54.0,Male,UK,Manchester,3.46,3.52,1.92,8.9,44.43,55.04,4163.12,0.0,5.0,2023-10-26,Recreation,Evening,Premium,Black,Yes,0.0
+C0686,62.0,Male,Australia,Melbourne,3.69,0.29,0.0,3.98,10.49,63.94,1892.87,3.0,1.0,2023-11-11,Recreation,Evening,Basic,Black,Yes,0.0
+C0687,33.0,Other,USA,New York,3.04,1.96,1.89,6.89,61.73,44.2,3661.85,4.0,0.0,2024-06-12,Recreation,Afternoon,Free,White,No,1.0
+C0688,41.0,Male,Australia,Brisbane,4.44,9.95,2.66,17.05,62.0,42.72,8248.59,2.0,4.0,2024-12-17,Competition,Afternoon,Premium,Black,Yes,1.0
+C0689,52.0,Female,Australia,Melbourne,2.61,0.09,4.38,7.08,43.67,46.51,3497.21,3.0,5.0,2024-05-03,Competition,Afternoon,Free,Black,Yes,0.0
+C0690,39.0,Male,UK,London,0.0,1.64,0.74,2.38,49.65,47.4,1345.5,3.0,8.0,2024-05-16,Recreation,Afternoon,Free,Black,Yes,0.0
+C0691,53.0,Other,India,Delhi,0.06,2.46,0.3,2.82,28.89,55.81,1681.08,4.0,0.0,2024-09-26,Fitness,Evening,Basic,Black,Yes,0.0
+C0692,28.0,Male,Germany,Munich,1.83,5.3,1.1,8.24,61.04,39.53,4409.37,3.0,7.0,2023-12-05,Competition,Evening,Free,,Yes,0.0
+C0693,63.0,Other,India,,2.12,4.62,6.64,13.38,19.04,55.27,6643.49,0.0,2.0,2024-06-18,Recreation,Morning,Premium,Black,Yes,0.0
+C0694,46.0,Other,UK,Birmingham,1.53,1.56,3.93,7.01,43.5,45.61,3776.63,0.0,7.0,2024-10-09,Fitness,Morning,Premium,Black,No,0.0
+C0695,52.0,Male,UK,London,1.96,2.8,2.19,6.95,35.27,52.08,3195.57,1.0,9.0,2024-05-25,Competition,Evening,Basic,Black,Yes,0.0
+C0696,32.0,Female,UK,London,1.61,3.57,5.04,10.22,62.57,39.47,5257.04,3.0,8.0,2023-11-17,Fitness,Morning,Free,Black,No,0.0
+C0697,-1.0,Other,USA,New York,2.79,4.73,0.4,7.92,47.31,50.81,4045.48,1.0,2.0,2023-11-21,Fitness,Evening,Premium,White,Yes,0.0
+C0698,59.0,Male,India,Mumbai,1.95,,8.19,12.44,33.9,52.1,6069.75,2.0,1.0,2024-03-23,Fitness,Morning,Free,White,Yes,1.0
+C0699,58.0,Male,India,Delhi,1.37,9.57,3.8,14.75,37.3,55.52,7377.22,0.0,3.0,2024-08-17,Fitness,Afternoon,Free,Black,Yes,0.0
+C0700,60.0,Female,Australia,Brisbane,2.41,8.37,2.7,13.47,28.03,58.06,6512.78,2.0,1.0,2023-12-25,Competition,Morning,Free,Black,,0.0
+C0701,33.0,Other,Australia,Sydney,3.16,0.0,5.0,8.15,58.37,37.12,4299.51,4.0,0.0,2023-11-13,Competition,Afternoon,Basic,Black,No,1.0
+C0702,27.0,Other,Australia,Brisbane,2.46,7.58,6.31,16.34,62.8,38.08,8086.38,0.0,7.0,2023-12-14,Competition,Afternoon,Free,,Yes,1.0
+C0703,49.0,Male,UK,London,0.68,1.66,2.74,5.08,42.55,45.57,2616.81,2.0,6.0,2024-02-28,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0704,19.0,Male,India,Mumbai,1.37,8.69,5.89,15.95,56.68,37.54,7770.39,4.0,1.0,2024-08-25,Competition,Afternoon,Free,White,Yes,1.0
+C0706,40.0,Female,USA,Los Angeles,0.77,7.26,5.96,13.99,63.57,37.8,7290.67,4.0,1.0,2024-08-05,Competition,Evening,Free,White,Yes,1.0
+C0707,19.0,Other,Australia,Melbourne,2.62,7.4,1.6,11.62,54.03,40.65,5962.87,4.0,1.0,2024-07-17,Fitness,,Premium,,Yes,1.0
+C0708,55.0,Other,UK,Birmingham,0.4,5.89,2.07,8.37,40.73,51.15,4460.39,0.0,7.0,2024-10-09,Recreation,Morning,Premium,White,No,0.0
+C0708,55.0,Other,UK,Birmingham,0.4,5.89,2.07,8.37,40.73,51.15,4460.39,0.0,7.0,2024-10-09,Recreation,Morning,Premium,White,No,0.0
+C0709,48.0,Male,UK,Manchester,0.17,2.84,2.18,5.2,45.2,49.15,2475.95,1.0,4.0,2024-03-25,Fitness,Afternoon,Free,Black,Yes,0.0
+C0710,57.0,Other,USA,Los Angeles,0.0,5.36,6.4,11.76,35.54,53.62,5678.67,4.0,7.0,2024-04-23,,Morning,Free,Black,Yes,0.0
+C0711,-1.0,Female,Germany,Berlin,3.09,4.62,3.29,10.99,48.52,43.2,5499.17,4.0,2.0,2024-08-11,Fitness,Morning,Premium,Black,Yes,1.0
+C0712,46.0,Female,India,Mumbai,1.53,6.11,1.97,9.61,43.88,46.27,4801.39,0.0,6.0,2024-07-08,Recreation,Morning,Basic,Black,No,0.0
+C0714,31.0,Female,Australia,Melbourne,3.05,,5.22,10.77,63.79,36.19,5525.89,3.0,5.0,2024-05-30,,Morning,Basic,Black,Yes,1.0
+C0715,42.0,Female,UK,Birmingham,2.29,0.25,3.77,6.31,49.79,39.97,3072.87,3.0,6.0,2024-06-25,Recreation,Morning,Free,Black,,0.0
+C0716,18.0,Female,USA,Chicago,3.39,5.95,3.71,13.04,63.44,40.2,6332.71,1.0,0.0,2024-08-15,Fitness,Evening,Free,Black,Yes,1.0
+C0717,20.0,Female,USA,New York,3.12,1.75,8.92,13.79,62.16,35.02,6794.07,2.0,1.0,2024-05-18,Competition,Evening,Free,Black,Yes,1.0
+C0718,43.0,Male,India,Bangalore,0.0,2.43,1.15,3.58,45.96,44.71,1826.36,0.0,1.0,2023-11-30,Recreation,Morning,Free,Black,Yes,0.0
+C0719,35.0,Male,Germany,Munich,5.21,0.0,6.9,12.11,61.08,33.7,6191.42,1.0,7.0,2024-11-20,Competition,Evening,Basic,White,Yes,0.0
+C0720,26.0,Other,India,Delhi,2.04,5.37,0.7,8.11,67.51,44.3,4045.75,3.0,4.0,2024-10-04,Recreation,Afternoon,Free,Black,Yes,0.0
+C0721,55.0,Female,UK,London,0.45,9.34,0.0,9.8,32.44,57.91,4913.1,4.0,6.0,2023-12-08,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0722,40.0,Other,India,Delhi,2.89,14.14,3.89,20.92,66.67,41.55,10245.64,3.0,0.0,2024-12-20,Competition,Evening,Premium,Black,Yes,1.0
+C0723,38.0,Male,USA,Los Angeles,1.73,1.8,4.08,7.62,55.0,41.38,4057.85,4.0,4.0,2024-09-10,Recreation,Evening,Basic,White,Yes,0.0
+C0725,38.0,Male,Australia,Melbourne,6.42,15.03,0.94,22.39,71.83,42.31,11303.3,4.0,0.0,2024-11-07,Competition,Evening,Premium,Black,Yes,1.0
+C0726,44.0,Male,Australia,,1.04,4.16,6.0,11.19,52.53,38.34,5307.53,1.0,7.0,2024-07-19,Competition,Morning,Basic,Black,Yes,1.0
+C0727,59.0,Male,UK,Birmingham,1.54,10.06,5.65,17.25,38.71,53.74,8647.95,4.0,3.0,2024-10-14,Competition,Afternoon,Free,Black,Yes,0.0
+C0728,23.0,Male,Germany,Hamburg,2.35,4.14,0.99,7.48,64.88,45.17,3819.29,2.0,2.0,2024-12-27,Recreation,Evening,Premium,Black,Yes,1.0
+C0729,61.0,Male,India,Bangalore,3.41,2.0,3.78,9.19,24.4,59.96,4889.63,1.0,2.0,2024-01-29,Fitness,Morning,Premium,White,No,0.0
+C0730,53.0,Female,UK,Birmingham,1.16,2.84,2.73,6.73,41.23,54.22,3661.64,0.0,4.0,2024-05-18,Recreation,Morning,Basic,,Yes,0.0
+C0731,45.0,Other,Australia,Sydney,2.89,0.68,4.1,7.67,48.09,45.3,4049.04,1.0,0.0,2024-05-29,Recreation,Afternoon,Free,Black,Yes,0.0
+C0732,62.0,Male,India,Delhi,0.45,4.68,4.13,9.26,21.95,60.65,4370.15,2.0,1.0,2024-02-04,Recreation,Evening,Free,Black,Yes,0.0
+C0733,34.0,Female,Australia,Sydney,1.11,4.94,4.56,10.61,59.53,37.21,,0.0,4.0,2024-05-09,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0734,57.0,Female,India,Delhi,4.9,5.69,5.94,16.53,41.13,52.88,8334.26,3.0,5.0,2024-04-01,Competition,Morning,Premium,Black,Yes,0.0
+C0735,20.0,Other,Germany,Munich,1.77,0.0,2.72,4.49,57.01,41.46,2426.83,2.0,1.0,2024-12-07,Competition,Morning,Premium,Black,Yes,1.0
+C0737,56.0,Other,India,Mumbai,3.28,7.52,4.52,15.32,44.92,49.81,7551.92,4.0,9.0,2024-05-02,Fitness,Morning,Basic,White,Yes,0.0
+C0738,29.0,Male,USA,Los Angeles,0.0,8.8,5.04,13.84,68.81,34.99,6900.32,1.0,11.0,2024-05-10,Competition,Evening,Basic,White,Yes,0.0
+C0739,19.0,Female,USA,Los Angeles,3.99,5.35,3.03,12.37,60.75,43.87,5974.96,0.0,0.0,2024-10-18,Fitness,Afternoon,Free,Black,Yes,1.0
+C0740,63.0,Female,India,Bangalore,0.0,10.86,1.16,12.03,19.61,60.23,5926.85,1.0,2.0,2023-11-28,Competition,Evening,Basic,Black,Yes,0.0
+C0743,47.0,Other,USA,,1.1,1.87,0.38,3.36,48.23,52.04,1468.31,3.0,7.0,2024-03-19,Fitness,Morning,Basic,Black,Yes,1.0
+C0744,22.0,Male,USA,New York,1.8,3.67,0.27,5.74,50.32,46.01,2644.7,2.0,1.0,2024-09-15,Recreation,Evening,Basic,Black,Yes,1.0
+C0745,26.0,Male,India,Delhi,0.65,4.72,1.4,6.78,59.86,43.56,3330.03,0.0,4.0,2024-02-18,Recreation,Morning,Premium,White,Yes,0.0
+C0746,38.0,Other,Australia,Sydney,1.65,1.42,5.08,8.15,52.59,38.77,4375.33,4.0,6.0,2024-04-19,Recreation,Morning,Free,White,Yes,0.0
+C0747,28.0,Male,Australia,Brisbane,0.52,,0.79,5.95,60.24,40.46,2781.32,0.0,3.0,2023-12-28,Fitness,Morning,Premium,Black,No,1.0
+C0748,22.0,Female,Germany,Hamburg,1.5,4.38,1.5,7.39,56.09,45.28,3480.74,1.0,3.0,2024-09-26,Fitness,Evening,Free,Black,Yes,1.0
+C0749,52.0,Male,UK,London,5.11,7.33,4.24,16.69,52.3,45.13,8592.01,0.0,6.0,2024-06-09,Competition,Morning,Free,Black,Yes,0.0
+C0750,44.0,Female,Australia,,0.83,4.92,1.28,7.04,55.11,45.46,3748.36,3.0,1.0,2023-11-14,Recreation,Evening,Free,Black,Yes,0.0
+C0751,19.0,Other,USA,Chicago,1.4,10.12,1.79,13.31,63.61,43.57,6372.18,0.0,0.0,2023-11-26,Competition,Morning,Basic,Black,Yes,1.0
+C0752,41.0,Male,Australia,Brisbane,2.24,6.25,2.28,10.77,61.83,42.88,5537.67,2.0,3.0,2024-12-09,Recreation,Afternoon,Basic,Black,No,0.0
+C0753,48.0,Other,Germany,Hamburg,3.25,8.34,2.13,13.72,51.63,44.79,6955.58,0.0,9.0,2023-11-23,Fitness,Morning,Free,Black,Yes,0.0
+C0754,50.0,Male,Germany,Berlin,2.75,4.08,1.54,8.36,40.02,47.64,4341.68,1.0,0.0,2023-11-27,Fitness,Morning,Free,Black,Yes,0.0
+C0755,56.0,Female,UK,,2.5,5.01,3.56,11.08,32.21,50.48,5535.72,0.0,9.0,2024-05-19,Fitness,Evening,Basic,White,Yes,0.0
+C0756,47.0,Other,UnknownLand,Brisbane,0.08,3.93,3.6,7.61,40.14,47.83,4099.52,3.0,8.0,2023-11-29,Recreation,Evening,Premium,Black,Yes,0.0
+C0757,63.0,Male,USA,Los Angeles,3.04,3.55,0.65,7.23,13.96,61.88,3342.12,4.0,3.0,2024-10-26,Fitness,Morning,Free,Black,Yes,0.0
+C0758,54.0,Female,USA,New York,1.88,6.98,0.84,9.7,39.04,56.6,,0.0,2.0,2024-10-23,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0759,45.0,Other,India,Delhi,6.92,11.5,6.56,24.98,61.02,36.13,12429.64,0.0,9.0,2024-04-18,Competition,Morning,Basic,Black,No,1.0
+C0760,48.0,Other,USA,New York,1.93,2.73,0.92,5.58,44.4,47.1,2760.42,2.0,8.0,2024-11-29,Recreation,Morning,Free,Black,Yes,1.0
+C0761,28.0,Male,UK,,1.97,2.93,7.1,11.99,63.48,36.05,6249.62,3.0,1.0,2023-12-16,Competition,Afternoon,Premium,White,Yes,1.0
+C0762,40.0,Male,UK,Manchester,2.41,0.0,1.72,4.13,51.16,41.93,2101.54,4.0,2.0,2024-07-21,Recreation,Evening,Premium,White,No,0.0
+C0763,19.0,Male,USA,Los Angeles,1.35,3.12,3.67,8.14,50.32,42.74,3797.53,1.0,0.0,2023-11-10,Competition,Morning,Premium,Black,Yes,0.0
+C0765,58.0,Male,India,Mumbai,1.25,5.98,0.78,8.01,26.51,55.58,3956.5,4.0,1.0,2024-07-24,Competition,Evening,Basic,Black,No,0.0
+C0766,44.0,Other,USA,Los Angeles,2.94,7.64,0.0,10.58,52.5,48.6,5568.51,1.0,2.0,2024-07-24,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0767,52.0,Other,India,Delhi,3.22,7.23,5.31,15.76,51.65,45.59,7939.2,3.0,1.0,2024-03-27,Fitness,Afternoon,Premium,White,Yes,0.0
+C0768,19.0,Male,India,Delhi,1.39,3.19,0.91,5.48,51.51,43.37,2823.43,3.0,1.0,2024-09-18,Competition,Evening,Basic,Black,Yes,1.0
+C0769,56.0,Male,USA,Los Angeles,3.41,1.83,3.85,9.09,41.19,50.91,4673.7,4.0,1.0,2023-12-12,Recreation,Morning,Premium,Black,No,1.0
+C0770,54.0,Other,Germany,Munich,2.6,2.92,4.56,10.07,44.36,52.46,5199.31,1.0,7.0,2024-05-08,,Evening,Premium,Black,Yes,0.0
+C0771,38.0,Female,Germany,Munich,2.13,5.76,1.54,9.43,55.4,40.52,4796.93,3.0,8.0,2024-04-09,Recreation,Morning,Basic,Black,,0.0
+C0772,22.0,Male,India,Delhi,3.23,3.9,2.66,9.8,53.7,43.86,4740.46,4.0,0.0,2024-12-31,Recreation,Morning,Premium,White,No,1.0
+C0773,62.0,Male,USA,New York,0.45,7.93,2.93,11.31,23.2,60.56,5878.78,3.0,2.0,2024-09-15,Recreation,Afternoon,Premium,Black,No,1.0
+C0774,38.0,Other,Germany,Munich,2.63,5.48,6.23,14.33,65.44,34.42,7306.55,3.0,6.0,2024-10-29,Fitness,Morning,Premium,White,Yes,1.0
+C0775,46.0,Male,USA,New York,0.09,6.58,3.47,10.14,49.14,44.41,5213.86,3.0,4.0,2024-05-14,Recreation,Morning,Basic,Black,Yes,1.0
+C0776,37.0,Female,USA,Chicago,0.0,1.38,4.53,5.91,58.85,42.17,3252.8,2.0,2.0,2024-12-28,Fitness,Evening,Premium,White,No,0.0
+C0777,55.0,Other,USA,Chicago,3.89,3.92,1.73,9.54,41.33,55.22,4950.77,1.0,8.0,2024-10-14,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0778,37.0,Male,Australia,Sydney,2.58,3.73,6.98,13.3,58.09,36.27,,4.0,5.0,2023-11-06,Fitness,Morning,Basic,Black,No,1.0
+C0779,42.0,Other,USA,Los Angeles,6.28,9.85,2.05,18.19,58.56,44.35,9363.57,4.0,0.0,2024-03-06,Competition,Morning,Free,White,Yes,1.0
+C0780,19.0,Male,Australia,Sydney,6.69,8.66,4.46,19.8,65.75,36.72,9690.99,1.0,0.0,2024-08-13,Competition,Afternoon,Free,Black,Yes,1.0
+C0781,49.0,Male,India,Bangalore,0.0,2.07,5.12,7.19,45.45,48.13,3591.73,1.0,4.0,2024-03-18,Fitness,,Premium,Black,Yes,0.0
+C0782,43.0,Male,Germany,Berlin,2.0,1.76,0.11,3.88,47.0,49.58,1986.67,1.0,6.0,2024-04-08,Competition,Afternoon,Basic,Black,Yes,0.0
+C0783,23.0,Female,Germany,Hamburg,0.0,0.0,5.07,5.07,53.57,41.14,2433.76,1.0,2.0,2023-12-03,Recreation,Afternoon,Free,Black,Yes,0.0
+C0784,58.0,Female,Germany,Berlin,1.14,0.0,0.15,1.29,24.6,62.18,846.38,0.0,7.0,2024-08-01,Recreation,Morning,Premium,Black,Yes,0.0
+C0785,20.0,Other,Germany,Berlin,1.58,1.95,4.99,8.52,49.74,40.57,4416.95,4.0,1.0,2024-06-26,,Morning,Free,White,Yes,0.0
+C0786,50.0,Male,Germany,Berlin,0.0,0.0,1.26,1.26,41.89,52.54,762.5,0.0,4.0,2024-01-27,Recreation,Evening,Free,Black,Yes,0.0
+C0787,18.0,Male,Germany,Berlin,0.5,1.96,1.6,4.06,48.83,45.83,2328.2,3.0,0.0,2023-12-29,Fitness,Morning,Basic,Black,Yes,1.0
+C0788,22.0,Female,Germayn,Berlin,2.2,2.0,2.72,6.91,45.37,41.31,3312.86,3.0,4.0,2024-09-11,Fitness,Morning,Basic,White,Yes,1.0
+C0789,30.0,Male,India,Bangalore,2.3,6.81,2.91,12.01,61.73,40.1,6146.95,4.0,8.0,2024-06-13,Recreation,Afternoon,Free,Black,Yes,0.0
+C0790,36.0,Female,USA,New York,3.56,4.75,5.5,13.81,59.08,36.0,6937.63,3.0,8.0,2024-02-02,Competition,Morning,Free,White,Yes,1.0
+C0791,29.0,Male,UK,London,1.2,2.67,4.67,8.54,65.46,38.28,4156.79,1.0,11.0,2024-12-17,Recreation,Evening,Basic,White,Yes,0.0
+C0792,42.0,Other,Australia,Sydney,3.04,3.98,0.97,7.99,51.34,44.0,3789.31,0.0,1.0,2023-12-05,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0793,52.0,Male,UK,Manchester,2.96,7.38,0.0,10.34,38.6,50.35,5406.79,1.0,2.0,2024-04-07,Fitness,Evening,Basic,Black,Yes,0.0
+C0794,29.0,Male,UK,Birmingham,0.0,6.72,4.12,10.85,62.8,37.66,5480.35,3.0,8.0,2024-12-16,Fitness,Afternoon,Free,Black,Yes,0.0
+C0795,47.0,Female,USA,New York,2.69,5.01,1.01,8.72,46.24,50.14,4552.48,0.0,9.0,2024-07-21,Fitness,Morning,Premium,White,No,1.0
+C0796,22.0,Male,USA,Chicago,1.48,6.03,4.74,12.25,56.74,38.37,6151.21,1.0,4.0,2024-04-16,Fitness,Afternoon,Free,White,Yes,0.0
+C0797,51.0,Male,USA,New York,4.07,10.24,6.91,21.22,54.2,44.15,10442.07,4.0,9.0,2023-12-08,Competition,Afternoon,Premium,Black,Yes,1.0
+C0798,39.0,Female,Germany,Munich,4.59,11.61,1.41,17.61,59.12,39.74,8709.65,1.0,5.0,2024-11-04,Competition,Morning,Free,Black,No,0.0
+C0799,56.0,Other,India,Bangalore,2.3,8.79,4.24,15.32,33.85,50.76,7590.86,3.0,0.0,2024-03-01,Competition,Morning,Premium,Black,Yes,0.0
+C0800,30.0,Other,Germany,Munich,4.53,7.46,4.37,16.37,71.44,35.04,8467.22,0.0,8.0,2024-07-30,Fitness,Evening,Premium,White,Yes,1.0
+C0801,64.0,Female,India,Delhi,0.0,8.03,2.75,10.78,20.26,61.05,5092.18,4.0,4.0,2024-02-03,Fitness,Evening,Free,Black,Yes,0.0
+C0802,20.0,Female,India,Mumbai,2.36,5.82,2.49,10.67,56.15,43.08,5626.94,0.0,1.0,2024-11-27,Fitness,Morning,Premium,,Yes,1.0
+C0803,37.0,Female,UK,Birmingham,2.44,8.31,4.34,15.1,62.28,39.26,7837.98,4.0,3.0,2024-05-17,Competition,Morning,Basic,Black,Yes,1.0
+C0804,48.0,Female,UK,Birmingham,2.82,5.78,0.0,8.61,49.18,48.04,4601.68,0.0,2.0,2024-12-16,Fitness,Morning,Free,White,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0805,22.0,Female,India,Bangalore,0.89,6.38,1.81,9.08,60.89,42.5,4526.71,3.0,2.0,2024-07-24,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0806,41.0,Other,India,Bangalore,1.33,1.4,0.24,2.96,47.85,48.77,,4.0,1.0,2024-11-06,Recreation,Afternoon,Free,Black,Yes,0.0
+C0808,-1.0,Female,Germany,Berlin,1.74,1.49,0.88,4.11,39.28,48.41,1768.41,0.0,7.0,2024-08-24,Recreation,,Premium,Black,Yes,0.0
+C0809,25.0,Male,UK,Manchester,1.98,3.49,0.98,6.45,56.08,44.14,3061.92,0.0,4.0,2024-08-20,Recreation,Evening,Premium,Black,Yes,0.0
+C0810,41.0,Female,USA,New York,0.0,9.05,3.55,12.6,58.37,38.67,6568.47,1.0,7.0,2024-09-20,Competition,Morning,Free,White,Yes,0.0
+C0811,37.0,Male,India,Bangalore,4.85,4.15,3.22,12.23,60.14,43.19,5820.77,4.0,0.0,2024-09-04,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0812,33.0,Female,Germany,Berlin,1.73,6.02,2.38,10.12,62.81,41.44,5088.5,2.0,4.0,2024-07-22,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0813,29.0,Female,UK,Manchester,2.0,1.61,9.16,12.77,64.15,33.13,6128.07,3.0,3.0,2023-10-24,Competition,Morning,Free,Black,Yes,1.0
+C0814,30.0,Other,Germany,Hamburg,1.76,3.25,1.2,6.21,51.94,42.14,2975.42,1.0,0.0,2024-08-17,Recreation,Morning,Free,Black,Yes,0.0
+C0815,62.0,Male,India,Bangalore,2.21,1.98,3.4,7.6,15.62,61.0,3550.76,2.0,3.0,2024-09-11,Recreation,Afternoon,Basic,White,Yes,0.0
+C0816,59.0,Male,India,Delhi,0.82,4.92,1.95,7.7,26.12,55.87,4063.31,4.0,3.0,2024-12-08,Fitness,,Basic,Black,,0.0
+C0817,56.0,Other,Australia,Melbourne,4.03,3.68,4.18,11.89,43.47,54.54,5997.43,2.0,5.0,2024-09-30,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0818,42.0,Other,USA,Chicago,4.3,12.53,5.39,22.22,60.9,38.8,11351.95,0.0,9.0,2024-02-24,Competition,Morning,Basic,Black,Yes,1.0
+C0819,63.0,Other,Australia,Sydney,1.35,15.17,3.16,19.68,26.42,57.78,9954.71,0.0,3.0,2023-10-25,Competition,Afternoon,Free,Black,Yes,0.0
+C0820,49.0,Other,UK,London,0.51,1.63,3.48,5.61,41.73,47.99,3089.18,1.0,4.0,2024-01-11,Fitness,Afternoon,Free,Black,Yes,0.0
+C0821,41.0,Male,Germany,Hamburg,5.24,,3.74,16.99,58.98,38.09,8500.43,4.0,6.0,2024-02-27,Competition,Evening,Premium,Black,Yes,1.0
+C0822,64.0,Male,UK,Birmingham,0.54,1.55,6.18,8.26,16.91,57.4,4212.91,4.0,1.0,2024-10-04,Competition,Morning,Basic,Black,Yes,0.0
+C0823,61.0,Female,India,Bangalore,5.89,0.77,1.61,8.28,28.67,61.73,4183.53,2.0,5.0,2024-11-04,Fitness,Evening,Premium,Black,Yes,0.0
+C0824,26.0,Female,Australia,Sydney,3.49,2.87,11.42,17.78,67.19,31.23,8880.17,1.0,1.0,2024-03-17,Competition,Evening,Free,Black,Yes,1.0
+C0825,57.0,Other,Australia,Sydney,1.56,10.51,6.11,18.18,36.43,50.34,9298.34,4.0,7.0,2024-04-01,Competition,Afternoon,Free,Black,,1.0
+C0826,40.0,Other,Australia,Brisbane,3.64,9.15,7.31,20.1,74.3,33.77,10138.03,0.0,8.0,2024-04-07,Competition,Morning,Premium,White,Yes,1.0
+C0827,30.0,Other,UK,,0.58,3.58,2.25,6.41,57.97,42.08,3387.15,2.0,5.0,2023-10-14,Recreation,Afternoon,Basic,Black,Yes,1.0
+C0828,49.0,Female,India,Bangalore,4.87,3.77,2.27,10.91,45.51,45.11,5627.98,3.0,5.0,2024-01-11,Fitness,Morning,Basic,White,Yes,0.0
+C0829,32.0,Female,Germany,Hamburg,2.71,2.06,4.04,8.81,64.53,39.93,4220.29,0.0,1.0,2024-12-29,Fitness,Evening,Basic,Black,Yes,0.0
+C0830,53.0,Female,Germany,Berlin,3.41,7.0,4.94,15.36,42.98,47.89,7770.81,1.0,2.0,2023-12-23,Fitness,Morning,Basic,Black,Yes,0.0
+C0831,22.0,Female,UK,Birmingham,0.19,5.05,4.65,9.89,64.04,40.59,4763.47,4.0,1.0,2024-07-26,Recreation,,Premium,Black,Yes,1.0
+C0832,39.0,Female,Australia,Sydney,2.98,2.79,2.56,8.33,52.87,44.77,4214.24,0.0,3.0,2024-09-11,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0833,33.0,Female,USA,Los Angeles,3.82,8.96,4.67,17.46,70.82,39.12,8835.94,3.0,7.0,2024-05-03,Fitness,Afternoon,Free,Black,Yes,1.0
+C0835,27.0,Other,UK,Manchester,3.12,8.37,4.15,15.64,68.96,40.76,7539.97,1.0,0.0,2023-12-22,Fitness,Evening,Basic,,Yes,1.0
+C0836,41.0,Other,India,Bangalore,1.05,5.67,2.89,9.61,62.61,44.24,4560.63,0.0,3.0,2024-10-24,Recreation,Evening,Basic,Black,Yes,0.0
+C0837,35.0,Other,Germany,Munich,0.72,9.33,4.46,14.51,58.55,40.88,7001.27,2.0,3.0,2024-08-30,,Morning,Premium,Black,Yes,1.0
+C0838,35.0,Other,UK,London,2.73,12.74,9.3,24.77,75.07,33.45,12324.68,0.0,0.0,2023-10-26,Competition,Afternoon,Basic,Black,Yes,1.0
+C0839,24.0,Female,UK,Birmingham,2.7,9.11,1.69,13.5,56.37,42.7,6941.69,3.0,4.0,2023-11-26,Fitness,Evening,Premium,Black,Yes,1.0
+C0841,43.0,Female,Australia,Melbourne,0.5,3.26,2.39,6.15,48.25,42.06,3214.93,1.0,5.0,2024-07-08,Recreation,Morning,Basic,White,Yes,0.0
+C0842,22.0,Male,USA,New York,1.59,12.56,2.31,16.46,64.61,42.7,8470.19,2.0,4.0,2024-01-29,Competition,Afternoon,Free,White,Yes,1.0
+C0843,33.0,Other,India,Delhi,2.47,1.48,3.2,7.15,58.01,40.49,3468.95,1.0,8.0,2024-04-20,Competition,Evening,Basic,Black,Yes,0.0
+C0844,52.0,Female,USA,Los Angeles,3.03,0.0,2.29,5.33,38.33,53.21,2415.41,1.0,8.0,2024-05-12,Recreation,Evening,Basic,Black,No,1.0
+C0845,43.0,Other,Australia,Sydney,0.97,3.76,2.42,7.16,52.51,43.4,3313.24,1.0,0.0,2024-05-30,Recreation,Afternoon,Free,White,Yes,0.0
+C0846,35.0,Female,Germany,Munich,3.07,5.34,4.18,12.58,63.51,38.19,6502.62,1.0,8.0,2024-04-02,Recreation,Morning,Premium,White,Yes,0.0
+C0847,46.0,Other,Australia,Melbourne,1.65,5.73,6.26,13.64,56.02,42.34,6955.81,1.0,7.0,2023-12-30,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0848,40.0,Male,India,Bangalore,1.98,6.58,1.24,9.8,60.53,46.3,5017.94,3.0,1.0,2024-04-17,Recreation,Morning,Basic,White,Yes,1.0
+C0849,31.0,Male,Australia,Melbourne,0.94,4.91,0.49,6.34,64.33,40.79,3075.52,0.0,0.0,2024-03-18,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0850,32.0,Male,India,Bangalore,5.87,1.49,3.51,10.86,60.74,41.57,5359.13,4.0,0.0,2024-10-14,Fitness,Evening,Basic,White,No,1.0
+C0851,-1.0,Female,India,Mumbai,0.0,2.57,2.54,5.11,39.98,51.19,2831.74,1.0,5.0,2024-03-25,Recreation,Morning,Free,Black,Yes,0.0
+C0852,42.0,Male,India,Delhi,5.26,14.54,5.86,25.66,68.87,35.78,12568.14,4.0,8.0,2024-11-11,Competition,Morning,Free,Black,Yes,1.0
+C0853,38.0,Female,India,Mumbai,3.32,3.41,1.51,8.23,52.42,42.26,4281.49,4.0,6.0,2024-07-27,Fitness,Morning,Basic,White,Yes,0.0
+C0854,34.0,Male,India,Bangalore,2.54,2.36,3.09,7.99,55.74,37.91,3880.68,3.0,4.0,2024-08-11,Recreation,Evening,Free,Black,Yes,0.0
+C0855,40.0,Male,Germany,Hamburg,2.5,3.28,8.07,13.86,63.18,33.25,6651.04,1.0,1.0,2023-11-23,Competition,Afternoon,Free,Black,Yes,1.0
+C0856,60.0,Female,USA,Chicago,0.11,6.21,1.07,7.38,24.62,60.32,3837.99,4.0,0.0,2023-11-06,Fitness,Evening,Basic,Black,Yes,0.0
+C0857,34.0,Female,UK,Manchester,1.56,14.44,4.47,20.47,63.02,34.33,10134.46,1.0,1.0,2023-12-29,Competition,Morning,Basic,White,No,1.0
+C0858,31.0,Male,USA,Chicago,1.02,4.52,2.98,8.53,53.69,38.5,4396.28,2.0,0.0,2023-12-30,Recreation,Afternoon,Free,White,Yes,1.0
+C0859,46.0,Female,India,Bangalore,1.23,7.88,2.69,11.8,52.37,47.15,6025.22,2.0,2.0,2024-10-31,Recreation,Evening,Premium,Black,No,1.0
+C0860,37.0,Male,Germany,Munich,1.34,0.0,3.1,4.44,58.63,42.42,2239.58,2.0,5.0,2024-08-22,Recreation,Morning,Premium,Black,,0.0
+C0861,47.0,Female,Australia,Melbourne,2.47,8.56,3.2,14.23,56.94,45.54,7279.05,4.0,7.0,2023-11-05,Recreation,Morning,Basic,White,Yes,0.0
+C0862,36.0,Other,Germany,Munich,2.77,7.87,6.81,17.46,64.93,33.54,8776.63,2.0,2.0,2024-09-20,Fitness,Evening,Basic,Black,Yes,1.0
+C0863,56.0,Other,India,Bangalore,0.99,2.8,5.48,9.28,42.21,53.15,4512.2,3.0,9.0,2023-11-21,Fitness,Evening,Premium,Black,Yes,0.0
+C0864,30.0,Other,Germany,Hamburg,1.92,11.53,5.37,18.82,66.48,38.07,9551.39,3.0,8.0,2024-02-27,Competition,Evening,Free,White,Yes,1.0
+C0865,35.0,Other,Germany,Munich,1.61,2.13,3.69,7.43,56.99,40.47,3767.58,4.0,9.0,2024-05-24,Recreation,,Premium,Black,Yes,1.0
+C0866,40.0,Other,India,Delhi,2.43,9.02,5.96,17.41,52.61,40.03,8411.53,1.0,4.0,2024-09-13,Competition,Evening,Premium,Black,Yes,1.0
+C0867,63.0,Male,Germany,Berlin,1.72,7.05,0.11,8.88,17.53,66.96,4680.65,0.0,3.0,2024-05-15,Fitness,Morning,Premium,Black,Yes,0.0
+C0868,50.0,Other,UK,London,1.06,6.89,0.78,8.72,47.73,51.86,4389.05,1.0,1.0,2024-06-15,Recreation,Evening,Premium,Black,Yes,0.0
+C0869,56.0,Other,UK,Manchester,2.43,5.02,4.09,11.54,42.24,53.53,5990.18,1.0,1.0,2024-08-16,Recreation,Morning,Basic,White,Yes,0.0
+C0870,57.0,Other,Germany,Munich,3.19,2.15,2.56,7.9,28.72,53.07,4178.68,1.0,4.0,2024-05-24,Fitness,,Basic,Black,Yes,0.0
+C0871,35.0,Other,Australia,Sydney,3.74,8.81,4.29,16.85,66.19,36.46,8390.46,1.0,0.0,2024-05-10,Fitness,Afternoon,Free,Black,Yes,0.0
+C0872,26.0,Female,India,Delhi,3.65,1.88,0.27,5.8,60.51,41.29,2907.05,0.0,7.0,2024-02-27,Fitness,Evening,Free,Black,Yes,0.0
+C0873,50.0,Male,UK,Birmingham,0.19,9.49,4.47,14.14,48.63,42.76,7019.16,2.0,8.0,2024-01-29,Fitness,Evening,Free,Black,Yes,0.0
+C0874,49.0,Other,Australia,Brisbane,0.0,11.31,3.34,14.65,41.96,43.9,7295.24,1.0,6.0,2024-10-31,Fitness,Morning,Free,Black,Yes,1.0
+C0875,34.0,Other,Germany,Hamburg,0.29,8.08,3.39,11.76,61.96,41.86,6118.61,3.0,5.0,2024-06-29,Recreation,Morning,Premium,White,Yes,0.0
+C0876,36.0,Other,Australia,Melbourne,2.44,1.8,3.5,7.74,60.15,39.11,4045.35,4.0,8.0,2023-12-08,Fitness,,Basic,Black,No,0.0
+C0877,44.0,Male,USA,Los Angeles,0.91,6.99,2.01,9.91,49.5,47.75,4730.88,4.0,6.0,2024-04-04,Recreation,Afternoon,Basic,White,Yes,0.0
+C0878,23.0,Female,UK,London,1.9,7.06,3.15,12.11,59.14,41.0,6119.0,3.0,0.0,2024-05-18,Recreation,Afternoon,Free,Black,Yes,1.0
+C0879,52.0,Male,Germany,Munich,4.06,9.88,1.52,15.46,42.18,48.49,8027.23,1.0,4.0,2023-12-06,Fitness,Morning,Free,Black,Yes,0.0
+C0880,54.0,Female,India,Delhi,3.87,0.33,2.77,6.98,27.26,52.34,3546.48,0.0,8.0,2024-03-04,Fitness,Evening,Premium,Black,Yes,0.0
+C0881,51.0,Other,Germany,Berlin,0.85,1.12,1.71,3.68,43.13,49.69,2011.99,2.0,5.0,2024-09-22,Recreation,Evening,Premium,White,Yes,0.0
+C0882,37.0,Other,India,Delhi,2.04,1.7,2.16,5.91,55.47,45.54,3115.39,4.0,5.0,2024-09-22,Fitness,Afternoon,Free,White,Yes,0.0
+C0883,42.0,Male,Germany,Berlin,0.31,8.19,6.62,15.12,64.71,40.31,7472.4,2.0,3.0,2024-08-09,Fitness,Afternoon,Basic,Black,Yes,1.0
+C0884,21.0,Male,Australia,Melbourne,2.47,9.72,1.48,13.67,63.23,39.56,6758.39,0.0,3.0,2024-06-16,Fitness,Morning,Basic,Black,Yes,1.0
+,,,,,,,,,247.2578,,,,,,,,,,,
+C0885,27.0,Female,Australia,,3.58,11.5,5.13,20.21,66.25,38.69,10239.78,4.0,9.0,2024-07-06,Competition,Evening,Basic,Black,No,1.0
+C0886,27.0,Female,Australia,Melbourne,0.37,2.13,0.7,3.2,54.66,45.17,1601.91,2.0,5.0,2024-09-16,Recreation,Morning,Free,,Yes,0.0
+C0887,41.0,Male,USA,Los Angeles,5.75,8.63,5.84,20.21,65.51,35.03,10149.63,0.0,8.0,2024-03-16,Competition,Afternoon,Basic,Black,Yes,1.0
+C0888,38.0,Female,India,Bangalore,2.38,7.46,2.67,12.52,63.41,42.12,6389.06,2.0,7.0,2023-11-03,Fitness,Evening,Premium,White,Yes,0.0
+C0889,-1.0,Male,Australia,Brisbane,1.9,9.88,5.01,16.79,66.41,37.59,8561.68,1.0,3.0,2024-01-31,Competition,Evening,Premium,White,Yes,1.0
+C0890,44.0,Female,USA,Los Angeles,3.71,8.96,3.61,16.28,61.82,40.37,8002.16,0.0,4.0,2024-04-30,Fitness,Afternoon,Free,Black,Yes,1.0
+C0891,33.0,Male,India,Bangalore,2.23,10.7,5.92,18.85,65.45,37.04,9213.43,2.0,8.0,2024-08-12,Competition,Morning,Premium,White,Yes,1.0
+C0892,43.0,Male,Germany,Berlin,3.26,6.05,0.36,9.68,50.14,43.6,4712.94,1.0,2.0,2023-11-08,Fitness,Morning,Free,Black,Yes,0.0
+C0893,47.0,Male,USA,Chicago,1.05,7.16,5.29,13.5,51.99,42.73,6756.37,1.0,2.0,2023-10-14,Competition,Evening,Basic,Black,Yes,1.0
+C0894,33.0,Female,UK,London,3.67,11.22,4.39,19.28,67.63,34.0,9543.86,0.0,0.0,2024-01-23,Competition,Afternoon,Basic,Black,Yes,1.0
+C0895,24.0,Female,USA,New York,2.1,6.01,2.81,10.92,55.23,43.54,5501.13,3.0,6.0,2024-03-13,Competition,,Basic,Black,Yes,1.0
+C0896,33.0,Female,USA,New York,2.72,0.63,2.04,5.4,51.64,43.57,2430.24,4.0,5.0,2024-01-27,Recreation,Afternoon,Premium,White,Yes,1.0
+C0897,52.0,Male,India,Bangalore,0.0,2.26,7.18,9.44,43.66,43.56,4727.23,0.0,1.0,2024-11-06,Competition,Morning,Free,Black,Yes,0.0
+C0898,33.0,Female,Germany,Munich,0.27,0.0,2.5,2.77,53.14,41.18,1303.33,1.0,7.0,2023-12-20,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0899,57.0,Female,UK,Manchester,3.66,7.24,2.65,13.55,35.36,52.18,6794.87,1.0,8.0,2024-11-05,Fitness,Morning,Free,Black,Yes,0.0
+C0901,52.0,Other,Australia,Sydney,4.11,3.4,1.74,9.25,47.49,48.45,4496.65,3.0,1.0,2024-03-07,Fitness,Evening,Premium,Black,Yes,0.0
+C0902,38.0,Male,USA,Chicago,0.01,4.51,1.16,5.68,59.44,46.03,3082.6,4.0,1.0,2024-03-26,Fitness,Morning,Premium,Black,Yes,1.0
+C0903,60.0,Female,India,Delhi,0.85,10.33,4.9,16.08,26.94,57.53,7851.44,2.0,6.0,2023-12-11,Competition,Evening,Free,Black,Yes,0.0
+C0904,53.0,Male,India,Bangalore,2.79,3.71,3.37,9.86,38.67,51.3,,0.0,3.0,2023-10-14,Recreation,Evening,Premium,White,Yes,1.0
+C0905,34.0,Other,Australia,Brisbane,4.57,8.27,1.54,14.38,66.13,39.18,7444.33,4.0,0.0,2024-06-21,Competition,Morning,Premium,White,Yes,1.0
+C0906,49.0,Male,UK,Manchester,3.26,0.0,5.54,8.8,48.31,44.08,4424.32,4.0,7.0,2024-10-27,Fitness,Morning,Free,Black,,0.0
+C0907,58.0,Female,Germany,Munich,3.3,2.36,2.55,8.21,29.83,56.35,4330.78,1.0,1.0,2024-05-18,Fitness,Evening,Basic,White,Yes,0.0
+C0908,23.0,Other,UK,London,1.0,4.5,1.74,7.24,52.26,43.42,,2.0,0.0,2024-01-08,Competition,Evening,Premium,Black,Yes,1.0
+C0909,41.0,Female,Germany,Berlin,2.65,2.99,2.04,7.68,51.61,44.85,3837.68,0.0,2.0,2023-12-16,Recreation,Evening,Free,Black,Yes,0.0
+C0910,44.0,Other,Australia,Melbourne,1.71,4.53,4.88,11.12,51.99,42.14,5535.18,1.0,4.0,2024-04-22,Recreation,Evening,Premium,Black,Yes,0.0
+C0912,42.0,Male,India,Delhi,3.26,5.9,2.04,11.19,62.19,45.95,5561.37,3.0,6.0,2024-10-05,Fitness,Morning,Premium,Black,,1.0
+C0913,19.0,Male,USA,Chicago,2.01,4.64,1.62,8.27,52.03,41.63,4057.72,4.0,1.0,2024-02-05,Recreation,Evening,Premium,White,Yes,1.0
+C0914,26.0,Female,USA,New York,0.13,1.66,2.27,4.06,51.54,42.03,2132.61,0.0,7.0,2024-06-23,Competition,Afternoon,Free,Black,Yes,0.0
+C0915,45.0,Male,Australia,Melbourne,0.86,1.69,4.11,6.66,49.13,45.71,3594.23,0.0,6.0,2024-07-23,Fitness,Afternoon,Free,,Yes,0.0
+C0916,55.0,Male,India,Bangalore,0.75,5.47,3.25,9.48,40.63,49.72,4489.71,0.0,5.0,2024-12-10,Recreation,Morning,Free,Black,Yes,0.0
+C0917,20.0,Other,UK,Birmingham,1.58,8.44,0.4,10.41,51.58,45.75,5103.55,1.0,1.0,2024-09-17,Fitness,Evening,Premium,White,Yes,1.0
+C0918,37.0,Male,India,Delhi,5.11,3.94,2.12,11.17,64.76,43.54,5550.24,3.0,8.0,2024-11-26,Competition,Evening,Premium,Black,Yes,1.0
+C0919,23.0,Other,USA,Los Angeles,2.1,4.17,4.19,10.46,58.22,40.66,5200.87,2.0,1.0,2024-04-09,Recreation,Morning,Premium,Black,Yes,1.0
+C0920,56.0,Other,USA,Chicago,0.0,9.52,4.28,13.8,35.4,48.56,7065.39,1.0,8.0,2023-11-16,Fitness,Afternoon,Free,Black,No,0.0
+C0921,50.0,Other,India,Bangalore,1.64,8.25,6.16,16.05,44.08,41.72,7990.13,2.0,1.0,2024-05-01,Competition,Afternoon,Premium,Black,Yes,0.0
+C0922,18.0,Female,India,Delhi,3.91,7.41,2.94,14.25,60.77,41.15,6843.5,3.0,0.0,2024-12-25,,Afternoon,Basic,Black,Yes,1.0
+C0923,54.0,Female,USA,Los Angeles,2.2,3.86,7.51,13.57,41.01,44.7,6908.61,4.0,6.0,2024-10-24,Competition,Morning,Premium,White,Yes,1.0
+C0924,23.0,Female,UK,Birmingham,0.3,2.92,2.45,5.67,55.94,45.17,3066.08,0.0,1.0,2023-11-01,Competition,Afternoon,Basic,Black,No,0.0
+C0925,62.0,Other,Australia,Brisbane,2.79,5.62,0.52,8.93,18.3,64.09,4471.96,2.0,5.0,2024-05-21,Recreation,Morning,Premium,Black,Yes,0.0
+C0926,51.0,Female,Australia,Melbourne,3.35,,1.18,11.74,44.11,49.08,5919.03,1.0,5.0,2023-10-20,Competition,Morning,Free,Black,Yes,0.0
+C0927,64.0,Female,India,Delhi,0.32,2.57,2.88,5.77,12.6,66.66,2682.83,2.0,1.0,2024-06-02,Fitness,Evening,Premium,White,No,1.0
+C0928,32.0,Male,Australia,Brisbane,3.65,9.77,2.25,15.67,64.01,41.14,7666.48,4.0,6.0,2023-11-19,Competition,Afternoon,Basic,Black,Yes,1.0
+C0929,62.0,Female,USA,Los Angeles,1.05,10.62,3.65,15.32,23.89,57.47,7502.11,0.0,4.0,2024-12-25,Competition,,Basic,Black,Yes,1.0
+C0930,43.0,Female,USA,Los Angeles,2.25,7.97,2.74,12.96,50.59,42.32,6439.47,2.0,0.0,2024-03-19,Recreation,Afternoon,Premium,White,Yes,1.0
+C0931,31.0,Other,India,Delhi,3.56,14.7,5.43,23.7,80.54,33.05,12106.35,4.0,8.0,2024-07-31,Competition,Afternoon,Basic,Black,Yes,1.0
+C0932,24.0,Other,India,Delhi,1.1,13.54,8.76,100.0,63.87,35.11,100.0,1.0,3.0,2024-05-17,Competition,Evening,Basic,Black,Yes,1.0
+C0933,63.0,Other,India,Mumbai,1.67,2.57,0.99,5.23,17.16,64.85,2429.17,3.0,2.0,2024-07-30,Fitness,Afternoon,Free,Black,Yes,0.0
+C0934,48.0,Other,UK,London,0.0,5.29,2.19,7.48,39.91,50.17,3597.72,1.0,7.0,2024-05-05,Recreation,Evening,Premium,Black,No,0.0
+C0935,41.0,Other,Australia,Brisbane,4.19,7.32,3.31,14.82,52.03,40.23,7340.26,0.0,1.0,2024-10-08,Recreation,Morning,Premium,Black,No,0.0
+C0936,48.0,Other,India,Mumbai,2.02,3.07,0.47,5.57,45.42,52.06,2856.55,1.0,4.0,2024-09-02,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0937,46.0,Female,Germany,Munich,2.34,0.31,8.97,11.62,52.7,36.15,5774.71,1.0,5.0,2024-05-11,Competition,Morning,Basic,Black,Yes,0.0
+C0938,59.0,Other,Germany,Berlin,1.25,6.18,4.04,11.48,34.96,58.37,5673.52,1.0,7.0,2024-03-07,Recreation,Afternoon,Premium,,Yes,0.0
+C0939,49.0,Other,USA,Chicago,0.38,4.01,4.19,8.58,47.39,48.79,4327.74,1.0,0.0,2023-12-08,Competition,Morning,Premium,Black,Yes,0.0
+C0940,34.0,Male,Australia,Brisbane,5.74,10.9,7.11,23.76,69.37,32.64,11722.91,0.0,0.0,2024-05-05,Competition,Afternoon,Free,Black,Yes,0.0
+C0941,31.0,Female,India,Bangalore,0.34,0.0,0.11,0.45,49.71,46.47,-28.25,4.0,3.0,2023-10-21,Fitness,Afternoon,Free,Black,Yes,1.0
+C0942,57.0,Female,Germany,Berlin,1.02,0.0,2.92,3.95,34.41,57.38,1688.93,2.0,4.0,2024-03-25,Fitness,Afternoon,Free,White,Yes,0.0
+C0942,58.0,Female,Germany,Berlin,1.02,0.0,2.92,3.95,34.41,57.38,1688.93,2.0,4.0,2024-03-25,Fitness,Afternoon,Free,White,Yes,0.0
+C0943,53.0,Female,Australia,Sydney,2.51,8.19,0.0,10.7,44.7,55.85,5198.64,3.0,8.0,2024-01-06,Fitness,Afternoon,Basic,Black,Yes,0.0
+C0944,41.0,Other,USA,New York,1.75,3.56,0.77,6.09,48.34,44.27,2798.61,2.0,6.0,2024-11-24,Fitness,Afternoon,Premium,,No,1.0
+C0945,62.0,Other,UK,Birmingham,1.66,3.9,0.0,5.57,19.28,64.16,2684.6,2.0,5.0,2024-08-22,Fitness,Afternoon,Free,Black,Yes,0.0
+C0946,44.0,Other,Australia,Melbourne,1.18,10.43,3.89,15.5,57.68,44.12,7915.86,3.0,4.0,2024-06-02,Competition,Afternoon,Free,Black,Yes,1.0
+C0947,42.0,Male,Australia,Melbourne,1.11,2.96,5.53,9.61,53.43,42.1,4933.72,0.0,0.0,2024-12-09,Competition,Afternoon,Free,Black,Yes,0.0
+C0948,49.0,Other,UK,Birmingham,0.22,1.16,1.79,3.18,44.77,49.16,1654.23,3.0,8.0,2024-09-28,Recreation,Afternoon,Premium,Black,Yes,0.0
+C0949,35.0,Male,Australia,Brisbane,0.49,6.75,4.06,11.3,63.45,41.25,5861.14,0.0,5.0,2024-04-13,Competition,Morning,Premium,Black,Yes,1.0
+C0950,63.0,Female,USA,Chicago,3.38,1.64,1.48,6.5,16.72,61.28,3118.43,2.0,1.0,2023-11-25,Competition,Evening,Premium,Black,,0.0
+C0951,35.0,Other,USA,Chicago,5.26,7.35,3.44,16.04,62.84,40.55,8253.26,0.0,2.0,2024-05-21,Fitness,Afternoon,Basic,White,Yes,1.0
+C0952,54.0,Male,UK,Manchester,3.78,8.08,10.58,22.44,53.77,39.69,11157.8,4.0,4.0,2024-12-16,Competition,Evening,Basic,Black,Yes,1.0
+C0953,43.0,Male,India,Mumbai,1.5,0.94,1.99,4.42,53.4,44.23,2152.22,3.0,1.0,2023-12-04,Fitness,Afternoon,Free,White,Yes,0.0
+C0954,26.0,Other,Germany,Berlin,3.85,3.05,2.98,9.88,59.92,40.33,4882.08,4.0,4.0,2024-02-12,Recreation,Afternoon,Premium,Black,Yes,1.0
+C0955,52.0,Female,India,Delhi,1.56,1.01,0.73,3.3,31.42,52.99,1406.43,2.0,7.0,2024-05-21,Recreation,Morning,Free,White,Yes,1.0
+C0956,25.0,Female,Australia,Sydney,2.94,2.48,0.0,5.42,57.29,44.54,2994.46,3.0,5.0,2024-08-07,Competition,Morning,Premium,Black,No,0.0
+C0957,37.0,Female,Germany,Munich,1.4,3.0,2.37,6.77,58.71,42.52,3169.25,2.0,1.0,2024-05-03,Recreation,Evening,Premium,Black,Yes,0.0
+C0958,-1.0,Male,UK,London,0.93,12.64,8.63,22.2,28.03,47.74,11002.94,4.0,7.0,2024-07-05,Competition,Morning,Premium,White,No,0.0
+C0959,39.0,Male,UnknownLand,,0.78,8.0,0.93,9.71,58.05,41.8,4748.42,2.0,3.0,2023-11-20,Recreation,Morning,Basic,Black,Yes,0.0
+C0960,36.0,Male,Germany,Berlin,4.06,8.41,1.95,14.43,60.73,42.49,6957.73,3.0,9.0,2024-04-30,Fitness,Evening,Basic,White,No,0.0
+C0961,47.0,Male,USA,Chicago,1.56,3.97,2.72,8.25,47.52,45.81,3916.14,3.0,9.0,2024-12-29,Fitness,Morning,Premium,Black,Yes,0.0
+C0962,45.0,Female,Germany,Hamburg,0.13,2.31,5.1,7.55,46.83,42.93,3499.69,2.0,0.0,2024-03-17,Fitness,Afternoon,Free,Black,Yes,0.0
+C0963,52.0,Other,Australia,Sydney,1.37,7.23,2.91,11.51,42.99,50.34,5631.14,3.0,4.0,2024-10-26,Fitness,Evening,Premium,White,Yes,1.0
+C0964,60.0,Male,USA,,3.3,12.11,6.06,21.47,40.66,55.1,10954.27,3.0,0.0,2024-04-01,Competition,Evening,Premium,Black,Yes,1.0
+C0965,28.0,Male,UK,London,2.87,8.29,1.94,13.1,60.83,41.76,6455.55,2.0,4.0,2024-02-01,Recreation,Afternoon,Free,Black,Yes,1.0
+C0966,48.0,Female,Germany,Berlin,5.61,2.47,7.68,15.76,56.18,37.92,7655.86,4.0,7.0,2024-03-29,Competition,Morning,Premium,White,Yes,1.0
+C0967,56.0,Other,India,Bangalore,0.69,0.0,4.55,5.24,28.8,54.95,,3.0,2.0,2024-11-12,Fitness,Evening,Free,Black,Yes,0.0
+,,,,,,,,,,,,,,,,,,,,
+C0968,53.0,Other,India,Delhi,0.0,9.0,9.88,18.88,50.13,44.86,9738.31,3.0,2.0,2024-01-05,Competition,Evening,Basic,Black,Yes,0.0
+C0969,47.0,Female,Australia,,2.08,5.04,2.34,9.46,49.24,46.38,4570.58,3.0,6.0,2023-11-19,Recreation,Afternoon,Basic,Black,Yes,0.0
+C0970,40.0,Female,India,Mumbai,1.4,9.63,5.39,16.42,62.69,41.14,8079.21,3.0,3.0,2024-06-28,Competition,Afternoon,Free,Black,Yes,1.0
+C0971,36.0,Other,Germayn,Hamburg,2.91,5.71,2.98,11.6,60.21,40.71,6082.14,2.0,2.0,2024-08-30,Recreation,Morning,Basic,White,Yes,1.0
+C0972,29.0,Male,Germany,Munich,0.36,15.67,8.92,24.95,73.74,30.87,12280.77,4.0,4.0,2023-12-08,Competition,Evening,Basic,,Yes,1.0
+C0973,32.0,Other,India,Mumbai,2.35,5.3,5.26,12.91,52.83,36.23,6461.1,4.0,2.0,2024-07-08,Recreation,Morning,Free,Black,Yes,0.0
+C0974,48.0,Female,Germany,Berlin,0.23,6.35,0.71,7.29,41.08,50.26,3490.6,0.0,6.0,2024-06-28,Recreation,Morning,Basic,Black,Yes,1.0
+C0975,60.0,Male,Australia,Brisbane,2.89,11.95,1.67,16.51,33.38,56.41,8514.07,3.0,1.0,2024-01-18,Fitness,Afternoon,Premium,White,Yes,0.0
+C0976,54.0,Male,USA,Los Angeles,0.73,8.41,3.24,12.38,33.21,48.43,6480.47,3.0,0.0,2024-11-11,Recreation,Evening,Premium,Black,Yes,0.0
+C0977,54.0,Female,Australia,Melbourne,1.64,2.81,0.18,4.62,33.06,52.58,2500.48,0.0,5.0,2024-04-06,Fitness,Evening,Free,Black,No,0.0
+C0978,32.0,Female,Australia,Melbourne,1.18,2.28,5.35,8.81,59.1,36.72,4292.12,4.0,7.0,2024-04-07,Fitness,Evening,Basic,White,Yes,1.0
+C0979,46.0,Female,Germayn,Munich,0.0,4.86,0.14,5.0,44.09,48.35,2441.84,1.0,0.0,2024-10-17,Fitness,Afternoon,Premium,Black,Yes,0.0
+C0980,60.0,Other,USA,Los Angeles,1.98,8.31,2.95,13.25,26.86,57.71,6468.14,1.0,9.0,2024-12-03,Competition,Afternoon,Premium,Black,Yes,0.0
+C0981,43.0,Other,Germany,Berlin,1.77,12.18,2.68,16.63,59.99,41.13,8550.8,4.0,8.0,2024-09-05,Competition,Afternoon,Basic,Black,Yes,0.0
+C0982,61.0,Male,UK,London,0.0,0.58,0.69,1.26,22.02,66.19,880.5,3.0,3.0,2024-12-01,Competition,Afternoon,Basic,Black,Yes,0.0
+C0983,19.0,Female,Germany,Munich,0.42,4.36,1.46,6.24,49.52,43.46,3073.2,1.0,1.0,2023-12-25,Competition,Afternoon,Premium,Black,Yes,1.0
+C0984,37.0,Male,Germany,Munich,2.93,4.69,1.73,9.34,55.9,42.03,4765.27,2.0,3.0,2024-02-08,Recreation,Evening,Premium,Black,Yes,0.0
+C0985,32.0,Male,Germany,Berlin,2.96,0.62,3.21,6.79,55.1,38.13,3192.0,2.0,0.0,2023-12-02,Recreation,Morning,Free,White,,1.0
+C0986,21.0,Male,USA,New York,2.92,6.24,7.79,16.95,53.52,34.0,8438.0,0.0,3.0,2023-12-24,Competition,Evening,Free,Black,Yes,1.0
+C0987,39.0,Male,Germany,,2.07,3.35,2.49,7.91,56.31,39.84,4031.71,4.0,2.0,2024-02-19,Recreation,Morning,Premium,Black,Yes,1.0
+C0988,55.0,Female,USA,Los Angeles,1.0,4.65,2.0,7.65,38.91,54.32,3754.42,4.0,9.0,2024-01-20,Recreation,Afternoon,Free,Black,Yes,1.0
+C0989,40.0,Male,India,,1.52,2.89,5.16,9.57,60.08,41.43,4700.03,1.0,3.0,2024-01-07,Fitness,Morning,Premium,White,Yes,1.0
+C0990,43.0,Female,UK,Birmingham,4.73,9.52,4.06,18.32,57.01,38.83,8858.12,3.0,0.0,2024-08-14,Fitness,,Premium,White,Yes,1.0
+C0991,28.0,Female,USA,Chicago,1.66,3.52,3.59,8.78,54.64,38.94,4570.56,4.0,7.0,2023-12-28,Fitness,Evening,Free,Black,Yes,0.0
+C0992,45.0,Other,India,Bangalore,3.18,10.77,1.86,15.81,56.39,41.58,8139.92,1.0,0.0,2024-11-03,Fitness,Morning,Free,Black,No,0.0
+C0993,19.0,Female,USA,New York,3.51,5.34,0.0,8.85,58.07,47.69,4704.27,1.0,1.0,2024-11-02,Recreation,Afternoon,Basic,Black,No,1.0
+C0994,25.0,Other,USA,New York,2.59,4.0,1.15,7.74,58.31,44.48,4001.43,4.0,3.0,2024-09-10,Competition,Afternoon,Basic,White,Yes,1.0
+C0995,46.0,Female,UK,London,2.77,1.29,2.06,6.12,49.05,44.21,3088.67,1.0,6.0,2023-11-18,Recreation,Evening,Basic,White,Yes,0.0
+C0996,28.0,Female,Australia,Brisbane,2.38,0.28,2.79,5.46,61.05,40.38,2589.77,0.0,3.0,2024-01-09,Recreation,Morning,Premium,Black,Yes,0.0
+C0997,54.0,Female,Australia,Melbourne,1.8,4.45,1.35,7.61,34.5,56.38,4104.15,0.0,3.0,2024-11-09,Recreation,Afternoon,Free,Black,Yes,0.0
+C0998,35.0,Other,USA,New York,3.91,0.57,5.57,10.05,58.63,37.27,5078.45,4.0,6.0,2024-08-27,Fitness,Afternoon,Premium,Black,Yes,1.0
+C0999,31.0,Other,Germayn,Berlin,0.36,4.63,5.16,10.15,66.46,37.98,5184.27,3.0,3.0,2024-06-19,Fitness,Evening,Free,Black,,1.0
+C1000,27.0,Male,India,Mumbai,0.43,7.46,5.55,13.44,61.81,36.07,6827.69,0.0,7.0,2024-06-04,Fitness,Afternoon,Premium,Black,Yes,0.0
