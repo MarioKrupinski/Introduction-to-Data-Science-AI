@@ -1,0 +1,21 @@
+# config.yaml
+# Terminal/Konsole Befehle im Pfad des Repositories ausführen:
+# für neue conda Umgebung: conda env create -f config.yaml
+# für Update einer bestehende conda Umgebung (wenn zusätzliche Pakete installiert werden sollen): conda env update -f config.yaml
+# Conda Umgebung aktivieren: conda activate intro_ds_ai
+# Conda Umgebung deaktivieren: conda deactivate
+####################
+####################
+name: intro_ds_ai
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - missingno
+  - statsmodels
+  - scipy
+  - ipykernel
+  - scikit-learn
+  - pyarrow
