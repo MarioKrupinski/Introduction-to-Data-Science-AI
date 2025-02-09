@@ -2,6 +2,8 @@
 from scipy.stats import shapiro
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+from statsmodels.graphics.gofplots import qqplot
 
 def hex_to_rgb_normalized(hex_color: str) -> tuple:
     """
