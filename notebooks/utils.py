@@ -215,6 +215,27 @@ def plot_feature_importance(model, X_train, original_columns, color="royalblue",
     return feature_importance_df
 
 def plot_permutation_importance(model, X_test, y_test, original_columns, color="royalblue", title="Permutation Feature Importance"):
+    """
+    Plottet die Permutations-Feature-Wichtigkeit eines gegebenen Modells auf den Testdaten.
+
+    Die Funktion berechnet die Permutationswichtigkeit jedes Features im Modell,
+    indem sie die Feature-Werte zufällig vertauscht und den resultierenden Rückgang 
+    der Modellleistung misst. Die Wichtigkeitswerte werden anschließend in einem 
+    horizontalen Balkendiagramm visualisiert, wobei die wichtigsten Features oben angezeigt werden.
+
+    Args:
+        model (sklearn.base.BaseEstimator): Das trainierte Modell, dessen Feature-Wichtigkeit geplottet werden soll.
+        X_test (pd.DataFrame): Die Testdaten, die verwendet werden, um die Permutationswichtigkeit zu berechnen.
+        y_test (pd.Series oder pd.DataFrame): Die tatsächlichen Zielwerte der Testdaten.
+        original_columns (list von str): Die ursprünglichen Feature-Namen, die für die Zuordnung der Features verwendet werden 
+                                        (z.B. nach One-Hot-Encoding).
+        color (str, optional): Die Farbe der Balken im Plot. Standard ist "royalblue".
+        title (str, optional): Der Titel des Plots. Standard ist "Permutation Feature Importance".
+
+    Returns:
+        pd.DataFrame: Ein DataFrame, das die Features, ihre zugeordneten Namen und die entsprechende Wichtigkeit enthält.
+                      Der DataFrame ist nach der Wichtigkeit in absteigender Reihenfolge sortiert.
+    """
     result = permutation_importance(model, X_test, y_test, n_repeats=10, random_state=42)
     
     importance = result.importances_mean  # Durchschnittliche Wichtigkeit über alle Wiederholungen
@@ -237,72 +258,6 @@ def plot_permutation_importance(model, X_test, y_test, original_columns, color="
     plt.show()
 
     return feature_importance_df
-
-def generate_combinations(strings):
-    '''
-    Generiert alle möglichen Kombinationen von mindestens einem Element aus der gegebenen Liste von Strings.
-    
-    Args:
-        strings (list): Eine Liste von Strings, die die Variablen repräsentieren.
-        
-    Returns:
-        list: Eine Liste von Listen, wobei jede Liste eine Kombination von Strings enthält.
-    '''
-    combinations = []
-    for r in range(1, len(strings) + 1):
-        combinations.extend(itertools.combinations(strings, r))
-    
-    # Umwandeln in eine Liste von Listen
-    return [list(comb) for comb in combinations]
-
-def evaluate_best_feature_combination(model, X_train, y_train, X_test, y_test, run_name="Best Feature Kombination"):
-    '''
-    Trainiert das Modell mit allen möglichen Feature-Kombinationen und speichert die Ergebnisse (Accuracy, F1-Score).
-    
-    Args:
-        model: Das Modell.
-        X_train: Trainings-Feature-Matrix.
-        y_train: Trainings-Zielvariable.
-        X_test: Test-Feature-Matrix.
-        y_test: Test-Zielvariable.
-        run_name: Der Name des Durchlaufs.
-    
-    Returns:
-        pd.DataFrame: DataFrame mit den Ergebnissen.
-    '''
-    # Erstellen einer Liste von allen Feature-Kombinationen
-    feature_names = X_train.columns if isinstance(X_train, pd.DataFrame) else range(X_train.shape[1])
-    all_combinations = generate_combinations(feature_names)
-    
-    results = []  # Eine Liste, um alle Ergebnisse zu speichern
-    
-    # Jede Kombination der Features durchprobieren
-    for feature_combination in all_combinations:
-        # Trainiere das Modell mit der aktuellen Feature-Kombination
-        X_train_subset = X_train[list(feature_combination)]
-        X_test_subset = X_test[list(feature_combination)]
-        
-        model.fit(X_train_subset, y_train)
-        
-        # Vorhersagen und Evaluation
-        y_pred = model.predict(X_test_subset)
-        accuracy = accuracy_score(y_test, y_pred)
-        f1 = f1_score(y_test, y_pred)  # Oder 'binary' je nach Problem
-        
-        # Speichern der Ergebnisse
-        results.append({
-            'Features': feature_combination,
-            'Accuracy': accuracy,
-            'F1-Score': f1
-        })
-    
-    # Umwandeln der Ergebnisse in ein DataFrame
-    results_df = pd.DataFrame(results)
-    
-    # Sortieren des DataFrames nach Accuracy, absteigend
-    results_df = results_df.sort_values(by='Accuracy', ascending=False)
-    
-    return results_df
 
 def forward_selection(X_train, y_train, X_test, y_test, model, feature_groups, feature_order=None):
     '''
