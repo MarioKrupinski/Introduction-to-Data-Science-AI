@@ -21,3 +21,5 @@ dependencies:
   - pyarrow
   - xgboost
   - tensorflow
+  - catboost
+  - lightgbm
