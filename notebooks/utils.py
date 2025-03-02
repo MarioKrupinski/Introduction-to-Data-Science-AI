@@ -326,7 +326,7 @@ def forward_selection(X_train, y_train, X_test, y_test, model, feature_groups, f
     results = []  # Ergebnisse der Forward Selection
     
     # Falls keine Feature-Order gegeben ist, alle Features in beliebiger Reihenfolge testen
-    remaining_features = feature_order if feature_order else X_train.columns.tolist()
+    remaining_features = [f for f in feature_order if f in X_train.columns] if feature_order else X_train.columns.tolist()
     
     # Erkennen, welche Features kategorisch sind
     categorical_features = X_train.select_dtypes(include=['object', 'category']).columns.tolist()
@@ -349,7 +349,7 @@ def forward_selection(X_train, y_train, X_test, y_test, model, feature_groups, f
 
         # Falls das Feature zu einer Gruppe gehört, **teste ALLE Features aus dieser Gruppe**
         if feature_group:
-            candidate_features = feature_groups[feature_group]
+            candidate_features = [f for f in feature_groups[feature_group] if f in X_train.columns]
         else:
             candidate_features = [feature]
 
