@@ -7,6 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from statsmodels.graphics.gofplots import qqplot
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 import itertools
 
@@ -358,5 +359,485 @@ def forward_selection(X_train, y_train, X_test, y_test, model, feature_groups, f
 
     # DataFrame mit Ergebnissen
     result_df = pd.DataFrame(results, columns=["Selected Features", "Accuracy", "F1-Score"])
+    
+    return result_df
+
+def calculate_vif(X):
+    """
+    Berechnet den Variance Inflation Factor (VIF) für die Features in einem DataFrame.
+    
+    Der VIF gibt an, wie stark ein Feature mit den anderen Features korreliert ist.
+    Ein hoher VIF-Wert (>10 gilt als kritisch) deutet auf Multikollinearität hin.
+
+    Args:
+        X (pd.DataFrame): DataFrame mit numerischen Features (keine Kategorien!)
+
+    Returns:
+        pd.DataFrame: DataFrame mit zwei Spalten: "Feature" und "VIF"
+    """
+    vif_data = pd.DataFrame()
+    vif_data["Feature"] = X.columns
+    vif_data["VIF"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
+    return vif_data
+
+# def forward_selection_vif(X_train, y_train, X_test, y_test, model, feature_groups, feature_order=None, vif_threshold=10):
+#     """
+#     Führt eine Forward Selection mit Gruppen-Prüfung und VIF-Kontrolle durch.
+
+#     Diese Funktion wählt iterativ Features aus, indem sie schrittweise das beste Feature
+#     hinzufügt, das die Modellleistung verbessert. Bevor ein Feature aufgenommen wird, wird
+#     überprüft, ob es zu hoher Multikollinearität führt (VIF > vif_threshold).
+
+#     Args:
+#         X_train (pd.DataFrame): Trainingsdaten (Features) **ohne One-Hot-Encoding**
+#         y_train (pd.Series): Trainingszielvariable
+#         X_test (pd.DataFrame): Testdaten (Features) **ohne One-Hot-Encoding**
+#         y_test (pd.Series): Testzielvariable
+#         model (sklearn.base.BaseEstimator): Das zu verwendende Modell (muss `.fit()` und `.predict()` unterstützen)
+#         feature_groups (dict): Dictionary von Feature-Gruppen, in denen nur ein Feature pro Gruppe ausgewählt werden soll
+#         feature_order (list, optional): Vordefinierte Reihenfolge der Features nach Wichtigkeit (z. B. ANOVA/Chi²).
+#         vif_threshold (float, optional): Maximal erlaubter VIF-Wert (Standard = 10)
+
+#     Returns:
+#         pd.DataFrame: DataFrame mit den ausgewählten Features, Accuracy, F1-Score
+#     """
+#     selected_features = []  # Liste der bereits ausgewählten Features
+#     used_feature_groups = set()  # Set zur Speicherung getesteter Gruppen
+#     results = []  # Ergebnisse der Forward Selection
+
+#     # Falls keine Feature-Order gegeben ist, alle Features in beliebiger Reihenfolge testen
+#     remaining_features = [f for f in feature_order if f in X_train.columns] if feature_order else X_train.columns.tolist()
+    
+#     # Identifiziere kategoriale Features
+#     categorical_features = X_train.select_dtypes(include=['object', 'category']).columns.tolist()
+
+#     best_accuracy = 0
+#     best_f1 = 0
+
+#     # Forward Selection mit Gruppen-Prüfung
+#     for feature in remaining_features:
+#         # Finde die Gruppe, zu der das Feature gehört (falls es eine gibt)
+#         feature_group = None
+#         for group_name, group_features in feature_groups.items():
+#             if feature in group_features:
+#                 feature_group = group_name
+#                 break  # Sobald Gruppe gefunden, abbrechen
+        
+#         # Falls es zu einer Gruppe gehört, aber die Gruppe wurde schon getestet → weiter
+#         if feature_group and feature_group in used_feature_groups:
+#             continue
+
+#         # Falls das Feature zu einer Gruppe gehört, **teste ALLE Features aus dieser Gruppe**
+#         if feature_group:
+#             candidate_features = [f for f in feature_groups[feature_group] if f in X_train.columns]
+#         else:
+#             candidate_features = [feature]
+
+#         best_feature_in_group = None
+#         best_acc_in_group = 0
+#         best_f1_in_group = 0
+
+#         # Teste alle Features in der Gruppe
+#         for candidate in candidate_features:
+#             temp_features = selected_features + [candidate]
+            
+#             X_train_temp = X_train[temp_features].copy()
+#             X_test_temp = X_test[temp_features].copy()
+            
+#             # Falls das Feature kategorisch ist, wende One-Hot-Encoding an
+#             for column in X_train_temp.columns:
+#                 if column in categorical_features:
+#                     # Wende One-Hot-Encoding für jede kategorische Spalte an
+#                     X_train_temp = pd.get_dummies(X_train_temp, columns=[column], drop_first=True)
+#                     X_test_temp = pd.get_dummies(X_test_temp, columns=[column], drop_first=True)
+
+#                     # Sicherstellen, dass train und test gleiche Spalten haben
+#                     X_train_temp, X_test_temp = X_train_temp.align(X_test_temp, join='left', axis=1, fill_value=0)
+#             # Umwandlung der One-Hot-kodierten Spalten in numerische Werte
+#             X_train_temp = X_train_temp.astype('float64')
+#             X_test_temp = X_test_temp.astype('float64')
+
+#            # Berechne VIF nur, wenn mehr als ein Feature im Modell ist
+#             if len(temp_features) > 1:
+#                 vif_df = calculate_vif(X_train_temp)
+#                 max_vif = vif_df["VIF"].max()
+
+#                 # Falls der VIF des neuen Feature-Sets zu hoch ist, Feature nicht hinzufügen
+#                 if max_vif > vif_threshold:
+#                     continue  
+#             # Wenn nur ein Feature im Modell ist, überspringe die VIF-Berechnung
+
+#             # Modell trainieren und evaluieren
+#             model.fit(X_train_temp, y_train)
+#             y_pred = model.predict(X_test_temp)
+
+#             acc = accuracy_score(y_test, y_pred)
+#             f1 = f1_score(y_test, y_pred)
+
+#             # Speichere das Feature mit der besten Leistung innerhalb der Gruppe
+#             if acc > best_acc_in_group or f1 > best_f1_in_group:
+#                 best_feature_in_group = candidate
+#                 best_acc_in_group = acc
+#                 best_f1_in_group = f1
+
+#         # Falls ein Feature die beste Leistung hat und VIF-Pass besteht, aufnehmen
+#         if best_feature_in_group:
+#             selected_features.append(best_feature_in_group)
+#             best_accuracy = best_acc_in_group
+#             best_f1 = best_f1_in_group
+#             results.append((selected_features.copy(), best_accuracy, best_f1))
+            
+#             # Markiere die Gruppe als getestet
+#             if feature_group:
+#                 used_feature_groups.add(feature_group)
+
+#             # Entferne das ausgewählte Feature aus der Liste der verbleibenden Features
+#             remaining_features = [f for f in remaining_features if f not in selected_features]
+
+#     # Ergebnisse als DataFrame zurückgeben
+#     result_df = pd.DataFrame(results, columns=["Selected Features", "Accuracy", "F1-Score"])
+    
+#     return result_df
+
+# def forward_selection_vif(X_train, y_train, X_test, y_test, model, feature_groups, feature_order=None, vif_threshold=10):
+#     """
+#     Führt eine Forward Selection mit Gruppen-Prüfung und VIF-Kontrolle durch, wobei auch
+#     die Möglichkeit besteht, Features mit hohem VIF auszutauschen, um die Modell-Performance zu optimieren.
+#     """
+#     selected_features = []  # Liste der bereits ausgewählten Features
+#     used_feature_groups = set()  # Set zur Speicherung getesteter Gruppen
+#     excluded_features = set()  # Set zur Speicherung der Features mit zu hohem VIF
+#     results = []  # Ergebnisse der Forward Selection
+
+#     # Falls keine Feature-Order gegeben ist, alle Features in beliebiger Reihenfolge testen
+#     remaining_features = [f for f in feature_order if f in X_train.columns] if feature_order else X_train.columns.tolist()
+    
+#     # Identifiziere kategoriale Features
+#     categorical_features = X_train.select_dtypes(include=['object', 'category']).columns.tolist()
+
+#     best_accuracy = 0
+#     best_f1 = 0
+
+#     iteration = 0  # Zähler für Iterationen
+#     for feature in remaining_features:
+#         iteration += 1
+#         print(f"\nIteration {iteration}: Jetzt wird das Feature '{feature}' getestet.")
+
+#         # Wenn das Feature bereits ausgeschlossen wurde, überspringe es
+#         if feature in excluded_features:
+#             print(f"Feature '{feature}' wurde aufgrund eines zu hohen VIF bereits ausgeschlossen. Überspringen.")
+#             continue
+
+#         # Finde die Gruppe, zu der das Feature gehört (falls es eine gibt)
+#         feature_group = None
+#         for group_name, group_features in feature_groups.items():
+#             if feature in group_features:
+#                 feature_group = group_name
+#                 break  # Sobald Gruppe gefunden, abbrechen
+        
+#         # Falls es zu einer Gruppe gehört, aber die Gruppe wurde schon getestet → weiter
+#         if feature_group and feature_group in used_feature_groups:
+#             print(f"Gruppe '{feature_group}' wurde bereits getestet, überspringe Feature '{feature}'.")
+#             continue
+
+#         # Falls das Feature zu einer Gruppe gehört, **teste ALLE Features aus dieser Gruppe**
+#         if feature_group:
+#             candidate_features = [f for f in feature_groups[feature_group] if f in X_train.columns]
+#         else:
+#             candidate_features = [feature]
+
+#         best_feature_in_group = None
+#         best_acc_in_group = 0
+#         best_f1_in_group = 0
+#         best_vif_in_group = 0  # Variable für den besten VIF-Wert
+#         best_vif_set = 0  # Maximaler VIF-Wert für das Set der Features
+
+#         # Teste alle Features in der Gruppe
+#         for candidate in candidate_features:
+#             print(f"  Teste Feature '{candidate}'...")
+#             temp_features = selected_features + [candidate]
+            
+#             X_train_temp = X_train[temp_features].copy()
+#             X_test_temp = X_test[temp_features].copy()
+            
+#             # Falls das Feature kategorisch ist, wende One-Hot-Encoding an
+#             for column in X_train_temp.columns:
+#                 if column in categorical_features:
+#                     # Wende One-Hot-Encoding für jede kategorische Spalte an
+#                     X_train_temp = pd.get_dummies(X_train_temp, columns=[column], drop_first=True)
+#                     X_test_temp = pd.get_dummies(X_test_temp, columns=[column], drop_first=True)
+
+#                     # Sicherstellen, dass train und test gleiche Spalten haben
+#                     X_train_temp, X_test_temp = X_train_temp.align(X_test_temp, join='left', axis=1, fill_value=0)
+#             # Umwandlung der One-Hot-kodierten Spalten in numerische Werte
+#             X_train_temp = X_train_temp.astype('float64')
+#             X_test_temp = X_test_temp.astype('float64')
+
+#             # Berechne VIF nur, wenn mehr als ein Feature im Modell ist
+#             max_vif = 0
+#             if len(temp_features) > 1:
+#                 vif_df = calculate_vif(X_train_temp)
+#                 max_vif = vif_df["VIF"].max()
+
+#                 # Falls der VIF des neuen Feature-Sets zu hoch ist, Feature nicht hinzufügen
+#                 if max_vif > vif_threshold:
+#                     print(f"  Feature '{candidate}' hat VIF={max_vif:.2f}, was den Schwellenwert ({vif_threshold}) überschreitet.")
+#                     # Versuche iterativ das Feature zu entfernen, um VIF zu reduzieren
+#                     for feature_to_remove in selected_features:
+#                         temp_features_removed = [f for f in temp_features if f != feature_to_remove]
+#                         X_train_temp_removed = X_train[temp_features_removed].copy()
+#                         X_test_temp_removed = X_test[temp_features_removed].copy()
+
+#                         for column in X_train_temp_removed.columns:
+#                             if column in categorical_features:
+#                                 X_train_temp_removed = pd.get_dummies(X_train_temp_removed, columns=[column], drop_first=True)
+#                                 X_test_temp_removed = pd.get_dummies(X_test_temp_removed, columns=[column], drop_first=True)
+#                                 X_train_temp_removed, X_test_temp_removed = X_train_temp_removed.align(X_test_temp_removed, join='left', axis=1, fill_value=0)
+
+#                         X_train_temp_removed = X_train_temp_removed.astype('float64')
+#                         X_test_temp_removed = X_test_temp_removed.astype('float64')
+#                         vif_removed = calculate_vif(X_train_temp_removed)
+
+#                         if vif_removed["VIF"].max() <= vif_threshold:
+#                             print(f"    Entferne '{feature_to_remove}', VIF sinkt unter {vif_threshold}.")
+#                             temp_features = temp_features_removed
+#                             break
+#                     continue
+
+#             # Modell trainieren und evaluieren
+#             model.fit(X_train_temp, y_train)
+#             y_pred = model.predict(X_test_temp)
+
+#             acc = accuracy_score(y_test, y_pred)
+#             f1 = f1_score(y_test, y_pred)
+
+#             # Speichere das Feature mit der besten Leistung innerhalb der Gruppe
+#             if acc > best_acc_in_group or f1 > best_f1_in_group:
+#                 best_feature_in_group = candidate
+#                 best_acc_in_group = acc
+#                 best_f1_in_group = f1
+#                 best_vif_in_group = max_vif  # Speichere den besten VIF-Wert für diese Gruppe
+
+#         # Falls ein Feature die beste Leistung hat und VIF-Pass besteht, aufnehmen
+#         if best_feature_in_group:
+#             print(f"  Feature '{best_feature_in_group}' wird ausgewählt.")
+#             selected_features.append(best_feature_in_group)
+#             best_accuracy = best_acc_in_group
+#             best_f1 = best_f1_in_group
+#             results.append((selected_features.copy(), best_accuracy, best_f1, best_vif_in_group))  # Füge max_vif hinzu
+
+#             # Markiere die Gruppe als getestet
+#             if feature_group:
+#                 used_feature_groups.add(feature_group)
+
+#             # Entferne das ausgewählte Feature aus der Liste der verbleibenden Features
+#             remaining_features = [f for f in remaining_features if f not in selected_features]
+
+#     # Ergebnisse als DataFrame zurückgeben
+#     result_df = pd.DataFrame(results, columns=["Selected Features", "Accuracy", "F1-Score", "Max VIF"])
+    
+#     return result_df
+
+from itertools import combinations
+
+from itertools import combinations
+
+from itertools import combinations
+
+from itertools import combinations
+
+def forward_selection_vif(X_train, y_train, X_test, y_test, model, feature_groups, feature_order=None, vif_threshold=10):
+    """
+    Führt eine Forward Selection mit Gruppen-Prüfung und VIF-Kontrolle durch.
+    Diese Funktion wählt iterativ Features aus, indem sie schrittweise das beste Feature hinzufügt, das die Modellleistung verbessert.
+    Bevor ein Feature aufgenommen wird, wird überprüft, ob es zu hoher Multikollinearität führt (VIF > vif_threshold).
+    
+    Wenn der VIF über den Schwellenwert hinausgeht, wird versucht, Features zu entfernen und die beste Kombination zu finden.
+    
+    Args:
+        X_train (pd.DataFrame): Trainingsdaten (Features) **ohne One-Hot-Encoding**
+        y_train (pd.Series): Trainingszielvariable
+        X_test (pd.DataFrame): Testdaten (Features) **ohne One-Hot-Encoding**
+        y_test (pd.Series): Testzielvariable
+        model (sklearn.base.BaseEstimator): Das zu verwendende Modell (muss `.fit()` und `.predict()` unterstützen)
+        feature_groups (dict): Dictionary von Feature-Gruppen, in denen nur ein Feature pro Gruppe ausgewählt werden soll
+        feature_order (list, optional): Vordefinierte Reihenfolge der Features nach Wichtigkeit (z. B. ANOVA/Chi²).
+        vif_threshold (float, optional): Maximal erlaubter VIF-Wert (Standard = 10)
+    
+    Returns:
+        pd.DataFrame: DataFrame mit den ausgewählten Features, Accuracy, F1-Score und maximalem VIF-Wert
+    """
+    selected_features = []  # Liste der bereits ausgewählten Features
+    used_feature_groups = set()  # Set zur Speicherung getesteter Gruppen
+    results = []  # Ergebnisse der Forward Selection
+
+    # Falls keine Feature-Order gegeben ist, alle Features in beliebiger Reihenfolge testen
+    remaining_features = [f for f in feature_order if f in X_train.columns] if feature_order else X_train.columns.tolist()
+    
+    # Identifiziere kategoriale Features
+    categorical_features = X_train.select_dtypes(include=['object', 'category']).columns.tolist()
+
+    best_accuracy = 0
+    best_f1 = 0
+    best_vif = float('inf')
+
+    # Forward Selection mit Gruppen-Prüfung
+    for feature in remaining_features:
+        # Finde die Gruppe, zu der das Feature gehört (falls es eine gibt)
+        feature_group = None
+        for group_name, group_features in feature_groups.items():
+            if feature in group_features:
+                feature_group = group_name
+                break  # Sobald Gruppe gefunden, abbrechen
+        
+        # Falls es zu einer Gruppe gehört, aber die Gruppe wurde schon getestet → weiter
+        if feature_group and feature_group in used_feature_groups:
+            continue
+
+        # Falls das Feature zu einer Gruppe gehört, **teste ALLE Features aus dieser Gruppe**
+        if feature_group:
+            candidate_features = [f for f in feature_groups[feature_group] if f in X_train.columns]
+        else:
+            candidate_features = [feature]
+
+        best_feature_in_group = None
+        best_acc_in_group = 0
+        best_f1_in_group = 0
+
+        # Teste alle Features in der Gruppe
+        for candidate in candidate_features:
+            temp_features = selected_features + [candidate]
+            
+            X_train_temp = X_train[temp_features].copy()
+            X_test_temp = X_test[temp_features].copy()
+            
+            # Falls das Feature kategorisch ist, wende One-Hot-Encoding an
+            for column in X_train_temp.columns:
+                if column in categorical_features:
+                    X_train_temp = pd.get_dummies(X_train_temp, columns=[column], drop_first=True)
+                    X_test_temp = pd.get_dummies(X_test_temp, columns=[column], drop_first=True)
+                    # Sicherstellen, dass train und test gleiche Spalten haben
+                    X_train_temp, X_test_temp = X_train_temp.align(X_test_temp, join='left', axis=1, fill_value=0)
+            
+            # Umwandlung der One-Hot-kodierten Spalten in numerische Werte
+            X_train_temp = X_train_temp.astype('float64')
+            X_test_temp = X_test_temp.astype('float64')
+
+            # Berechne VIF nur, wenn mehr als ein Feature im Modell ist
+            if len(temp_features) > 1:
+                vif_df = calculate_vif(X_train_temp)
+                max_vif = vif_df["VIF"].max()
+
+                # Falls der VIF des neuen Feature-Sets zu hoch ist, Feature nicht hinzufügen
+                # if max_vif > vif_threshold:
+                #     continue  
+            else:
+                max_vif = 0  # Setze max_vif auf 0, wenn nur ein Feature vorhanden ist
+
+            # Modell trainieren und evaluieren
+            model.fit(X_train_temp, y_train)
+            y_pred = model.predict(X_test_temp)
+
+            acc = accuracy_score(y_test, y_pred)
+            f1 = f1_score(y_test, y_pred)
+
+            # Speichere das Feature mit der besten Leistung innerhalb der Gruppe
+            if acc > best_acc_in_group or f1 > best_f1_in_group:
+                best_feature_in_group = candidate
+                best_acc_in_group = acc
+                best_f1_in_group = f1
+
+        # Falls ein Feature die beste Leistung hat und VIF-Pass besteht, aufnehmen
+        if best_feature_in_group:
+            selected_features.append(best_feature_in_group)
+            best_accuracy = best_acc_in_group
+            best_f1 = best_f1_in_group
+
+            # Berechne VIF für das aktuelle Set von Features
+            if len(selected_features) > 1:
+                X_train_temp = X_train[selected_features].copy()
+                X_test_temp = X_test[selected_features].copy()
+
+                # One-Hot-Encoding für kategorische Spalten
+                for column in X_train_temp.columns:
+                    if column in categorical_features:
+                        X_train_temp = pd.get_dummies(X_train_temp, columns=[column], drop_first=True)
+                        X_test_temp = pd.get_dummies(X_test_temp, columns=[column], drop_first=True)
+                        # Sicherstellen, dass train und test gleiche Spalten haben
+                        X_train_temp, X_test_temp = X_train_temp.align(X_test_temp, join='left', axis=1, fill_value=0)
+
+                X_train_temp = X_train_temp.astype('float64')
+                X_test_temp = X_test_temp.astype('float64')
+
+                vif_df = calculate_vif(X_train_temp)
+                max_vif = vif_df["VIF"].max()
+            else:
+                max_vif = 0  # Setze max_vif auf 0, wenn nur ein Feature vorhanden ist
+
+            results.append((selected_features.copy(), best_accuracy, best_f1, max_vif))
+            
+            # Markiere die Gruppe als getestet
+            if feature_group:
+                used_feature_groups.add(feature_group)
+
+            # Entferne das ausgewählte Feature aus der Liste der verbleibenden Features
+            remaining_features = [f for f in remaining_features if f not in selected_features]
+
+            # Falls der VIF überschritten wird, iteriere und versuche, Features zu entfernen
+            if max_vif > vif_threshold:
+                # Speichere die Kombination der Features, die den VIF überschreiten
+                problematic_features = selected_features.copy()
+
+                # Iteriere über alle Kombinationen von Features und entferne jeweils eins
+                best_combination = None
+                best_combination_acc = -1
+                best_combination_f1 = -1
+                best_combination_vif = float('inf')
+
+                for i in range(len(problematic_features)):
+                    reduced_features = [f for j, f in enumerate(problematic_features) if j != i]
+                    
+                    X_train_reduced = X_train[reduced_features].copy()
+                    X_test_reduced = X_test[reduced_features].copy()
+
+                    # One-Hot-Encoding für kategorische Spalten
+                    for column in X_train_reduced.columns:
+                        if column in categorical_features:
+                            X_train_reduced = pd.get_dummies(X_train_reduced, columns=[column], drop_first=True)
+                            X_test_reduced = pd.get_dummies(X_test_reduced, columns=[column], drop_first=True)
+                            # Sicherstellen, dass train und test gleiche Spalten haben
+                            X_train_reduced, X_test_reduced = X_train_reduced.align(X_test_reduced, join='left', axis=1, fill_value=0)
+
+                    X_train_reduced = X_train_reduced.astype('float64')
+                    X_test_reduced = X_test_reduced.astype('float64')
+
+                    # Modell trainieren und evaluieren
+                    model.fit(X_train_reduced, y_train)
+                    y_pred = model.predict(X_test_reduced)
+
+                    acc = accuracy_score(y_test, y_pred)
+                    f1 = f1_score(y_test, y_pred)
+
+                    # Berechne den VIF für die reduzierte Feature-Kombination
+                    vif_reduced_df = calculate_vif(X_train_reduced)
+                    max_vif_reduced = vif_reduced_df["VIF"].max()
+
+                    # Wenn der VIF unter dem Schwellenwert liegt und die Accuracy besser ist, speichere das Set
+                    if max_vif_reduced <= vif_threshold and (acc > best_combination_acc or (acc == best_combination_acc and f1 > best_combination_f1)):
+                        best_combination = reduced_features
+                        best_combination_acc = acc
+                        best_combination_f1 = f1
+                        best_combination_vif = max_vif_reduced
+
+                # Falls eine bessere Kombination gefunden wurde, ersetze die ausgewählten Features
+                if best_combination:
+                    selected_features = best_combination
+                    best_accuracy = best_combination_acc
+                    best_f1 = best_combination_f1
+                    max_vif = best_combination_vif
+                    results.append((selected_features.copy(), best_accuracy, best_f1, max_vif))
+
+    # Ergebnisse als DataFrame zurückgeben
+    result_df = pd.DataFrame(results, columns=["Selected Features", "Accuracy", "F1-Score", "VIF"])
     
     return result_df
